@@ -90,7 +90,7 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
                     title='INFLUENCER MARKETING'
-                    link='/service/influencer-marketing'
+                    link='/service/influencers'
                     src='/images/services/influence.jpg'
                     alt='Service'
                   />
