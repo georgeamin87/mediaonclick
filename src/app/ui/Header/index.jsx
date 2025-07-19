@@ -233,7 +233,7 @@ export default function Header({ variant }) {
           </Link>
           <Div className="cs-side_header_box">
             <h2 className="cs-side_header_heading">
-              Do you have a project in your <br /> mind? Keep connect us.
+              Do you have a project in your <br /> mind? Contact us.
             </h2>
           </Div>
           <Div className="cs-side_header_box">
@@ -242,7 +242,7 @@ export default function Header({ variant }) {
           <Div className="cs-side_header_box">
             <Newsletter
               title="Subscribe"
-              subtitle="At vero eos et accusamus et iusto odio as part dignissimos ducimus qui blandit."
+              subtitle="Join Our News and Promotion list and Get notified with the latest updates."
               placeholder="example@gmail.com"
             />
           </Div>
