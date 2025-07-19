@@ -69,7 +69,7 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
                     title='PUBLIC RELATIONS'
-                    link='/service/public-relations'
+                    link='/service/pr'
                     src='/images/services/pr.jpg'
                     alt='Service'
                   />
