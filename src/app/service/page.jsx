@@ -40,7 +40,7 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
                     title='MEDIA PLANNING & BUYING'
-                    link='/service/media-planning-buying'
+                    link='/service/media-plaining-buying'
                     src='/images/service_1.jpeg'
                     alt='Service'
                   />
