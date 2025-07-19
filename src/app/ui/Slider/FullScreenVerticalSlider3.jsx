@@ -11,7 +11,7 @@ export default function FullScreenVerticalSlider({ data }) {
         <Div className="cs-down_btn cs-swiper_button_next"></Div>
 
         <Swiper
-          direction={"vertical"}
+          direction={"horizontal"}
           slidesPerView={1}
           spaceBetween={0}
           mousewheel={false}
