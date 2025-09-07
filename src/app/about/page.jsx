@@ -72,15 +72,11 @@ export default function AboutPage() {
           <Div className="col-xl-5 col-lg-7">
             <SectionHeading
               title="Your trusted partner for business"
-              subtitle="About Our Agency"
+              subtitle="About MOC/Media On Click"
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining. Through our years of experience, we’ve also learned
-                that while each channel.
+                At MOC/Media On Click, we deliver integrated marketing and communication solutions that combine strategic insight with creative impact. Our team is composed of highly experienced professionals from diverse backgrounds in media, digital, events, and branding. We apply our wide-ranging expertise to carefully assess each client’s needs, crafting customized strategies that align with their goals and target audience. Whether it’s digital marketing, influencer campaigns, PR, or full-scale event management, we ensure consistency, relevance, and measurable results across all channels. Backed by a strong track record and a deep understanding of the regional market, we pride ourselves on being hands-on, agile, and results-focused turning bold ideas into powerful brand experiences.
               </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
@@ -120,7 +116,7 @@ export default function AboutPage() {
       <Div className="container">
         <FunFact
           title="Our fun fact"
-          subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+          subtitle="At MOC/Media On Click, we’ve successfully launched over 1000 campaigns, collaborated with more than 500 influencers, and produced events that have reached audiences across the UAE and beyond. Our team once pulled off a full-scale event in just 48 hours and yes, it trended on social media! From last-minute PR miracles to creating viral digital moments, we’re not just experts, we’re adrenaline-fueled creatives who love turning challenges into standout results."
           data={funfaceData}
         />
       </Div>
@@ -144,23 +140,36 @@ export default function AboutPage() {
           </Div>
           <Div className="col-xl-5 offset-xl-1 col-lg-6">
             <SectionHeading
-              title="Highly experienced pepole with us"
+              title="Highly experienced people with us"
               subtitle="Why Choose Us"
             >
               <Spacing lg="30" md="20" />
-              <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining. Through our years of experience, we’ve also learned
-                that while each channel.
+              <p className="cs-m0"><strong>1. Media Planning & Buying</strong><br />
+                We develop data‑driven media strategies and purchase advertising across TV, radio, print, digital, and outdoor so your brand reaches the right audience at the right time—maximizing reach and budget efficiency.
               </p>
               <Spacing lg="15" md="15" />
-              <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining.
+              <p className="cs-m0"><strong>2. Public Relations</strong><br />
+                We build and manage your brand’s public image through media relations, press releases, crisis management, and strategic storytelling to increase visibility, credibility, and trust with key audiences.
+              </p>
+              <Spacing lg="15" md="15" />
+              <p className="cs-m0"><strong>3. Event Management</strong><br />
+                From concept to execution, we plan and manage corporate events, product launches, brand activations, and experiential campaigns—creating immersive experiences that resonate with audiences.
+              </p>
+              <Spacing lg="15" md="15" />
+              <p className="cs-m0"><strong>4. Consultancy</strong><br />
+                We provide tailored marketing and branding consultancy, helping businesses refine positioning, streamline communication strategies, and create actionable plans that drive sustainable growth.
+              </p>
+              <Spacing lg="15" md="15" />
+              <p className="cs-m0"><strong>5. Influencer Marketing</strong><br />
+                We connect your brand with relevant influencers to produce authentic, high‑impact content that boosts awareness, engagement, and conversions across social platforms.
+              </p>
+              <Spacing lg="15" md="15" />
+              <p className="cs-m0"><strong>6. Production</strong><br />
+                We offer end‑to‑end content production—photography, videography, motion graphics, and full‑scale commercial shoots—to bring your brand’s vision to life with creativity and precision. Beyond digital, we handle on‑ground production including custom kiosks, exhibition stands, media walls, stage setups, branded installations, and other event essentials to ensure every detail reflects your brand and leaves a lasting impression.
+              </p>
+              <Spacing lg="15" md="15" />
+              <p className="cs-m0"><strong>7. Interior Design</strong><br />
+                We create spaces that are beautiful and functional for homes, offices, showrooms, and commercial venues. From concept to completion, we provide 2D/3D layouts, realistic mock‑ups, and material selection so you can visualize the final result. With practicality, craftsmanship, and attention to detail at the core, we deliver spaces that look impressive and work perfectly for your needs.
               </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
