@@ -5,12 +5,12 @@ const accordionData = [
  {
     question: 'What services does MediaOnClick offer?',
     answer:
-      'We’re a full‑service boutique agency in Dubai Media City, offering Public Relations, Event Management, Influencer Marketing, Media Planning & Buying, Digital Marketing, Creative Design, Brand Identity, and Website Development—all under one roof. :contentReference[oaicite:1]{index=1}',
+      'We’re a full‑service boutique agency in Dubai Media City, offering Public Relations, Event Management, Influencer Marketing, Media Planning & Buying, Digital Marketing, Creative Design, Brand Identity, and Website Development—all under one roof.',
   },
   {
     question: 'How experienced is MediaOnClick?',
     answer:
-      'With over 10–15 years in the UAE market and dozens of projects for clients like GROHE, CFI (Lewis Hamilton partnership), Hanif Jewellers, Dahua Tech, and more, we’ve built a strong reputation in strategic communications and impactful activations. :contentReference[oaicite:2]{index=2}',
+      'With over 10–15 years in the UAE market and dozens of projects for clients like GROHE, CFI (Lewis Hamilton partnership), Hanif Jewellers, Dahua Tech, and more, we’ve built a strong reputation in strategic communications and impactful activations.',
   },
   {
     question: 'Where are you located and what are your working hours?',
@@ -20,17 +20,17 @@ const accordionData = [
   {
     question: 'How do I begin a project with MediaOnClick?',
     answer:
-      'Start by reaching out via the “Contact” or “I Want to Inquire” forms on our website, or email [email protected]. We’ll schedule a discovery call, discuss goals, scope out services, and map a timeline and deliverables tailored to your needs. :contentReference[oaicite:4]{index=4}',
+      'Start by reaching out via the “Contact” or “I Want to Inquire” forms on our website, or email [email protected]. We’ll schedule a discovery call, discuss goals, scope out services, and map a timeline and deliverables tailored to your needs.',
   },
   {
     question: 'Do you handle influencer marketing?',
     answer:
-      'Yes—we leverage our curated influencer network to plan, produce, and amplify campaigns that connect brands with authentic voices in the UAE. :contentReference[oaicite:5]{index=5}',
+      'Yes—we leverage our curated influencer network to plan, produce, and amplify campaigns that connect brands with authentic voices in the UAE.',
   },
   {
     question: 'Can you manage corporate events and activations?',
     answer:
-      'Absolutely. From conferences and exhibitions to brand activations and gala dinners, we design and execute immersive events like the GROHE ‘Island Edition’ and CFI’s Lewis Hamilton activation. :contentReference[oaicite:6]{index=6}',
+      'Absolutely. From conferences and exhibitions to brand activations and gala dinners, we design and execute immersive events like the GROHE ‘Island Edition’ and CFI’s Lewis Hamilton activation.',
   },
   {
     question: 'How do you measure campaign success?',
