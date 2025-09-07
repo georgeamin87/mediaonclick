@@ -5,6 +5,7 @@ import MenuWidget from '../Widget/MenuWidget';
 import Newsletter from '../Widget/Newsletter';
 import SocialWidget from '../Widget/SocialWidget';
 import TextWidget from '../Widget/TextWidget';
+import Link from 'next/link';
 
 const copyrightLinks = [
   {
@@ -80,7 +81,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
         <Div className="cs-bottom_footer">
           <Div className="cs-bottom_footer_left">
             <Div className="cs-copyright">
-              Copyright © {`${date}`} Adsvent.
+              Copyright © {`${date}`} <Link href="https://adsvent.ae">Adsvent.ae</Link>
             </Div>
           </Div>
           <Div className="cs-bottom_footer_right">
