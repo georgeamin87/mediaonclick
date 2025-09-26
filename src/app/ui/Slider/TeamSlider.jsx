@@ -27,7 +27,7 @@ const teamData = [
     },
   },
   {
-    memberImage: '/images/team/hanna.jpg',
+    memberImage: '/images/team/Hanna.jpg',
     memberName: 'Hanna Mae Dichoso',
     memberDesignation: 'Executive Assistant',
     memberSocial: {
