@@ -1,8 +1,6 @@
 import React from 'react';
 import Div from '../Div';
 import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 
 const partnerLogos = [
   {
@@ -89,6 +87,7 @@ const partnerLogos = [
 
 const settings = {
   dots: false,
+  arrows: false,
   infinite: true,
   speed: 500,
   slidesToShow: 5,
