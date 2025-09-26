@@ -8,7 +8,7 @@ import Team from "@/app/ui/Team";
 
 const teamData = [
   {
-    memberImage: '/images/team/member_1.jpeg',
+    memberImage: '/images/team/bilal.jpg',
     memberName: 'Bilal Michlawi',
     memberDesignation: 'CEO',
     memberSocial: {
@@ -19,20 +19,9 @@ const teamData = [
     },
   },
   {
-    memberImage: '/images/team/member_2.jpeg',
-    memberName: 'Amany Othman',
-    memberDesignation: 'Marketing Services Manager',
-    memberSocial: {
-      linkedin: '/',
-      twitter: '/',
-      youtube: '/',
-      facebook: '/',
-    },
-  },
-  {
-    memberImage: '/images/team/member_3.webp',
+    memberImage: '/images/team/mariko.jpg',
     memberName: 'Mariko Galban',
-    memberDesignation: 'Office Manager',
+    memberDesignation: 'Client Services/Operations Manager',
     memberSocial: {
       linkedin: '/',
       twitter: '/',
@@ -41,9 +30,53 @@ const teamData = [
     },
   },
   {
-    memberImage: '/images/team/member_4.jpeg',
-    memberName: 'Hanna Mae',
-    memberDesignation: 'Designer',
+    memberImage: '/images/team/hanna.jpg',
+    memberName: 'Hanna Mae Dichoso',
+    memberDesignation: 'Executive Assistant',
+    memberSocial: {
+      linkedin: '/',
+      twitter: '/',
+      youtube: '/',
+      facebook: '/',
+    },
+  },
+  {
+    memberImage: '/images/team/mhark.jpg',
+    memberName: 'Mhark Angelo M. Lundag',
+    memberDesignation: 'Graphic Designer | Creative Artist',
+    memberSocial: {
+      linkedin: '/',
+      twitter: '/',
+      youtube: '/',
+      facebook: '/',
+    },
+  },
+  {
+    memberImage: '/images/team/jhelyn.jpg',
+    memberName: 'Jhelyn S. Aguado',
+    memberDesignation: 'Interior Designer | Project Planner',
+    memberSocial: {
+      linkedin: '/',
+      twitter: '/',
+      youtube: '/',
+      facebook: '/',
+    },
+  },
+  {
+    memberImage: '/images/team/amany.jpg',
+    memberName: 'Amany Othman',
+    memberDesignation: 'Media Sales Executive',
+    memberSocial: {
+      linkedin: '/',
+      twitter: '/',
+      youtube: '/',
+      facebook: '/',
+    },
+  },
+  {
+    memberImage: '/images/team/archie.jpg',
+    memberName: 'Archie Elminero',
+    memberDesignation: 'Sales and Communication Executive',
     memberSocial: {
       linkedin: '/',
       twitter: '/',
