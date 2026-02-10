@@ -30,8 +30,8 @@ const teamData = [
     },
   },
   {
-    memberImage: '/images/team/Hanna.jpg',
-    memberName: 'Hanna Mae Dichoso',
+    memberImage: '/images/team/judy.jpg',
+    memberName: 'Judy Anne Simbulan',
     memberDesignation: 'Executive Assistant',
     memberSocial: {
       linkedin: '/',
