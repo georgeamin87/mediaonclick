@@ -84,6 +84,17 @@ const teamData = [
       facebook: '/',
     },
   },
+  {
+    memberImage: '/images/team/tsion.jpg',
+    memberName: 'Tsion Misganaw',
+    memberDesignation: 'Sales Executive',
+    memberSocial: {
+      linkedin: '/',
+      twitter: '/',
+      youtube: '/',
+      facebook: '/',
+    },
+  },
 ];
 
 export default function TeamPage() {
