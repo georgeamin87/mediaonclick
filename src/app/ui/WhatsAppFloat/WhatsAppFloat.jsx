@@ -23,10 +23,10 @@ const WhatsAppFloat = () => {
     return () => window.removeEventListener("resize", check);
   }, []);
 
-  // Hide mobile bar when footer copy-right area is visible
+  // Hide mobile bar when the footer scrolls into view
   useEffect(() => {
     if (!isMobile) return;
-    const footer = document.querySelector(".copy-right");
+    const footer = document.querySelector(".cs-copyright");
     if (!footer) return;
     const obs = new IntersectionObserver(
       (entries) => {
