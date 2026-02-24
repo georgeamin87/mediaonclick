@@ -2,6 +2,7 @@
 import Header from "@/app/ui/Header";
 import CustomCursor from "@/app/ui/CustomCursor";
 import Footer from "@/app/ui/Footer";
+import WhatsAppFloat from "@/app/ui/WhatsAppFloat/WhatsAppFloat";
 import "swiper/css";
 import "swiper/css/pagination";
 import "./scss/index.scss";
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
         <CustomCursor />
         {children}
         <Footer />
+        <WhatsAppFloat />
       </body>
     </html>
   );
