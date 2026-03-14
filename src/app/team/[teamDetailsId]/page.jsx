@@ -11,11 +11,11 @@ export default function TeamDetails() {
   return (
     <>
       <PageHeading
-        title='Team Details'
+        title='Our CEO'
         bgSrc='/images/team_hero_bg.jpeg'
-        pageLinkText='Team Details'
+        pageLinkText='About | Management'
       />
-      <Spacing lg='150' md='80'/>
+      <Spacing lg='150' md='80' />
       <Div className="container">
         <Div className="row align-items-center">
           <Div className="col-xl-5 col-lg-6">
@@ -24,7 +24,7 @@ export default function TeamDetails() {
             </Div>
           </Div>
           <Div className="col-lg-6 offset-xl-1">
-            <Spacing lg='0' md='45'/>
+            <Spacing lg='0' md='45' />
             <Div className="cs-section_heading cs-style1">
               <h2 className="cs-section_title">Bilal Michlawi</h2>
               <Div className="cs-height_10 cs-height_lg_10" />
@@ -36,17 +36,17 @@ export default function TeamDetails() {
               <Div className="cs-height_25 cs-height_lg_20" />
               <p className="cs-m0">With expertise in media strategy, client relations, and team leadership, Bilal has helped numerous brands achieve their marketing objectives. His approach combines creative thinking with data-driven insights to deliver impactful campaigns across traditional and digital media channels.</p>
               <Div className="cs-height_45 cs-height_lg_30" />
-              <SocialWidget/>
+              <SocialWidget />
             </Div>
           </Div>
         </Div>
       </Div>
-      <Spacing lg='150' md='80'/>
+      <Spacing lg='150' md='80' />
       <Div className="container">
-        <Cta 
-          title='Let’s disscuse make <br />something <i>cool</i> together' 
-          btnText='Apply For Meeting' 
-          btnLink='/contact' 
+        <Cta
+          title='Let’s disscuse make <br />something <i>cool</i> together'
+          btnText='Apply For Meeting'
+          btnLink='/contact'
           bgSrc='/images/cta_bg.jpeg'
         />
       </Div>

@@ -15,6 +15,7 @@ import PortfolioSlider2 from "@/app/ui/Slider/PortfolioSlider2";
 import Spacing from '@/app/ui/Spacing';
 import VideoModal from '@/app/ui/VideoModal';
 import Card from './ui/Card';
+import { Icon } from '@iconify/react';
 
 // Hero Social Links
 const heroSocialLinks = [
@@ -106,8 +107,8 @@ export default function Home() {
     <>
       {/* Start Hero Section */}
       <Hero
-        title="Creativity In <br/>Our Blood Line"
-        subtitle="WE ARE A 360° BOUTIQUE AGENCY BASED IN DUBAI. With over 10 years of experience, MOC has established itself as a leading PR and Events Company."
+        title="Media OnClick<br/>360° PR, Media & Events Partner"
+        subtitle="We help brands grow visibility, build reputation, and create unforgettable experiences through expert public relations, strategic digital marketing, event management and influencer campaigns — all tailored to your business goals."
         btnText="Get a Quote"
         btnLink="/contact"
         scrollDownId="#service"
@@ -127,7 +128,16 @@ export default function Home() {
         />
       </div>
       {/* End FunFact Section */}
+      {/* Start MovingText Section */}
+      <Spacing lg="125" md="70" />
+      <MovingText text="Our reputed world wide partners" />
+      {/* End MovingText Section */}
 
+      {/* Start LogoList Section */}
+      <Div className="container">
+        <LogoList />
+      </Div>
+      {/* End LogoList Section */}
       {/* Start Service Section */}
       <Spacing lg="150" md="80" />
       <Div id="service">
@@ -306,18 +316,7 @@ export default function Home() {
       </Div>
       {/* End Blog Section */}
 
-      {/* Start MovingText Section */}
-      <Spacing lg="125" md="70" />
-      <MovingText text="Our reputed world wide partners" />
-      <Spacing lg="105" md="70" />
-      {/* End MovingText Section */}
-
-      {/* Start LogoList Section */}
-      <Div className="container">
-        <LogoList />
-      </Div>
-      <Spacing lg="90" md="70" />
-      {/* End LogoList Section */}
+      <Spacing lg="200" md="70" />
 
       {/* Start PortfolioSlider Section */}
 
@@ -328,9 +327,81 @@ export default function Home() {
       </Div>
       <Spacing lg="90" md="70" />
       <PortfolioSlider2 />
-            <Spacing lg="120" md="50" />
+      <Spacing lg="120" md="50" />
       {/* End PortfolioSlider Section */}
 
+      {/* Start Contact Section */}
+      <Spacing lg="0" md="70" />
+      <Div className="container">
+        <SectionHeading
+          title="Getting touch"
+          subtitle="Contact Us"
+          variant="cs-style1 text-center"
+        />
+        <Spacing lg="90" md="45" />
+      </Div>
+      <Div className="cs-gradient_bg_1">
+        <Div className="container">
+          <Div className="row">
+            <Div className="col-xl-5 col-lg-6">
+              <Spacing lg="100" md="80" />
+              <form action="#" className="row">
+                <Div className="col-sm-6">
+                  <label className="cs-primary_color">Full Name*</label>
+                  <input type="text" className="cs-form_field" />
+                  <Spacing lg="20" md="20" />
+                </Div>
+                <Div className="col-sm-6">
+                  <label className="cs-primary_color">Email*</label>
+                  <input type="text" className="cs-form_field" />
+                  <Spacing lg="20" md="20" />
+                </Div>
+                <Div className="col-sm-6">
+                  <label className="cs-primary_color">Project Type*</label>
+                  <input type="text" className="cs-form_field" />
+                  <Spacing lg="20" md="20" />
+                </Div>
+                <Div className="col-sm-6">
+                  <label className="cs-primary_color">Mobile*</label>
+                  <input type="text" className="cs-form_field" />
+                  <Spacing lg="20" md="20" />
+                </Div>
+                <Div className="col-sm-12">
+                  <label className="cs-primary_color">Mobile*</label>
+                  <textarea
+                    cols="30"
+                    rows="7"
+                    className="cs-form_field"
+                  ></textarea>
+                  <Spacing lg="25" md="25" />
+                </Div>
+                <Div className="col-sm-12">
+                  <button className="cs-btn cs-style1">
+                    <span>Send Message</span>
+                    <Icon icon="bi:arrow-right" />
+                  </button>
+                </Div>
+              </form>
+              <Spacing lg="100" md="60" />
+            </Div>
+            <Div className="col-lg-6 offset-xl-1">
+              <Div
+                className="cs-google_map cs-type1 cs-bg"
+                data-src="assets/img/map_img_1.jpeg"
+              >
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.905027209549!2d55.152871999999995!3d25.089578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6b6dea2dda75%3A0x1c332af55b2aae04!2sMedia%20OnClick%20(MOC)!5e1!3m2!1sen!2sae!4v1773482172112!5m2!1sen!2sae"
+                  allowFullScreen
+                  title="Google Map"
+                />
+              </Div>
+              <Spacing lg="0" md="80" />
+            </Div>
+          </Div>
+        </Div>
+      </Div>
+      {/* Start Contact Section */}
+      <Spacing lg="80" md="50" />
       {/* Start CTA Section */}
       <Div className="container">
         <Cta

@@ -57,7 +57,7 @@ const funfaceData = [
 export default function AboutPage() {
   return (
     <>
-        <Hero13
+      <Hero13
         heroSocialLinks={heroSocialLinks}
         socialLinksHeading="Follow Us"
         showcaseData={showcaseData}
@@ -145,31 +145,27 @@ export default function AboutPage() {
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0"><strong>1. Media Planning & Buying</strong><br />
-                We develop data‑driven media strategies and purchase advertising across TV, radio, print, digital, and outdoor so your brand reaches the right audience at the right time—maximizing reach and budget efficiency.
+                Data-driven media strategies and ad placements across TV, radio, print, digital, and outdoor campaign.
               </p>
               <Spacing lg="15" md="15" />
               <p className="cs-m0"><strong>2. Public Relations</strong><br />
-                We build and manage your brand’s public image through media relations, press releases, crisis management, and strategic storytelling to increase visibility, credibility, and trust with key audiences.
+                Strategic media relations and storytelling that build brand visibility, credibility, and trust.
               </p>
               <Spacing lg="15" md="15" />
-              <p className="cs-m0"><strong>3. Event Management</strong><br />
-                From concept to execution, we plan and manage corporate events, product launches, brand activations, and experiential campaigns—creating immersive experiences that resonate with audiences.
+              <p className="cs-m0"><strong>3. Events & Production</strong><br />
+                Creative planning, execution, and high-quality production of corporate events, launches, and brand activations that bring your brand vision to life.
               </p>
               <Spacing lg="15" md="15" />
               <p className="cs-m0"><strong>4. Consultancy</strong><br />
-                We provide tailored marketing and branding consultancy, helping businesses refine positioning, streamline communication strategies, and create actionable plans that drive sustainable growth.
+                Expert marketing and branding guidance to refine strategy and drive sustainable growth.
               </p>
               <Spacing lg="15" md="15" />
               <p className="cs-m0"><strong>5. Influencer Marketing</strong><br />
-                We connect your brand with relevant influencers to produce authentic, high‑impact content that boosts awareness, engagement, and conversions across social platforms.
+                Authentic collaborations with influencers to amplify brand awareness and engagement.
               </p>
               <Spacing lg="15" md="15" />
-              <p className="cs-m0"><strong>6. Production</strong><br />
-                We offer end‑to‑end content production—photography, videography, motion graphics, and full‑scale commercial shoots—to bring your brand’s vision to life with creativity and precision. Beyond digital, we handle on‑ground production including custom kiosks, exhibition stands, media walls, stage setups, branded installations, and other event essentials to ensure every detail reflects your brand and leaves a lasting impression.
-              </p>
-              <Spacing lg="15" md="15" />
-              <p className="cs-m0"><strong>7. Interior Design</strong><br />
-                We create spaces that are beautiful and functional for homes, offices, showrooms, and commercial venues. From concept to completion, we provide 2D/3D layouts, realistic mock‑ups, and material selection so you can visualize the final result. With practicality, craftsmanship, and attention to detail at the core, we deliver spaces that look impressive and work perfectly for your needs.
+              <p className="cs-m0"><strong>6. Interior Design</strong><br />
+                Thoughtfully designed spaces that combine aesthetics, functionality, and precision.
               </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>

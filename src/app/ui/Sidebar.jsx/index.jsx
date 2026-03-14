@@ -10,75 +10,75 @@ export default function Sidebar() {
   const tagData = [
     {
       title: 'Business',
-      url:'/'
+      url: '/'
     },
     {
       title: 'Agency',
-      url:'/'
+      url: '/'
     },
     {
       title: 'Artwork',
-      url:'/'
+      url: '/'
     },
     {
       title: 'Marketing',
-      url:'/'
+      url: '/'
     },
     {
       title: 'Information',
-      url:'/'
+      url: '/'
     },
     {
       title: 'Design',
-      url:'/'
+      url: '/'
     },
     {
       title: 'Wordpress',
-      url:'/'
+      url: '/'
     },
   ]
   const archiveData = [
     {
       title: 'Archives',
-      url:'/'
+      url: '/'
     },
     {
       title: '15 Aug 2022',
-      url:'/'
+      url: '/'
     },
     {
       title: '20 Sep 2021',
-      url:'/'
+      url: '/'
     },
     {
       title: '11 Dec 2020',
-      url:'/'
+      url: '/'
     },
     {
       title: '25 jun 2020',
-      url:'/'
+      url: '/'
     }
   ]
   const categoryData = [
     {
       title: 'Corporate',
-      url:'/'
+      url: '/'
     },
     {
       title: 'Company',
-      url:'/'
+      url: '/'
     },
     {
       title: 'Search Engine',
-      url:'/'
+      url: '/'
     },
     {
       title: 'Information',
-      url:'/'
+      url: '/'
     },
     {
       title: 'Painting',
-      url:'/'
+      url: '/'
     }
   ]
   const recentPostData = [
@@ -110,26 +110,26 @@ export default function Sidebar() {
   return (
     <>
       <Div className="cs-sidebar_item">
-        <AuthorWidget 
-          src='/images/avatar_1.png'
-          name='Kuber Jontra' 
-          description='At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.'
+        <AuthorWidget
+          src='/images/avatar.png'
+          name='Mariko Galban'
+          description='we create content for brands that make disruption'
         />
       </Div>
       <Div className="cs-sidebar_item">
-        <SearchWidget title='Search'/>
+        <SearchWidget title='Search' />
       </Div>
       <Div className="cs-sidebar_item">
-        <SideMenuWidget title='Categories' data={categoryData}/>
+        <SideMenuWidget title='Categories' data={categoryData} />
       </Div>
       <Div className="cs-sidebar_item">
-        <RecentPost title='Archives' data={recentPostData}/>
+        <RecentPost title='Archives' data={recentPostData} />
       </Div>
       <Div className="cs-sidebar_item">
-        <SideMenuWidget title='Archives' data={archiveData}/>
+        <SideMenuWidget title='Archives' data={archiveData} />
       </Div>
       <Div className="cs-sidebar_item">
-        <TagWidget title='Tags' data={tagData}/>
+        <TagWidget title='Tags' data={tagData} />
       </Div>
     </>
   )

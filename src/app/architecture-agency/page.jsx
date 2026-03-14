@@ -67,7 +67,7 @@ export default function ArchitectureAgencyHome() {
         subtitle="We deliver best problem solving solution for our client and provide finest <br /> finishing product in present and upcoming future."
         btnLink="/about"
         btnText="Load More"
-        bgImageUrl="/images/hero_bg_6.jpeg"
+        bgImageUrl="/images/hero_bg.jpeg"
         spiningCircleUrl="/images/hero_img_6.svg"
         videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
       />

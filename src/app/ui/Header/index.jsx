@@ -24,9 +24,8 @@ export default function Header({ variant }) {
   return (
     <>
       <header
-        className={`cs-site_header cs-style1 text-uppercase ${
-          variant ? variant : ''
-        } cs-sticky_header ${isSticky ? 'cs-sticky_header_active' : ''}`}
+        className={`cs-site_header cs-style1 text-uppercase ${variant ? variant : ''
+          } cs-sticky_header ${isSticky ? 'cs-sticky_header_active' : ''}`}
       >
         <Div className="cs-main_header">
           <Div className="container">
@@ -58,6 +57,14 @@ export default function Header({ variant }) {
                         <ul>
                           <li>
                             <Link
+                              href="/about"
+                              onClick={() => setMobileToggle(false)}
+                            >
+                              About Us
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
                               href="/team"
                               onClick={() => setMobileToggle(false)}
                             >
@@ -69,15 +76,7 @@ export default function Header({ variant }) {
                               href="/team/team-details"
                               onClick={() => setMobileToggle(false)}
                             >
-                              Team Details
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              href="/case-study/case-study-details"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Case Study Details
+                              Management
                             </Link>
                           </li>
                           <li>
@@ -164,12 +163,15 @@ export default function Header({ variant }) {
                         href="/portfolio"
                         onClick={() => setMobileToggle(false)}
                       >
-                        Portfolio
+                        Case Study
                       </Link>
                     </li>
                     <li>
-                      <Link href="/blog" onClick={() => setMobileToggle(false)}>
-                        Blog
+                      <Link
+                        href="/media-partners"
+                        onClick={() => setMobileToggle(false)}
+                      >
+                        Media Partners
                       </Link>
                     </li>
                     <li>
@@ -229,7 +231,7 @@ export default function Header({ variant }) {
         <Div className="cs-side_header_in">
           <Div className="cs-side_header_shape" />
           <Link className="cs-site_branding" href="/">
-            <img src="/images/logo.png" alt="Logo" style={{ width: '150px' }}/>
+            <img src="/images/logo.png" alt="Logo" style={{ width: '150px' }} />
           </Link>
           <Div className="cs-side_header_box">
             <h2 className="cs-side_header_heading">
