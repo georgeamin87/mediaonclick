@@ -12,6 +12,7 @@ import TeamSlider from '@/app/ui/Slider/TeamSlider';
 import TestimonialSlider from '@/app/ui/Slider/TestimonialSlider';
 import TimelineSlider from '@/app/ui/Slider/TimelineSlider';
 import PortfolioSlider2 from "@/app/ui/Slider/PortfolioSlider2";
+import VideoModalSlider from '@/app/ui/Slider/VideoModalSlider';
 import Spacing from '@/app/ui/Spacing';
 import VideoModal from '@/app/ui/VideoModal';
 import Card from './ui/Card';
@@ -102,6 +103,14 @@ const portfolioData = [
   },
 ];
 
+const videoSliderData = [
+  { videoSrc: 'https://www.youtube.com/watch?v=KAYZQ8zHtj8' },
+  { videoSrc: 'https://www.youtube.com/watch?v=5toKLAAeJeg' },
+  { videoSrc: 'https://www.youtube.com/watch?v=pdSdIkjO7gc' },
+  { videoSrc: 'https://www.youtube.com/watch?v=h_8hbapTP0U' },
+  { videoSrc: 'https://www.youtube.com/watch?v=yBLDq8wEiK8' },
+];
+
 export default function Home() {
   return (
     <>
@@ -138,6 +147,14 @@ export default function Home() {
         <LogoList />
       </Div>
       {/* End LogoList Section */}
+
+      {/* Start VideoModalSlider Section */}
+      <Spacing lg="150" md="80" />
+      <Div>
+        <VideoModalSlider data={videoSliderData} />
+      </Div>
+      {/* End VideoModalSlider Section */}
+
       {/* Start Service Section */}
       <Spacing lg="150" md="80" />
       <Div id="service">
