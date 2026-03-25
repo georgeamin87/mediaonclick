@@ -160,9 +160,12 @@ const categoryMenu = [
     category: 'shortfilm',
   },
 ];
-export default function MasonryGallery() {
+export default function MasonryGallery({ data, categories }) {
   const [active, setActive] = useState('all');
   const [itemShow, setItemShow] = useState(10);
+
+  const displayData = data || portfolioData;
+  const displayCategories = categories || categoryMenu;
 
   return (
     <>
@@ -174,7 +177,7 @@ export default function MasonryGallery() {
               <li className={active === 'all' ? 'active' : ''}>
                 <span onClick={() => setActive('all')}>All</span>
               </li>
-              {categoryMenu.map((item, index) => (
+              {displayCategories.map((item, index) => (
                 <li
                   className={active === item.category ? 'active' : ''}
                   key={index}
@@ -194,7 +197,7 @@ export default function MasonryGallery() {
         plugins={[lgThumbnail, lgZoom]}
         elementClassNames="cs-masonry_4_col"
       >
-        {portfolioData.slice(0, itemShow).map((item, index) => (
+        {displayData.slice(0, itemShow).map((item, index) => (
           <Div
             href={item.src}
             className={`${
@@ -234,7 +237,7 @@ export default function MasonryGallery() {
       </LightGallery>
       <Div className="container">
         <Div className="text-center">
-          {portfolioData.length <= itemShow ? (
+          {displayData.length <= itemShow ? (
             ''
           ) : (
             <>

@@ -176,6 +176,14 @@ export default function Header({ variant }) {
                     </li>
                     <li>
                       <Link
+                        href="/gallery"
+                        onClick={() => setMobileToggle(false)}
+                      >
+                        Gallery
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
                         href="/contact"
                         onClick={() => setMobileToggle(false)}
                       >
