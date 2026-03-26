@@ -1,4 +1,5 @@
 import React from 'react';
+import parse from 'html-react-parser';
 import Div from '../Div';
 
 export default function FunFact({ variant, title, subtitle, data }) {
@@ -11,7 +12,7 @@ export default function FunFact({ variant, title, subtitle, data }) {
       <Div className="cs-funfact_left">
         <Div className="cs-funfact_heading">
           <h2>{title}</h2>
-          <p>{subtitle}</p>
+          <p>{parse(subtitle)}</p>
         </Div>
       </Div>
       <Div className="cs-funfact_right">

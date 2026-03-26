@@ -69,21 +69,29 @@ export default function AboutPage() {
       <Spacing lg="150" md="80" />
       <Div className="container">
         <Div className="row">
-          <Div className="col-xl-5 col-lg-7">
+          <Div className="col-xl-6 col-lg-7">
             <SectionHeading
               title="Your trusted partner for business"
               subtitle="About MOC/Media On Click"
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-                At MOC/Media On Click, we deliver integrated marketing and communication solutions that combine strategic insight with creative impact. Our team is composed of highly experienced professionals from diverse backgrounds in media, digital, events, and branding. We apply our wide-ranging expertise to carefully assess each client’s needs, crafting customized strategies that align with their goals and target audience. Whether it’s digital marketing, influencer campaigns, PR, or full-scale event management, we ensure consistency, relevance, and measurable results across all channels. Backed by a strong track record and a deep understanding of the regional market, we pride ourselves on being hands-on, agile, and results-focused turning bold ideas into powerful brand experiences.
+                At Media OnClick (MOC), we don’t just deliver marketing—we craft experiences that connect,
+                captivate, and convert. Our team of seasoned professionals brings together expertise
+                across media, digital, events, branding, and interior design, allowing us to transform
+                bold ideas into immersive brand moments. Every strategy is tailored to your goals and
+                audience, blending creativity with insight to make campaigns that resonate. From
+                influencer activations and viral digital campaigns to full-scale event productions
+                and showroom transformations across the Middle East, we bring agility, precision,
+                and impact to every project—turning challenges into standout results and brands
+                into unforgettable experiences.
               </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
               <Spacing lg="25" md="40" />
             </SectionHeading>
           </Div>
-          <Div className="col-lg-5 offset-xl-2">
+          <Div className="col-lg-5 offset-xl-1">
             <Image
               src={aboutImg}
               alt="About"
@@ -116,7 +124,7 @@ export default function AboutPage() {
       <Div className="container">
         <FunFact
           title="Our fun fact"
-          subtitle="At MOC/Media On Click, we’ve successfully launched over 1000 campaigns, collaborated with more than 500 influencers, and produced events that have reached audiences across the UAE and beyond. Our team once pulled off a full-scale event in just 48 hours and yes, it trended on social media! From last-minute PR miracles to creating viral digital moments, we’re not just experts, we’re adrenaline-fueled creatives who love turning challenges into standout results."
+          subtitle="At <b>Media OnClick</b>, we don’t just run campaigns, we create digital magic. Over <b>1,000 campaigns launched, 500+ influencer collaborations, and events that have captured audiences across the UAE and beyond.</b><br></br>Our team once pulled off a full-scale event in just 48 hours and yes, it went viral! From last-minute PR miracles to jaw-dropping digital moments, we’re not just marketing experts; we’re adrenaline-charged creatives who turn challenges into standout results."
           data={funfaceData}
         />
       </Div>
@@ -193,7 +201,7 @@ export default function AboutPage() {
       <Spacing lg="150" md="80" />
       <Div className="container">
         <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
+          title="Where creativity<br /> <i>sparks & brilliance </i> rises, <br />let’s make it happen together"
           btnText="Apply For Meeting"
           btnLink="/contact"
           bgSrc="/images/cta_bg.jpeg"

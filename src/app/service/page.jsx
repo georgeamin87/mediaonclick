@@ -16,12 +16,12 @@ import serviceImage2 from '/public/images/service_img_1.jpeg';
 export default function ServicesPage() {
   return (
     <>
-      <PageHeading 
+      <PageHeading
         title='Services'
         bgSrc='/images/service_hero_bg.jpeg'
         pageLinkText='Services'
       />
-      <Spacing lg='150' md='80'/>
+      <Spacing lg='150' md='80' />
       <Div className='cs-shape_wrap_4'>
         <Div className="cs-shape_4"></Div>
         <Div className="cs-shape_4"></Div>
@@ -29,10 +29,10 @@ export default function ServicesPage() {
           <Div className="row">
             <Div className="col-xl-4">
               <SectionHeading
-                title='Services we can help you with' 
+                title='Services we can help you with'
                 subtitle='What Can We Do'
               />
-              <Spacing lg='90' md='45'/>
+              <Spacing lg='90' md='45' />
             </Div>
             <Div className='col-xl-8'>
               <Div className='row'>
@@ -44,7 +44,7 @@ export default function ServicesPage() {
                     src='/images/service_1.jpeg'
                     alt='Service'
                   />
-                  <Spacing lg='0' md='30'/>
+                  <Spacing lg='0' md='30' />
                 </Div>
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
@@ -54,7 +54,7 @@ export default function ServicesPage() {
                     src='/images/services/event.jpg'
                     alt='Service'
                   />
-                  <Spacing lg='0' md='30'/>
+                  <Spacing lg='0' md='30' />
                 </Div>
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
@@ -63,7 +63,7 @@ export default function ServicesPage() {
                     src='/images/service_4.jpeg'
                     alt='Service'
                   />
-                  <Spacing lg='0' md='30'/>
+                  <Spacing lg='0' md='30' />
                 </Div>
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
@@ -73,7 +73,7 @@ export default function ServicesPage() {
                     src='/images/services/pr.jpg'
                     alt='Service'
                   />
-                  <Spacing lg='0' md='30'/>
+                  <Spacing lg='0' md='30' />
                 </Div>
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
@@ -84,7 +84,7 @@ export default function ServicesPage() {
                     src='/images/service_5.jpeg'
                     alt='Service'
                   />
-                  <Spacing lg='0' md='30'/>
+                  <Spacing lg='0' md='30' />
                 </Div>
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
@@ -94,21 +94,21 @@ export default function ServicesPage() {
                     src='/images/services/influence.jpg'
                     alt='Service'
                   />
-                  <Spacing lg='0' md='30'/>
+                  <Spacing lg='0' md='30' />
                 </Div>
               </Div>
             </Div>
           </Div>
         </Div>
       </Div>
-      <Spacing lg='150' md='80'/>
+      <Spacing lg='150' md='80' />
       <Div className="container">
-        <SectionHeading 
-          title='What We Offer' 
-          subtitle='360° Marketing Solutions' 
+        <SectionHeading
+          title='What We Offer'
+          subtitle='360° Marketing Solutions'
           variant='cs-style1 text-center'
         />
-        <Spacing lg='90' md='45'/>
+        <Spacing lg='90' md='45' />
         <Div className="row">
           <Div className="col-lg-4">
             <IconBox
@@ -116,7 +116,7 @@ export default function ServicesPage() {
               title='Digital Marketing'
               subtitle='Custom digital solutions that include social media management, SEO, email marketing, and paid ad campaigns-designed to elevate your digital presence and generate ROI.'
             />
-            <Spacing lg='30' md='30'/>
+            <Spacing lg='30' md='30' />
           </Div>
           <Div className="col-lg-4">
             <IconBox
@@ -124,7 +124,7 @@ export default function ServicesPage() {
               title='Branding'
               subtitle="We develop your brand's identity through logo design, brand strategy, visual systems, and storytelling to build strong emotional connections with your audience."
             />
-            <Spacing lg='30' md='30'/>
+            <Spacing lg='30' md='30' />
           </Div>
           <Div className="col-lg-4">
             <IconBox
@@ -132,7 +132,7 @@ export default function ServicesPage() {
               title='Events & Activations'
               subtitle='We plan and execute on-ground experiences that excite, engage, and inspire-from product launches to mall activations and interactive exhibits.'
             />
-            <Spacing lg='30' md='30'/>
+            <Spacing lg='30' md='30' />
           </Div>
           <Div className="col-lg-4">
             <IconBox
@@ -140,7 +140,7 @@ export default function ServicesPage() {
               title='Public Relations'
               subtitle="We amplify your brands message through media outreach, crisis communication, brand reputation management, and editorial placements."
             />
-            <Spacing lg='30' md='30'/>
+            <Spacing lg='30' md='30' />
           </Div>
           <Div className="col-lg-4">
             <IconBox
@@ -148,7 +148,7 @@ export default function ServicesPage() {
               title='Influencer Marketing'
               subtitle='We connect your brand with the right creators to deliver authentic collaborations that engage audiences and drive real business impact.'
             />
-            <Spacing lg='30' md='30'/>
+            <Spacing lg='30' md='30' />
           </Div>
           <Div className="col-lg-4">
             <IconBox
@@ -156,28 +156,28 @@ export default function ServicesPage() {
               title='Production'
               subtitle="From storyboarding to shooting, editing, and animation-our content production team creates stunning visuals that bring your brand's vision to life."
             />
-            <Spacing lg='30' md='30'/>
+            <Spacing lg='30' md='30' />
           </Div>
         </Div>
-              <Spacing lg='120' md='50'/>
-              <Div className="container">
-                <Div className="row align-items-center">
-                  <Div className="col-xl-5 col-lg-6">
-                    <Div className="cs-radius_15 cs-shine_hover_1">
-                      <Image src={serviceImage2} alt="Our Services" className='cs-radius_15 w-100' placeholder="blur" />
-                    </Div>
-                    <Spacing lg='0' md='40'/>
-                  </Div>
-                  <Div className="col-lg-6 offset-xl-1">
-                    <h2 className="cs-font_50 cs-m0">Tailored marketing solutions built for impact</h2>
-                    <Spacing lg='50' md='30'/>
-                    <p>
-                      At Media On Click, we believe in integrated marketing that delivers. Whether you’re looking for a standout digital presence, a bold brand identity, or engaging campaigns—our cross-functional team delivers excellence across every touchpoint.
-                    </p>
-                  </Div>
-                </Div>
+        <Spacing lg='120' md='50' />
+        <Div className="container">
+          <Div className="row align-items-center">
+            <Div className="col-xl-5 col-lg-6">
+              <Div className="cs-radius_15 cs-shine_hover_1">
+                <Image src={serviceImage2} alt="Our Services" className='cs-radius_15 w-100' placeholder="blur" />
               </Div>
-              <Spacing lg='150' md='80'/>
+              <Spacing lg='0' md='40' />
+            </Div>
+            <Div className="col-lg-6 offset-xl-1">
+              <h2 className="cs-font_50 cs-m0">Tailored marketing solutions built for impact</h2>
+              <Spacing lg='50' md='30' />
+              <p>
+                At Media On Click, we believe in integrated marketing that delivers. Whether you’re looking for a standout digital presence, a bold brand identity, or engaging campaigns—our cross-functional team delivers excellence across every touchpoint.
+              </p>
+            </Div>
+          </Div>
+        </Div>
+        <Spacing lg='150' md='80' />
       </Div>
 
       {/* Start Services Section */}
@@ -193,9 +193,9 @@ export default function ServicesPage() {
       </Div>
       {/* End Services Section */}
 
-      <Spacing lg='125' md='55'/>
-      <TestimonialSlider/>
-      <Spacing lg='145' md='80'/>
+      <Spacing lg='125' md='55' />
+      <TestimonialSlider />
+      <Spacing lg='145' md='80' />
       <Div className="container cs-shape_wrap_4">
         <Div className="cs-shape_4"></Div>
         <Div className="cs-shape_4"></Div>
@@ -203,24 +203,24 @@ export default function ServicesPage() {
           <Div className="row">
             <Div className="col-xl-5 col-lg-6">
               <SectionHeading
-                title='Frequently Asked Questions' 
+                title='Frequently Asked Questions'
                 subtitle='FAQ’s'
               />
-              <Spacing lg='90' md='45'/>
+              <Spacing lg='90' md='45' />
             </Div>
             <Div className="col-lg-6 offset-xl-1">
-              <Accordion/>
+              <Accordion />
             </Div>
           </Div>
         </Div>
       </Div>
-      <Spacing lg='150' md='80'/>
+      <Spacing lg='150' md='80' />
       <Div className="container">
-        <Cta 
-          title='Let’s disscuse make <br />something <i>cool</i> together' 
-          btnText='Apply For Meeting' 
-          btnLink='/contact' 
-          bgSrc='/images/cta_bg.jpeg'
+        <Cta
+          title="Where creativity<br /> <i>sparks & brilliance </i> rises, <br />let’s make it happen together"
+          btnText="Apply For Meeting"
+          btnLink="/contact"
+          bgSrc="/images/cta_bg.jpeg"
         />
       </Div>
     </>

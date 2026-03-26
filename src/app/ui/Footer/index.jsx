@@ -21,19 +21,27 @@ const copyrightLinks = [
 const serviceMenu = [
   {
     title: 'EVENT MANAGEMENT',
-    href: '/service/service-details',
+    href: '/service/event-management',
   },
   {
-    title: 'PR',
-    href: '/service/service-details',
+    title: 'PUBLIC RELATIONS/PRESS RELEASES',
+    href: '/service/pr',
   },
   {
-    title: 'Digital marketing',
-    href: '/service/service-details',
+    title: 'DIGITAL MARKETING',
+    href: '/service/digital-marketing',
   },
   {
     title: 'MEDIA PLANNING & BUYING',
-    href: '/service/service-details',
+    href: '/service/media-plaining-buying',
+  },
+  {
+    title: 'CONSULTANCY',
+    href: '/service/consultancy',
+  },
+  {
+    title: 'INFLUENCER MARKETING',
+    href: '/service/influencers',
   },
 ];
 

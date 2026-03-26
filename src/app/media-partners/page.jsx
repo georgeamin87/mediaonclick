@@ -160,7 +160,7 @@ export default function AboutPage() {
                         >
                             <Spacing lg="30" md="20" />
                             <p className="cs-m0">
-                                At Media OnClick, we collaborate with leading media outlets and publishers to maximize brand exposure. Our team builds impactful partnerships that deliver meaningful coverage, credibility, and audience reach.
+                                At Media OnClick (MOC), we don’t just connect with media! We create opportunities that put your brand in the spotlight. By collaborating with leading outlets and publishers, we deliver credible, impactful coverage that reaches the right audience and drives results.
                             </p>
                             <Spacing lg="30" md="30" />
                             <Div className="cs-separator cs-accent_bg"></Div>
@@ -193,7 +193,7 @@ export default function AboutPage() {
             <Div className="container">
                 <FunFact
                     title="Our fun fact"
-                    subtitle="At MOC/Media On Click, we’ve successfully launched over 1000 campaigns, collaborated with more than 500 influencers, and produced events that have reached audiences across the UAE and beyond. Our team once pulled off a full-scale event in just 48 hours and yes, it trended on social media! From last-minute PR miracles to creating viral digital moments, we’re not just experts, we’re adrenaline-fueled creatives who love turning challenges into standout results."
+                    subtitle="At Media OnClick (MOC), we don’t just run campaigns! We create digital magic. Over 1,000 campaigns launched, 500+ influencer collaborations, and events that have captured audiences across the UAE and beyond, we now bring our creative expertise into interior design, transforming showrooms across the Middle East into immersive spaces that reflect your brand and leave a lasting impression. From last-minute PR miracles to full-scale events executed in just 48 hours and yes, they went viral! We deliver lightning-fast PR wins and unforgettable digital experiences. We’re more than marketing experts; we’re adrenaline-fueled creatives who turn every challenge into a show-stopping success."
                     data={funfaceData}
                 />
             </Div>
@@ -217,7 +217,7 @@ export default function AboutPage() {
             <Spacing lg="150" md="80" />
             <Div className="container">
                 <Cta
-                    title="Let’s disscuse make <br />something <i>cool</i> together"
+                    title="Where creativity<br /> <i>sparks & brilliance </i> rises, <br />let’s make it happen together"
                     btnText="Apply For Meeting"
                     btnLink="/contact"
                     bgSrc="/images/cta_bg.jpeg"

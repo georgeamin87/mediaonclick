@@ -10,7 +10,7 @@ import { useState } from "react";
 
 const portfolioData = [
   {
-    title: 'Aluha',
+    title: 'Dahua Technology',
     subtitle: 'See Details',
     href: '/portfolio/aluha',
     src: '/images/projects/aluha.png',
@@ -136,15 +136,13 @@ export default function PortfolioPage() {
         <Div className="row">
           {portfolioData.slice(0, itemShow).map((item, index) => (
             <Div
-              className={`${
-                index === 3 || index === 6 ? 'col-lg-8' : 'col-lg-4'
-              } ${
-                active === 'all'
+              className={`${index === 3 || index === 6 ? 'col-lg-8' : 'col-lg-4'
+                } ${active === 'all'
                   ? ''
                   : !(active === item.category)
-                  ? 'd-none'
-                  : ''
-              }`}
+                    ? 'd-none'
+                    : ''
+                }`}
               key={index}
             >
               <Portfolio

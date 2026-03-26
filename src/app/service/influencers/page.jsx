@@ -48,35 +48,35 @@ export default function ServiceDetails() {
       'Compliance and disclosure guidance'
     ],
     process: [
-      {title: 'Discovery', desc: 'Identifying ideal influencers for your brand'},
-      {title: 'Outreach', desc: 'Negotiating partnerships and contracts'},
-      {title: 'Content', desc: 'Co-creating authentic branded content'},
-      {title: 'Amplification', desc: 'Maximizing reach across channels'},
-      {title: 'Analysis', desc: 'Measuring impact and optimizing future campaigns'}
+      { title: 'Discovery', desc: 'Identifying ideal influencers for your brand' },
+      { title: 'Outreach', desc: 'Negotiating partnerships and contracts' },
+      { title: 'Content', desc: 'Co-creating authentic branded content' },
+      { title: 'Amplification', desc: 'Maximizing reach across channels' },
+      { title: 'Analysis', desc: 'Measuring impact and optimizing future campaigns' }
     ]
   }
 
   return (
     <>
-      <PageHeading 
+      <PageHeading
         title={details.title}
         bgSrc={details.image}
         pageLinkText='Services'
       />
-      <Spacing lg='150' md='80'/>
-      
+      <Spacing lg='150' md='80' />
+
       <Div className='container'>
-        <SectionHeading 
+        <SectionHeading
           title='Influencer Strategy'
           subtitle={details.title}
         />
-        <Spacing lg='70' md='45'/>
+        <Spacing lg='70' md='45' />
         <Div className='row'>
           <Div className='col-lg-6'>
             <p className='cs-m0'>{details.description}</p>
-            <Spacing lg='50' md='30'/>
+            <Spacing lg='50' md='30' />
             <h3 className='cs-font_30 cs-m0'>Our Process</h3>
-            <Spacing lg='30' md='20'/>
+            <Spacing lg='30' md='20' />
             <Div className='cs-process_steps'>
               {details.process.map((step, index) => (
                 <Div key={index} className='cs-process_step'>
@@ -91,13 +91,13 @@ export default function ServiceDetails() {
           </Div>
           <Div className='col-xl-5 offset-xl-1 col-lg-6'>
             <h3 className='cs-font_30 cs-m0'>Our Services</h3>
-            <Spacing lg='30' md='20'/>
+            <Spacing lg='30' md='20' />
             <ul className='cs-list cs-style1 cs-mp0'>
               {details.features.map((feature, index) => (
                 <li key={index}><span className='cs-accent_color'>✓</span> {feature}</li>
               ))}
             </ul>
-            <Spacing lg='40' md='30'/>
+            <Spacing lg='40' md='30' />
             <Div className='cs-influencer_types'>
               <h4>Influencer Types We Work With:</h4>
               <Div className='row'>
@@ -118,13 +118,13 @@ export default function ServiceDetails() {
           </Div>
         </Div>
       </Div>
-      
+
       {/* Why Choose Us */}
-      <Spacing lg='100' md='60'/>
+      <Spacing lg='100' md='60' />
       <Div className='cs-why_choose cs-style1'>
-        <Div className='cs-why_choose_bg' style={{backgroundImage: 'url(/images/hero_bg_4.jpeg)'}}></Div>
+        <Div className='cs-why_choose_bg' style={{ backgroundImage: 'url(/images/hero_bg_4.jpeg)' }}></Div>
         <Div className='container'>
-          <SectionHeading 
+          <SectionHeading
             title='Why Choose Our Media Planning'
             subtitle='Expertise That Delivers'
             variant='cs-style1 text-white'
@@ -175,13 +175,11 @@ export default function ServiceDetails() {
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-                Our team of media experts brings deep industry knowledge and innovative
-                strategies to maximize your advertising ROI across all channels.
+                Our team at Media OnClick (MOC) turns ideas into results across every channel. We combine deep industry expertise with bold creativity to deliver immersive event management, strategic public relations, precision media planning & buying, and data-driven digital marketing.
               </p>
               <Spacing lg="15" md="15" />
               <p className="cs-m0">
-                We combine data-driven insights with creative execution to deliver
-                campaigns that resonate with your target audience and drive results.
+                We design innovative campaigns through influencer marketing, compelling creatives, and cutting-edge digital innovation, including interior designing, while providing strategic consultancy tailored to your goals. Every project we take on is built to amplify your brand, engage your audience, and create measurable impact that makes your presence unforgettable.
               </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
@@ -195,18 +193,18 @@ export default function ServiceDetails() {
       {/* Portfolio Section */}
       <Spacing lg="100" md="80" />
       <Div className="container">
-        <SectionHeading 
+        <SectionHeading
           title="Our Portfolio"
           subtitle="Case Studies"
         />
         <Spacing lg="70" md="45" />
         <PortfolioSlider data={portfolioData} />
       </Div>
-      
-      <Spacing lg='150' md='80'/>
-      <Cta 
-        title='Ready to leverage influencer marketing?' 
-        btnText='Get Started' 
+
+      <Spacing lg='150' md='80' />
+      <Cta
+        title='Ready to leverage influencer marketing?'
+        btnText='Get Started'
         btnLink='/contact'
         bgSrc='/images/cta_bg.jpeg'
       />
