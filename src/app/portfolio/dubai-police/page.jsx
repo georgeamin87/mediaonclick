@@ -6,6 +6,7 @@ import PageHeading from "@/app/ui/PageHeading";
 import SectionHeading from "@/app/ui/SectionHeading";
 import Spacing from "@/app/ui/Spacing";
 import Image from "next/image";
+import VideoModal from "@/app/ui/VideoModal";
 import imgUrl from '../../../../public/images/projects/dubai police/2.webp';
 import aboutImg1 from '../../../../public/images/projects/dubai police/1.webp'
 import aboutImg2 from '../../../../public/images/projects/dubai police/3.webp'
@@ -20,7 +21,7 @@ export default function PortfolioDetailsPage() {
       />
       <Spacing lg='150' md='80' />
       <Div className="container">
-        <Image src={imgUrl} alt="Dahua Case Study" placeholder="blur" className="cs-radius_15 w-100" />
+        <Image src={imgUrl} alt="Dubai Police Case Study" placeholder="blur" className="cs-radius_15 w-100" />
         <Spacing lg='90' md='40' />
         <Div className="row">
           <Div className="col-lg-6">
@@ -91,6 +92,19 @@ export default function PortfolioDetailsPage() {
             <Spacing lg="25" md="25" />
           </Div>
         </Div>
+        {/* Start Video Block Section */}
+        <Spacing lg="130" md="70" />
+        <Div className="container">
+          <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
+            Watch our Projects Heighlights.
+          </h2>
+          <Spacing lg="70" md="70" />
+          <VideoModal
+            videoSrc="https://www.youtube.com/watch?v=z4Bemz7n0j0"
+            bgUrl="/images/projects/videocover.webp"
+          />
+        </Div>
+        {/* End Video Block Section */}
         <Spacing lg='65' md='10' />
         <Div className="cs-page_navigation cs-center">
           <Div>
