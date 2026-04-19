@@ -7,18 +7,18 @@ import SectionHeading from "@/app/ui/SectionHeading";
 import Spacing from "@/app/ui/Spacing";
 import Image from "next/image";
 import VideoModal from "@/app/ui/VideoModal";
-import imgUrl from '../../../../public/images/projects/grohe.png';
-import aboutImg1 from '../../../../public/images/projects/grohe/UAE/1.png'
-import aboutImg2 from '../../../../public/images/projects/grohe/UAE/2.png'
-import aboutImg3 from '../../../../public/images/projects/grohe/UAE/3.png'
+import imgUrl from '../../../../public/images/projects/kohler.webp';
+import aboutImg1 from '../../../../public/images/projects/kohlerh/1.jpg'
+import aboutImg2 from '../../../../public/images/projects/kohlerh/2.webp'
+import aboutImg3 from '../../../../public/images/projects/kohlerh/3.webp'
 
 export default function PortfolioDetailsPage() {
   return (
     <>
       <PageHeading
-        title='GROHE Showroom'
+        title='Kohler Grand Opening Event'
         bgSrc='/images/service_hero_bg.jpeg'
-        pageLinkText='PORTFOLIO - Grohe: Interior Design & Product Display Experience'
+        pageLinkText='PORTFOLIO - Kohler X Al Hashimiya Opening Event'
       />
       <Spacing lg='150' md='80' />
       <Div className="container">
@@ -27,18 +27,18 @@ export default function PortfolioDetailsPage() {
         <Div className="row">
           <Div className="col-lg-6">
             <SectionHeading
-              title='GROHE Showroom – Interior Design & Product Display Experience'
-              subtitle='Crafting a Luxurious Aesthetic'
+              title='Kohler X Al Hashimiya Opening Event'
+              subtitle='A Grand Unveiling of Design Experiences'
             >
               <Spacing lg='40' md='20' />
               <h2 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Project Overview </h2>
               <p>
-                For the GROHE Showroom, the goal was to move beyond a typical retail layout and create an immersive Product Display Experience. We designed a space where world-class sanitary technology meets high-end interior luxury. The showroom isn't just a store; it’s a gallery that invites clients to touch, feel, and experience the water-saving innovation and sleek design GROHE is known for.
+                The Kohler x Al Hashimiya Opening Event celebrated the launch of another branch, bringing together executives, key stakeholders, and interior designers. The event was designed as an exclusive meet-and-greet, allowing guests to connect directly with the leadership team and experience the new space. Every element of the opening emphasized the brand’s commitment to excellence, collaboration, and creating meaningful engagement with its people.
               </p>
               <Spacing lg='10' md='10' />
-              <h2 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Our Approach: From Concept to Reality</h2>
+              <h2 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Our Approach: From Conversation to Immersive Experience</h2>
               <p>
-                We believe a showroom should be an aspirational journey, so we treated every faucet and showerhead as a individual piece of art. By moving away from cluttered shelving, we created curated vignettes and miniature luxury bathrooms that allow customers to easily visualize the products in their own homes. By balancing "high-tech" functionality with "high-touch" premium finishes, we designed a natural flow that guides visitors from initial curiosity to a deep appreciation for the brand’s craftsmanship.
+                We crafted the event to ensure a seamless flow, balancing formality with approachability to create an intimate and engaging environment. The layout and presentation of the new branch encouraged natural interaction among executives, employees, and guests. By focusing on thoughtful spatial design, attention to detail, and personalized engagement, we transformed the grand opening into a memorable experience that celebrated the brand, fostered connections, and set the tone for the branch’s operations.
               </p>
             </SectionHeading>
           </Div>
@@ -49,27 +49,27 @@ export default function PortfolioDetailsPage() {
             <Div className="row">
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Category:</h3>
-                <p className='cs-m0'>PR, Event Management & Digital Marketing</p>
+                <p className='cs-m0'>Event Management & Branding</p>
                 <Spacing lg='30' md='30' />
               </Div>
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Location:</h3>
-                <p className='cs-m0'>Bahrain, Iraq, Jordan, Kuwait, Oman, Pakistan, Qatar & UAE</p>
+                <p className='cs-m0'>Al Wasl, Dubai</p>
                 <Spacing lg='30' md='30' />
               </Div>
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Scope:</h3>
-                <p className='cs-m0'> Retail Bathroom & Sanitary Showroom Interiors</p>
+                <p className='cs-m0'>  Grand Opening Event & Brand Launch</p>
                 <Spacing lg='30' md='30' />
               </Div>
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Dated:</h3>
-                <p className='cs-m0'>March 2023</p>
+                <p className='cs-m0'>November 2025</p>
                 <Spacing lg='30' md='30' />
               </Div>
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Client:</h3>
-                <p className='cs-m0'>GROHE</p>
+                <p className='cs-m0'>Kohler</p>
                 <Spacing lg='30' md='30' />
               </Div>
             </Div>
@@ -111,8 +111,8 @@ export default function PortfolioDetailsPage() {
           </h2>
           <Spacing lg="70" md="70" />
           <VideoModal
-            videoSrc="https://www.youtube.com/watch?v=ikZx2Joae60"
-            bgUrl="/images/projects/grohe.png"
+            videoSrc="https://www.youtube.com/watch?v=yBLDq8wEiK8"
+            bgUrl="/images/projects/kohler.webp"
           />
         </Div>
         {/* End Video Block Section */}

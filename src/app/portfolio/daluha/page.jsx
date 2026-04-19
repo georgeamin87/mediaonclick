@@ -6,39 +6,40 @@ import PageHeading from "@/app/ui/PageHeading";
 import SectionHeading from "@/app/ui/SectionHeading";
 import Spacing from "@/app/ui/Spacing";
 import Image from "next/image";
-import VideoModal from "@/app/ui/VideoModal";
-import imgUrl from '../../../../public/images/projects/grohe.png';
-import aboutImg1 from '../../../../public/images/projects/grohe/UAE/1.png'
-import aboutImg2 from '../../../../public/images/projects/grohe/UAE/2.png'
-import aboutImg3 from '../../../../public/images/projects/grohe/UAE/3.png'
+import imgUrl from '../../../../public/images/projects/aluha.png';
+import aboutImg2 from '../../../../public/images/projects/dahua/1.webp'
+import aboutImg3 from '../../../../public/images/projects/dahua/2.webp'
+import aboutImg1 from '../../../../public/images/projects/dahua/3.webp'
 
 export default function PortfolioDetailsPage() {
   return (
     <>
       <PageHeading
-        title='GROHE Showroom'
+        title='Dahua Technology'
         bgSrc='/images/service_hero_bg.jpeg'
-        pageLinkText='PORTFOLIO - Grohe: Interior Design & Product Display Experience'
+        pageLinkText='PORTFOLIO - Dahua EMPOWERING THE FUTURE – Dahua & SI Partners Strategic Conference'
       />
       <Spacing lg='150' md='80' />
       <Div className="container">
-        <Image src={imgUrl} alt="Grohe Case Study" placeholder="blur" className="cs-radius_15 w-100" />
+        <Image src={imgUrl} alt="Dahua Case Study" placeholder="blur" className="cs-radius_15 w-100" />
         <Spacing lg='90' md='40' />
         <Div className="row">
           <Div className="col-lg-6">
             <SectionHeading
-              title='GROHE Showroom – Interior Design & Product Display Experience'
-              subtitle='Crafting a Luxurious Aesthetic'
+              title='Dahua Technology'
+              subtitle='EMPOWERING THE FUTURE – Dahua & SI Partners Strategic Conference | Driving Innovation and Strategic Collaboration'
             >
               <Spacing lg='40' md='20' />
               <h2 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Project Overview </h2>
               <p>
-                For the GROHE Showroom, the goal was to move beyond a typical retail layout and create an immersive Product Display Experience. We designed a space where world-class sanitary technology meets high-end interior luxury. The showroom isn't just a store; it’s a gallery that invites clients to touch, feel, and experience the water-saving innovation and sleek design GROHE is known for.
+                The EMPOWERING THE FUTURE – Dahua & SI Partners Strategic Conference in Fujairah brought together Dahua Technology and its System Integrator (SI) partners to align on innovation, growth strategies, and future collaboration.
+                The event showcased Dahua’s latest AIoT and smart security solutions while providing a platform for industry dialogue, knowledge sharing, and partnership development within the regional ecosystem
               </p>
               <Spacing lg='10' md='10' />
-              <h2 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Our Approach: From Concept to Reality</h2>
+              <h2 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Our Approach: From Concept to Engagement</h2>
               <p>
-                We believe a showroom should be an aspirational journey, so we treated every faucet and showerhead as a individual piece of art. By moving away from cluttered shelving, we created curated vignettes and miniature luxury bathrooms that allow customers to easily visualize the products in their own homes. By balancing "high-tech" functionality with "high-touch" premium finishes, we designed a natural flow that guides visitors from initial curiosity to a deep appreciation for the brand’s craftsmanship.
+                We designed the conference to strengthen collaboration between Dahua and its SI partners through strategic discussions and interactive engagement sessions.
+                The event featured technology showcases highlighting Dahua’s innovations, along with focused workshops that encouraged co-innovation, joint planning, and alignment on future market strategies.
               </p>
             </SectionHeading>
           </Div>
@@ -49,41 +50,33 @@ export default function PortfolioDetailsPage() {
             <Div className="row">
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Category:</h3>
-                <p className='cs-m0'>PR, Event Management & Digital Marketing</p>
+                <p className='cs-m0'>Event Management</p>
                 <Spacing lg='30' md='30' />
               </Div>
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Location:</h3>
-                <p className='cs-m0'>Bahrain, Iraq, Jordan, Kuwait, Oman, Pakistan, Qatar & UAE</p>
+                <p className='cs-m0'>Fujairah, UAE</p>
                 <Spacing lg='30' md='30' />
               </Div>
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Scope:</h3>
-                <p className='cs-m0'> Retail Bathroom & Sanitary Showroom Interiors</p>
+                <p className='cs-m0'>Strategic Conference & Partner Engagement</p>
                 <Spacing lg='30' md='30' />
               </Div>
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Dated:</h3>
-                <p className='cs-m0'>March 2023</p>
+                <p className='cs-m0'>February 2024</p>
                 <Spacing lg='30' md='30' />
               </Div>
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Client:</h3>
-                <p className='cs-m0'>GROHE</p>
+                <p className='cs-m0'> Dahua Technology Middle Eest FZE</p>
                 <Spacing lg='30' md='30' />
               </Div>
             </Div>
           </Div>
         </Div>
         <Div className="row">
-          <Div className="col-lg-4">
-            <Image
-              src={aboutImg1}
-              alt="About"
-              className="w-100 cs-radius_15"
-            />
-            <Spacing lg="25" md="25" />
-          </Div>
           <Div className="col-lg-4">
             <Image
               src={aboutImg2}
@@ -100,29 +93,22 @@ export default function PortfolioDetailsPage() {
             />
             <Spacing lg="25" md="25" />
           </Div>
+          <Div className="col-lg-4">
+            <Image
+              src={aboutImg1}
+              alt="About"
+              className="w-100 cs-radius_15"
+            />
+            <Spacing lg="25" md="25" />
+          </Div>1
         </Div>
-
-
-        {/* Start Video Block Section */}
-        <Spacing lg="130" md="70" />
-        <Div className="container">
-          <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
-            Watch our Projects Heighlights.
-          </h2>
-          <Spacing lg="70" md="70" />
-          <VideoModal
-            videoSrc="https://www.youtube.com/watch?v=ikZx2Joae60"
-            bgUrl="/images/projects/grohe.png"
-          />
-        </Div>
-        {/* End Video Block Section */}
         <Spacing lg='65' md='10' />
         <Div className="cs-page_navigation cs-center">
           <Div>
-            <Button btnLink='/portfolio/aluha' btnText='Prev Project' variant='cs-type1' />
+            <Button btnLink='/portfolio/hanif' btnText='Prev Project' variant='cs-type1' />
           </Div>
           <Div>
-            <Button btnLink='/portfolio/hanif' btnText='Next Project' />
+            <Button btnLink='/portfolio/grohe' btnText='Next Project' />
           </Div>
         </Div>
       </Div>

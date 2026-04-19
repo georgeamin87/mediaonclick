@@ -10,10 +10,10 @@ import { useState } from "react";
 
 const portfolioData = [
   {
-    title: 'Dahua Technology',
+    title: 'Al Kabayel Prime Show 2025',
     subtitle: 'See Details',
-    href: '/portfolio/aluha',
-    src: '/images/projects/aluha.png',
+    href: '/portfolio/kabayel',
+    src: '/images/projects/kabayel/kabayel 1.webp',
     category: 'event_managment',
   },
   {
@@ -24,6 +24,27 @@ const portfolioData = [
     category: 'digital_marketing',
   },
   {
+    title: 'Kohler Al Hashimiya Opening Event',
+    subtitle: 'See Details',
+    href: '/portfolio/kohler',
+    src: '/images/projects/kohler.webp',
+    category: 'event_managment',
+  },
+  {
+    title: 'MultiBank Group Gala',
+    subtitle: 'See Details',
+    href: '/portfolio/multibank-group-gala',
+    src: '/images/projects/snapinsta.jpg',
+    category: 'event_managment',
+  },
+  {
+    title: 'Dubai Police',
+    subtitle: 'See Details',
+    href: '/portfolio/dubai-police',
+    src: '/images/projects/dubai police/2.webp',
+    category: 'event_managment',
+  },
+  {
     title: 'Hanif',
     subtitle: 'See Details',
     href: '/portfolio/hanif',
@@ -31,10 +52,10 @@ const portfolioData = [
     category: 'pr_publication',
   },
   {
-    title: 'MultiBank Group Gala',
+    title: 'Walid Atallah',
     subtitle: 'See Details',
-    href: '/portfolio/multibank-group-gala',
-    src: '/images/projects/snapinsta.jpg',
+    href: '/portfolio/walid-atallah',
+    src: '/images/projects/walid event.png',
     category: 'event_managment',
   },
   {
@@ -52,10 +73,10 @@ const portfolioData = [
     category: 'pr_publication',
   },
   {
-    title: 'Walid Atallah',
+    title: 'Dahua Technology',
     subtitle: 'See Details',
-    href: '/portfolio/walid-atallah',
-    src: '/images/projects/walid event.png',
+    href: '/portfolio/daluha',
+    src: '/images/projects/aluha.png',
     category: 'event_managment',
   },
   {
@@ -79,6 +100,7 @@ const portfolioData = [
     src: '/images/projects/hazar.jpg',
     category: 'pr_publication',
   },
+
 ];
 const categoryMenu = [
   {
