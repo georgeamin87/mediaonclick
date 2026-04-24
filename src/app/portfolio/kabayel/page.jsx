@@ -27,15 +27,22 @@ export default function PortfolioDetailsPage() {
           <Div className="col-lg-6">
             <SectionHeading
               title=' Al Kabayel Prime Opening Event'
-              subtitle='Driving Innovation and Strategic Collaboration'
+              subtitle='Strengthening Brand Presence Through Strategic Activations'
             >
               <Spacing lg='40' md='20' />
               <p>
-                The Al Kabayel Prime Opening Event marked the official launch of the brand’s new location in Dubai Investment Park, positioning the company as a key supplier in construction materials and home solutions. The event brought together partners, clients, and stakeholders to introduce the brand, showcase its product range, and establish strong market presence within a key commercial hub. The opening served as both a brand launch and a strategic networking platform to support future business growth and partnerships.
+                Al Kabayel Prime partnered with us across multiple initiatives to establish and strengthen its presence in Dubai Investment Park. Each project was designed to serve a distinct objective—introducing the brand to the market and sustaining visibility through targeted campaigns.
               </p>
               <Spacing lg='10' md='10' />
               <p>
-                We approached the event as a strategic brand launch rather than a traditional opening, focusing on creating a professional and engaging experience for partners and customers. The event was designed to highlight the brand’s product offerings through a curated setup and guided customer journey, while also providing networking opportunities for stakeholders and business partners. From event branding and setup to guest experience and the opening ceremony, every element was planned to ensure a smooth launch, strong brand presentation, and meaningful engagement with attendees.
+                The Grand Opening Event in September 2025 marked the official launch of the brand, bringing together key stakeholders, partners, and clients. The event served as a platform to showcase product offerings, build credibility, and create meaningful business connections within the industry.
+              </p>
+              <p>
+                Following the launch, the Ramadan Roaming Truck Campaign in March 2026 extended the brand’s reach beyond its physical location. Through a mobile advertising approach, Al Kabayel Prime engaged wider audiences across Dubai with culturally relevant visuals and high-frequency exposure during a key seasonal period.
+              </p>
+              <Spacing lg='10' md='10' />
+              <p>
+                Together, these initiatives reflect a strategic approach to both brand introduction and sustained market visibility.
               </p>
             </SectionHeading>
           </Div>
@@ -51,17 +58,17 @@ export default function PortfolioDetailsPage() {
               </Div>
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Location:</h3>
-                <p className='cs-m0'>Dubai, UAE</p>
+                <p className='cs-m0'>DIP, Dubai</p>
                 <Spacing lg='30' md='30' />
               </Div>
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Scope:</h3>
-                <p className='cs-m0'>Grand Opening Event & Brand Launc</p>
+                <p className='cs-m0'>Event Launch & Marketing Campaigns</p>
                 <Spacing lg='30' md='30' />
               </Div>
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Dated:</h3>
-                <p className='cs-m0'>2025</p>
+                <p className='cs-m0'>September 2025 (Grand Opening) – March 2026 (Roaming Truck)</p>
                 <Spacing lg='30' md='30' />
               </Div>
               <Div className="col-6">
@@ -92,6 +99,26 @@ export default function PortfolioDetailsPage() {
             <Spacing lg="25" md="25" />
           </Div>
         </Div>
+
+        <Div className="row">
+          <SectionHeading
+            title='From Concept to Engagement'
+            subtitle='Our Approach'
+          ></SectionHeading>
+          <Div className="col-lg-6">
+            <Spacing lg='40' md='20' />
+            <p>
+              We approached each initiative with a clear understanding of its role within the brand’s growth journey. For the opening event, we focused on delivering a structured and impactful launch experience that balanced strong brand presentation with meaningful stakeholder engagement. We curated the setup, branding, and guest journey to effectively showcase the company’s offerings while fostering valuable business connections.
+            </p>
+          </Div>
+          <Div className="col-lg-5 offset-lg-1">
+            <Spacing lg='40' md='20' />
+            <p>For the Ramadan campaign, we shifted to a mobility-driven strategy, transforming a standard truck into a visually engaging brand asset. We developed a creative direction rooted in culturally relevant Ramadan elements and carefully planned routes across high-traffic areas to maximize visibility and repetition. We also ensured clear and accessible messaging to support both brand recall and direct customer engagement.
+
+            </p>
+          </Div>
+        </Div>
+
         {/* Start Video Block Section */}
         <Spacing lg="130" md="70" />
         <Div className="container">
@@ -115,7 +142,7 @@ export default function PortfolioDetailsPage() {
             <Button btnLink='/portfolio/design-middle-east-awards-2023' btnText='Next Project' />
           </Div>
         </Div>
-      </Div>
+      </Div >
 
       <Spacing lg="150" md="80" />
 

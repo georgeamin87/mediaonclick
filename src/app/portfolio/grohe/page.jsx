@@ -27,52 +27,33 @@ export default function PortfolioDetailsPage() {
         <Div className="row">
           <Div className="col-lg-6">
             <SectionHeading
-              title='GROHE Showroom – Interior Design & Product Display Experience'
-              subtitle='Crafting a Luxurious Aesthetic'
+              title='GROHE Experiential Events, Retail Design & Brand Activation'
+              subtitle='Delivering Immersive Brand Experiences Across Multiple Touchpoints'
             >
               <Spacing lg='40' md='20' />
               <h2 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Project Overview </h2>
               <p>
-                For the GROHE Showroom, the goal was to move beyond a typical retail layout and create an immersive Product Display Experience. We designed a space where world-class sanitary technology meets high-end interior luxury. The showroom isn't just a store; it’s a gallery that invites clients to touch, feel, and experience the water-saving innovation and sleek design GROHE is known for.
+                GROHE partnered with us across a series of integrated initiatives designed to strengthen its presence in the region through immersive brand experiences, retail environments, and consumer activations. Each project was developed to engage a distinct audience while reinforcing the brand’s core values of innovation, design, and premium quality
               </p>
               <Spacing lg='10' md='10' />
               <h2 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Our Approach: From Concept to Reality</h2>
               <p>
-                We believe a showroom should be an aspirational journey, so we treated every faucet and showerhead as a individual piece of art. By moving away from cluttered shelving, we created curated vignettes and miniature luxury bathrooms that allow customers to easily visualize the products in their own homes. By balancing "high-tech" functionality with "high-touch" premium finishes, we designed a natural flow that guides visitors from initial curiosity to a deep appreciation for the brand’s craftsmanship.
+                The GROHE Journey at Anantara World Islands Resort offered an exclusive, invitation-only experience for architects, interior designers, and industry professionals. Set in a unique island destination, the event combined industry engagement with lifestyle elements, featuring curated boat transfers, a gala dinner, live entertainment, and a drone show to create a memorable brand moment.
               </p>
             </SectionHeading>
           </Div>
+
           <Div className="col-lg-5 offset-lg-1">
             <Spacing lg='60' md='40' />
-            <h2 className='cs-font_30 cs-font_26_sm cs-m0'>Project Info -</h2>
-            <Spacing lg='50' md='30' />
-            <Div className="row">
-              <Div className="col-6">
-                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Category:</h3>
-                <p className='cs-m0'>PR, Event Management & Digital Marketing</p>
-                <Spacing lg='30' md='30' />
-              </Div>
-              <Div className="col-6">
-                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Location:</h3>
-                <p className='cs-m0'>Bahrain, Iraq, Jordan, Kuwait, Oman, Pakistan, Qatar & UAE</p>
-                <Spacing lg='30' md='30' />
-              </Div>
-              <Div className="col-6">
-                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Scope:</h3>
-                <p className='cs-m0'> Retail Bathroom & Sanitary Showroom Interiors</p>
-                <Spacing lg='30' md='30' />
-              </Div>
-              <Div className="col-6">
-                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Dated:</h3>
-                <p className='cs-m0'>March 2023</p>
-                <Spacing lg='30' md='30' />
-              </Div>
-              <Div className="col-6">
-                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Client:</h3>
-                <p className='cs-m0'>GROHE</p>
-                <Spacing lg='30' md='30' />
-              </Div>
-            </Div>
+            <p>
+              Expanding into physical retail, the GROHE Showroom Experience redefined traditional showroom environments across multiple markets including Bahrain, Iraq, Jordan, Kuwait, Oman, Pakistan, Qatar, and the UAE. The concept transformed product displays into immersive, gallery-like spaces, allowing customers to interact with GROHE’s technology within refined, lifestyle-inspired settings.
+            </p>
+            <p>
+              Complementing these initiatives, the GROHE Water Stories Activation brought the brand directly into communities through multi-location experiences across City Walk, Dubai Ladies Club, Mudon Community, and Jumeirah Park Pavilion. The activation focused on everyday water interactions in kitchens and bathrooms, enabling visitors to engage with products through realistic, hands-on demonstrations.
+            </p>
+            <p>
+              Together, these initiatives created a cohesive brand ecosystem—spanning exclusive events, permanent retail spaces, and mobile activations—to enhance both professional engagement and consumer interaction.
+            </p>
           </Div>
         </Div>
         <Div className="row">
@@ -102,7 +83,63 @@ export default function PortfolioDetailsPage() {
           </Div>
         </Div>
 
-
+        <Div className="row">
+          <Div className="col-lg-6">
+            <SectionHeading
+              title='From Concept to Engagement'
+              subtitle='Our Approach'
+            >
+              <Spacing lg='40' md='20' />
+              <p>
+                We approached GROHE’s projects as a connected brand journey, ensuring consistency in storytelling while tailoring each experience to its specific audience and environment.
+              </p>
+              <p>
+                For the GROHE Journey, we designed a seamless, end-to-end guest experience, managing every detail from transportation logistics to on-site programming. We balanced professional networking with premium hospitality, integrating entertainment and a drone show to deliver a visually impactful and memorable event.
+              </p>
+              <p>
+                For the showroom environments, we shifted from traditional retail layouts to curated experiential spaces. We treated each product as a design feature, creating aspirational vignettes that allow customers to visualize real-life applications while appreciating the craftsmanship and innovation behind the brand.
+              </p>
+              <p>
+                For the Water Stories activation, we focused on interactivity and accessibility. We designed hands-on zones that transform everyday routines into engaging experiences, allowing visitors to directly connect with the functionality and design of GROHE products in familiar, lifestyle-driven settings.
+              </p>
+              <p>
+                By integrating event experiences, retail design, and community activations, we enabled GROHE to engage its audience across multiple touchpoints, building awareness, deepening interaction, and reinforcing its position as a leader in water innovation.
+              </p>
+            </SectionHeading>
+          </Div>
+          <Div className="col-lg-5 offset-lg-1">
+            <Spacing lg='180' md='40' />
+            <h2 className='cs-font_30 cs-font_26_sm cs-m0'>Project Info -</h2>
+            <Spacing lg='50' md='30' />
+            <Div className="row">
+              <Div className="col-6">
+                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Category:</h3>
+                <p className='cs-m0'>PR, Event Management & Digital Marketing</p>
+                <Spacing lg='30' md='30' />
+              </Div>
+              <Div className="col-6">
+                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Location:</h3>
+                <p className='cs-m0'>UAE & Regional Markets</p>
+                <Spacing lg='30' md='30' />
+              </Div>
+              <Div className="col-6">
+                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Scope:</h3>
+                <p className='cs-m0'>Experiential Events, Retail Design & Brand Activation</p>
+                <Spacing lg='30' md='30' />
+              </Div>
+              <Div className="col-6">
+                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Dated:</h3>
+                <p className='cs-m0'>February 2023 (Grohe Journey) & November & October 2024 (Brand Activation) & 2023-2026 (Showroom Interior Designing)</p>
+                <Spacing lg='30' md='30' />
+              </Div>
+              <Div className="col-6">
+                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Client:</h3>
+                <p className='cs-m0'>GROHE</p>
+                <Spacing lg='30' md='30' />
+              </Div>
+            </Div>
+          </Div>
+        </Div>
         {/* Start Video Block Section */}
         <Spacing lg="130" md="70" />
         <Div className="container">

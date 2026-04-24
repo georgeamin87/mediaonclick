@@ -101,7 +101,7 @@ export default function PortfolioDetailsPage() {
               className="w-100 cs-radius_15"
             />
             <Spacing lg="25" md="25" />
-          </Div>1
+          </Div>
         </Div>
         {/* Start Video Block Section */}
         <Spacing lg="130" md="70" />
