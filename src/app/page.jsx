@@ -80,7 +80,7 @@ const portfolioData = [
   {
     title: 'DAHUA Technology',
     subtitle: 'See Details',
-    href: '/portfolio/aluha',
+    href: '/portfolio/daluha',
     src: '/images/portfolio_11.png',
   },
   {
@@ -90,13 +90,13 @@ const portfolioData = [
     src: '/images/projects/grohe.png',
   },
   {
-    title: 'Hanif',
+    title: 'Hanif Jewellery & Watches',
     subtitle: 'See Details',
     href: '/portfolio/hanif',
     src: '/images/projects/hanif.jpg',
   },
   {
-    title: 'MultiBank',
+    title: 'MultiBank Group',
     subtitle: 'See Details',
     href: '/portfolio/multibank-group-gala',
     src: '/images/projects/snapinsta.jpg',
