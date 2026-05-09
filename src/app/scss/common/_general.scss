@@ -688,6 +688,17 @@ label {
 
 .cs-fixed_bg {
   background-attachment: fixed;
+  @supports (-webkit-touch-callout: none) {
+    background-attachment: scroll !important;
+    background-position: center center !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .cs-fixed_bg {
+    background-attachment: scroll !important;
+    background-position: center center !important;
+  }
 }
 
 .cs-parallax [class*='cs-to_'],
