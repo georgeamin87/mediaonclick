@@ -29,7 +29,7 @@ const showcaseData = [
   {
     introTitle: 'Get to Know MediaOnClick',
     title: 'About Us',
-    videoUrl: '/video/Moc.mp4',
+    videoUrl: '/video/moc.mp4',
     href: '/case-study/case-study-details',
   },
 ];
