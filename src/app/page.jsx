@@ -165,14 +165,14 @@ export default function Home() {
     <>
       {/* Start Hero Section */}
       <Hero
-        title="Media OnClick<br/>360° PR, Media & Events Partner"
-        subtitle="We help brands grow visibility, build reputation, and create unforgettable experiences through expert public relations, strategic digital marketing, event management and influencer campaigns — all tailored to your business goals."
+        title="<span >Media OnClick</span><br/><div class='cs-hero_title_sub' style='color: inherit; line-height: 1.2;'>PR, Media Buying, Events &<br/>Influencer Marketing Agency</div>"
+        subtitle="We create influential brand experiences through refined PR strategies, targeted media buying, exceptional events, and curated influencer collaborations — designed to position your brand where it belongs."
         btnText="Get a Quote"
         btnLink="/contact"
         scrollDownId="#service"
         socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}
-        bgImageUrl="/images/hero_bg.jpeg"
+        bgImageUrl="/images/mocbackground.png"
       />
       {/* End Hero Section */}
 
@@ -197,6 +197,19 @@ export default function Home() {
       </Div>
       {/* End LogoList Section */}
 
+      {/* Start GCC Region Section */}
+      <Spacing lg="100" md="50" />
+      <Div className="container text-center">
+        <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
+          Covering the GCC Region and Clients Worldwide
+        </h2>
+        <Spacing lg="30" md="20" />
+        <p className="cs-m0" style={{ fontSize: '18px', lineHeight: '1.6', maxWidth: '900px', margin: '0 auto' }}>
+          We provide unparalleled PR and Media Buying services across the entire GCC region, including the <strong>United Arab Emirates, Saudi Arabia, Qatar, Kuwait, Bahrain, and Oman</strong>. Our global reach extends to clients all over the world, delivering impactful brand experiences tailored to your audience.
+        </p>
+      </Div>
+      {/* End GCC Region Section */}
+
       {/* Start VideoModalSlider Section */}
       <Spacing lg="150" md="80" />
       <Div>
@@ -211,9 +224,9 @@ export default function Home() {
           <Div className="row">
             <Div className="col-xl-4">
               <SectionHeading
-                title="Services we can help you with"
-                subtitle="What Can We Do"
-                btnText="See All Services"
+                title="Services Designed To Grow Your Brand"
+                subtitle="Creative That Converts"
+                btnText="Explore All Services"
                 btnLink="/service"
               />
               <Spacing lg="90" md="45" />
@@ -314,7 +327,7 @@ export default function Home() {
         </h2>
         <Spacing lg="70" md="70" />
         <VideoModal
-          videoSrc="https://www.youtube.com/watch?v=7QNE8TCadiM"
+          videoSrc="https://www.youtube.com/watch?v=ikZx2Joae60"
           bgUrl="/images/video_bg.jpeg"
         />
       </Div>
@@ -357,29 +370,7 @@ export default function Home() {
       {/* End Testimonial Section */}
 
       {/* Start Blog Section */}
-      <Spacing lg="150" md="80" />
-      <Div className="cs-shape_wrap_4">
-        <Div className="cs-shape_4"></Div>
-        <Div className="cs-shape_4"></Div>
-        <Div className="container">
-          <Div className="row">
-            <Div className="col-xl-4">
-              <SectionHeading
-                title="Explore recent publication"
-                subtitle="Our Blog"
-                btnText="View More Blog"
-                btnLink="/blog"
-              />
-              <Spacing lg="90" md="45" />
-            </Div>
-            <Div className="col-xl-7 offset-xl-1">
-              <Div className="cs-half_of_full_width">
-                <PostSlider />
-              </Div>
-            </Div>
-          </Div>
-        </Div>
-      </Div>
+
       {/* End Blog Section */}
 
       <Spacing lg="200" md="70" />
@@ -489,7 +480,7 @@ export default function Home() {
       {/* Start CTA Section */}
       <Div className="container">
         <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
+          title="Let’s Discuss & Make <br />Something <i>Cool</i> Together"
           btnText="Apply For Meeting"
           btnLink="/contact"
           bgSrc="/images/cta_bg.jpeg"

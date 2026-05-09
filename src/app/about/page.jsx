@@ -7,10 +7,10 @@ import PageHeading from "@/app/ui/PageHeading";
 import SectionHeading from "@/app/ui/SectionHeading";
 import TeamSlider from "@/app/ui/Slider/TeamSlider";
 import Spacing from "@/app/ui/Spacing";
-import aboutImg from '../../../public/images/about_img_1.jpeg'
-import aboutImg2 from '../../../public/images/about_img_2.jpeg'
+import aboutImg from '../../../public/images/about_img_1.webp'
+import aboutImg2 from '../../../public/images/about_img_21.webp'
 import aboutImg3 from '../../../public/images/about_img_3.jpeg'
-import aboutImg4 from '../../../public/images/team/team.jpg'
+import aboutImg4 from '../../../public/images/team/team.webp'
 import Hero13 from "@/app/ui/Hero/Hero13";
 
 
@@ -29,7 +29,7 @@ const showcaseData = [
   {
     introTitle: 'Get to Know MediaOnClick',
     title: 'About Us',
-    videoUrl: '/video/dubai.mp4',
+    videoUrl: '/video/Moc.mp4',
     href: '/case-study/case-study-details',
   },
 ];
@@ -148,7 +148,7 @@ export default function AboutPage() {
           </Div>
           <Div className="col-xl-5 offset-xl-1 col-lg-6">
             <SectionHeading
-              title="Highly experienced people with us"
+              title="Highly Experienced People With Us"
               subtitle="Why Choose Us"
             >
               <Spacing lg="30" md="20" />

@@ -91,6 +91,14 @@
     span {
       color: $accent;
     }
+
+    .cs-hero_title_sub {
+      font-size: 45px;
+      
+      @media (max-width: 991px) {
+        font-size: 22px;
+      }
+    }
   }
 
   .cs-hero_subtitle {
@@ -796,7 +804,7 @@
     min-height: 680px;
 
     .cs-hero_info {
-      flex-direction: column-reverse;
+      flex-direction: column;
       align-items: flex-start;
     }
 

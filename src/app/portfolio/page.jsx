@@ -59,10 +59,10 @@ const portfolioData = [
     category: 'event_managment',
   },
   {
-    title: 'Design Middle East Awards 2023',
+    title: 'Homes R Us',
     subtitle: 'See Details',
-    href: '/portfolio/design-middle-east-awards-2023',
-    src: '/images/projects/middle.jpg',
+    href: '/portfolio/homes-r-us',
+    src: '/images/projects/homesrus.jpg',
     category: 'digital_marketing',
   },
   {
@@ -80,27 +80,12 @@ const portfolioData = [
     category: 'event_managment',
   },
   {
-    title: 'Al Mi La',
+    title: 'Design Middle East Awards 2023',
     subtitle: 'See Details',
-    href: '/portfolio/al-mi-la',
-    src: '/images/projects/almila.jpg',
-    category: 'event_managment',
-  },
-  {
-    title: 'Homes R Us',
-    subtitle: 'See Details',
-    href: '/portfolio/homes-r-us',
-    src: '/images/projects/homesrus.jpg',
+    href: '/portfolio/design-middle-east-awards-2023',
+    src: '/images/projects/middle.jpg',
     category: 'digital_marketing',
   },
-  {
-    title: 'HAZAR Trunk Show 2024',
-    subtitle: 'See Details',
-    href: '/portfolio/hazar-trunk-show-2024',
-    src: '/images/projects/hazar.jpg',
-    category: 'pr_publication',
-  },
-
 ];
 const categoryMenu = [
   {

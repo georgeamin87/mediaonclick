@@ -8,8 +8,11 @@ import Spacing from "@/app/ui/Spacing";
 import Image from "next/image";
 import VideoModal from "@/app/ui/VideoModal";
 import imgUrl from '../../../../public/images/projects/kabayel/kabayel 1.webp';
-import aboutImg2 from '../../../../public/images/projects/kabayel/kabayel 3.webp'
-import aboutImg3 from '../../../../public/images/projects/kabayel/kabayel 2.webp'
+import aboutImg2 from '../../../../public/images/projects/kabayel/start.webp';
+import aboutImg3 from '../../../../public/images/projects/kabayel/2.webp';
+import aboutImg4 from '../../../../public/images/projects/kabayel/3.webp';
+import aboutImg5 from '../../../../public/images/projects/kabayel/truck.webp'
+
 
 export default function PortfolioDetailsPage() {
   return (
@@ -82,7 +85,7 @@ export default function PortfolioDetailsPage() {
 
 
         <Div className="row">
-          <Div className="col-lg-6">
+          <Div className="col-lg-3">
             <Image
               src={aboutImg2}
               alt="About"
@@ -90,9 +93,25 @@ export default function PortfolioDetailsPage() {
             />
             <Spacing lg="25" md="25" />
           </Div>
-          <Div className="col-lg-6">
+          <Div className="col-lg-3">
             <Image
               src={aboutImg3}
+              alt="About"
+              className="w-100 cs-radius_15"
+            />
+            <Spacing lg="25" md="25" />
+          </Div>
+          <Div className="col-lg-3">
+            <Image
+              src={aboutImg4}
+              alt="About"
+              className="w-100 cs-radius_15"
+            />
+            <Spacing lg="25" md="25" />
+          </Div>
+          <Div className="col-lg-3">
+            <Image
+              src={aboutImg5}
               alt="About"
               className="w-100 cs-radius_15"
             />

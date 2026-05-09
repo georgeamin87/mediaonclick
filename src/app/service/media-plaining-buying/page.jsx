@@ -5,7 +5,7 @@ import Div from '@/app/ui/Div'
 import Spacing from '@/app/ui/Spacing'
 import SectionHeading from '@/app/ui/SectionHeading'
 import Cta from '@/app/ui/Cta'
-import aboutImg4 from '/public/images/services/pr.jpg'
+import aboutImg4 from '/public/images/services/pr-moc.jpeg'
 import aboutImg5 from '/public/images/team/team.jpg'
 import PortfolioSlider from '@/app/ui/Slider/PortfolioSlider';
 // Portfolio Data
@@ -47,6 +47,14 @@ export default function ServiceDetails() {
       'Cost-efficient ad placement strategies',
       'Performance analytics and ROI tracking'
     ],
+    subservices: [
+      'Radio Campaigns',
+      'Social News Campaigns',
+      'TV Interviews',
+      'OOH Advertising (Out-of-Home)',
+      'Taxi Advertising Campaigns',
+      'Roaming Truck Campaigns'
+    ],
     process: [
       { title: 'Research', desc: 'Understanding your target audience and market landscape' },
       { title: 'Planning', desc: 'Developing a customized media strategy' },
@@ -67,7 +75,7 @@ export default function ServiceDetails() {
       {/* Start Service Overview Section */}
       <Div className='container'>
         <Div className='row'>
-          <Div className='col-xl-5 col-lg-6'>
+          <Div className='col-xl-4 col-lg-5'>
             <Div className='cs-image_layer cs-style1'>
               <Div className='cs-image_layer_in'>
                 <Image
@@ -79,7 +87,7 @@ export default function ServiceDetails() {
             </Div>
             <Spacing lg='0' md='40' />
           </Div>
-          <Div className='col-xl-5 offset-xl-1 col-lg-6'>
+          <Div className='col-xl-6 offset-xl-1 col-lg-7'>
             <SectionHeading
               title='Strategic Media Planning & Buying'
               subtitle='Service Overview'
@@ -88,19 +96,38 @@ export default function ServiceDetails() {
               <p className='cs-m0'>
                 {details.description}
               </p>
-              <Spacing lg='30' md='30' />
-              <h3 className='cs-font_30 cs-m0'>Key Features</h3>
-              <Spacing lg='20' md='15' />
-              <ul className='cs-list cs-style1 cs-mp0'>
-                {details.features.map((feature, index) => (
-                  <li key={index}>
-                    <span className='cs-accent_color'>✓</span> {feature}
-                  </li>
-                ))}
-              </ul>
-              <Spacing lg='30' md='30' />
-              <Div className='cs-separator cs-accent_bg'></Div>
-              <Spacing lg='25' md='0' />
+              <div className="row">
+                <Div className='col-xl-6'>
+                  <Spacing lg='30' md='30' />
+                  <h3 className='cs-font_30 cs-m0'>Sub-Services</h3>
+                  <Spacing lg='20' md='15' />
+                  <ul className='cs-list cs-style1 cs-mp0'>
+                    {details.subservices.map((feature, index) => (
+                      <li key={index}>
+                        <span className='cs-accent_color'>✓</span> {feature}
+                      </li>
+                    ))}
+                  </ul>
+                  <Spacing lg='30' md='30' />
+                  <Div className='cs-separator cs-accent_bg'></Div>
+                  <Spacing lg='25' md='0' />
+                </Div>
+                <Div className='col-xl-6'>
+                  <Spacing lg='30' md='30' />
+                  <h3 className='cs-font_30 cs-m0'>Key Features</h3>
+                  <Spacing lg='20' md='15' />
+                  <ul className='cs-list cs-style1 cs-mp0'>
+                    {details.features.map((feature, index) => (
+                      <li key={index}>
+                        <span className='cs-accent_color'>✓</span> {feature}
+                      </li>
+                    ))}
+                  </ul>
+                  <Spacing lg='30' md='30' />
+                  <Div className='cs-separator cs-accent_bg'></Div>
+                  <Spacing lg='25' md='0' />
+                </Div>
+              </div>
             </SectionHeading>
           </Div>
         </Div>

@@ -27,11 +27,12 @@ export default function Hero({
           <h1 className="cs-hero_title">{parse(title)}</h1>
           <Div className="cs-hero_info">
             <Div>
-              <Button btnLink={btnLink} btnText={btnText} />
-            </Div>
-            <Div>
               <Div className="cs-hero_subtitle">{subtitle}</Div>
             </Div>
+            <Div>
+              <Button btnLink={btnLink} btnText={btnText} />
+            </Div>
+
           </Div>
         </Div>
       </Div>

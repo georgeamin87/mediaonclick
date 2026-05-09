@@ -7,38 +7,44 @@ import SectionHeading from "@/app/ui/SectionHeading";
 import Spacing from "@/app/ui/Spacing";
 import Image from "next/image";
 import VideoModal from "@/app/ui/VideoModal";
-import imgUrl from '../../../../public/images/projects/kohler.webp';
-import aboutImg1 from '../../../../public/images/projects/kohlerh/1.webp'
-import aboutImg2 from '../../../../public/images/projects/kohlerh/2.webp'
-import aboutImg3 from '../../../../public/images/projects/kohlerh/3.webp'
+import imgUrl from '../../../../public/images/projects/walid/walid1.webp';
+import aboutImg2 from '../../../../public/images/projects/walid/walid2.webp'
+import aboutImg3 from '../../../../public/images/projects/walid/walid3.webp'
+import aboutImg1 from '../../../../public/images/projects/walid/walid1.webp'
 
 export default function PortfolioDetailsPage() {
   return (
     <>
       <PageHeading
-        title='Kohler Grand Opening Event'
+        title='Walid Atallah'
         bgSrc='/images/service_hero_bg.jpeg'
-        pageLinkText='PORTFOLIO - Kohler X Al Hashimiya Opening Event'
+        pageLinkText='PORTFOLIO - Walid Atallah × Al Huzaifa Furniture'
       />
       <Spacing lg='150' md='80' />
       <Div className="container">
-        <Image src={imgUrl} alt="Grohe Case Study" placeholder="blur" className="cs-radius_15 w-100" />
+        <Image src={imgUrl} alt="Dahua Case Study" placeholder="blur" className="cs-radius_15 w-100" />
         <Spacing lg='90' md='40' />
         <Div className="row">
           <Div className="col-lg-6">
             <SectionHeading
-              title='Kohler X Al Hashimiya Opening Event'
-              subtitle='A Grand Unveiling of Design Experiences'
+              title='Walid Atallah Fashion Show'
+              subtitle='Bringing Fashion and Interior Design Together'
             >
               <Spacing lg='40' md='20' />
               <h2 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Project Overview </h2>
               <p>
-                The Kohler x Al Hashimiya Opening Event celebrated the launch of another branch, bringing together executives, key stakeholders, and interior designers. The event was designed as an exclusive meet-and-greet, allowing guests to connect directly with the leadership team and experience the new space. Every element of the opening emphasized the brand’s commitment to excellence, collaboration, and creating meaningful engagement with its people.
+                A unique collaboration between renowned fashion designer Walid Atallah and Al Huzaifa Furniture brought together the worlds of haute couture and interior design in an exclusive runway event held in Dubai.
+                Hosted within the Al Huzaifa showroom, the event featured a curated wedding gown fashion show, showcasing a collection of elegant bridal and couture designs presented in a sophisticated, lifestyle-driven setting. The concept merged fashion with furniture, allowing guests to experience both design disciplines in one cohesive environment.
+                The event welcomed VIP guests, media, influencers, and designers, creating a high-profile gathering that celebrated creativity, craftsmanship, and collaboration across industries.
               </p>
               <Spacing lg='10' md='10' />
-              <h2 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Our Approach: From Conversation to Immersive Experience</h2>
+              <h2 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Our Approach: Delivering a Seamless Gala Experience</h2>
               <p>
-                We crafted the event to ensure a seamless flow, balancing formality with approachability to create an intimate and engaging environment. The layout and presentation of the new branch encouraged natural interaction among executives, employees, and guests. By focusing on thoughtful spatial design, attention to detail, and personalized engagement, we transformed the grand opening into a memorable experience that celebrated the brand, fostered connections, and set the tone for the branch’s operations.
+                We managed the event with a focus on delivering a seamless and engaging runway experience within a non-traditional venue setting.
+                We coordinated guest invitations and arrivals, ensuring a smooth experience for VIP attendees, influencers, and media representatives.
+                We structured the event flow around the runway presentation, allowing guests to fully engage with the fashion show while also exploring the showroom environment.
+                We ensured clear coordination between segments from guest reception to the main show maintaining timing and continuity throughout the evening.
+                We also created an environment that encouraged interaction, enabling guests to experience the wedding couture collection alongside the furniture displays in a natural and immersive way.
               </p>
             </SectionHeading>
           </Div>
@@ -49,7 +55,7 @@ export default function PortfolioDetailsPage() {
             <Div className="row">
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Category:</h3>
-                <p className='cs-m0'>Event Management & Branding</p>
+                <p className='cs-m0'>Event Management</p>
                 <Spacing lg='30' md='30' />
               </Div>
               <Div className="col-6">
@@ -59,31 +65,23 @@ export default function PortfolioDetailsPage() {
               </Div>
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Scope:</h3>
-                <p className='cs-m0'>  Grand Opening Event & Brand Launch</p>
+                <p className='cs-m0'>Fashion Show Event Management & Guest Experience</p>
                 <Spacing lg='30' md='30' />
               </Div>
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Dated:</h3>
-                <p className='cs-m0'>November 2025</p>
+                <p className='cs-m0'>November 2019</p>
                 <Spacing lg='30' md='30' />
               </Div>
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Client:</h3>
-                <p className='cs-m0'>Kohler</p>
+                <p className='cs-m0'> Walid Atallah × Al Huzaifa Furniture</p>
                 <Spacing lg='30' md='30' />
               </Div>
             </Div>
           </Div>
         </Div>
         <Div className="row">
-          <Div className="col-lg-4">
-            <Image
-              src={aboutImg1}
-              alt="About"
-              className="w-100 cs-radius_15"
-            />
-            <Spacing lg="25" md="25" />
-          </Div>
           <Div className="col-lg-4">
             <Image
               src={aboutImg2}
@@ -100,9 +98,15 @@ export default function PortfolioDetailsPage() {
             />
             <Spacing lg="25" md="25" />
           </Div>
+          <Div className="col-lg-4">
+            <Image
+              src={aboutImg1}
+              alt="About"
+              className="w-100 cs-radius_15"
+            />
+            <Spacing lg="25" md="25" />
+          </Div>
         </Div>
-
-
         {/* Start Video Block Section */}
         <Spacing lg="130" md="70" />
         <Div className="container">
@@ -111,18 +115,18 @@ export default function PortfolioDetailsPage() {
           </h2>
           <Spacing lg="70" md="70" />
           <VideoModal
-            videoSrc="https://www.youtube.com/watch?v=yBLDq8wEiK8"
-            bgUrl="/images/projects/kohler.webp"
+            videoSrc="https://www.youtube.com/watch?v=9ajiZx1r3kU"
+            bgUrl="/images/projects/walid/walid1.webp"
           />
         </Div>
         {/* End Video Block Section */}
         <Spacing lg='65' md='10' />
         <Div className="cs-page_navigation cs-center">
           <Div>
-            <Button btnLink='/portfolio/aluha' btnText='Prev Project' variant='cs-type1' />
+            <Button btnLink='/portfolio/hanif' btnText='Prev Project' variant='cs-type1' />
           </Div>
           <Div>
-            <Button btnLink='/portfolio/hanif' btnText='Next Project' />
+            <Button btnLink='/portfolio/grohe' btnText='Next Project' />
           </Div>
         </Div>
       </Div>

@@ -86,7 +86,7 @@ const WhatsAppFloat = () => {
           }}
         >
           <a
-            href="tel:+971552782860"
+            href="tel:+97144567122"
             style={{
               flex: 1,
               display: "flex",

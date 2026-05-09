@@ -113,7 +113,7 @@ const showcaseData = [
     {
         introTitle: 'Get to Know MediaOnClick',
         title: 'Media Partners',
-        videoUrl: '/video/dubai.mp4',
+        videoUrl: '/video/moc.mp4',
         href: '/case-study/case-study-details',
     },
 ];

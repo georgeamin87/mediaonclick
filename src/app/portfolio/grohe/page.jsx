@@ -9,8 +9,8 @@ import Image from "next/image";
 import VideoModal from "@/app/ui/VideoModal";
 import imgUrl from '../../../../public/images/projects/grohe.png';
 import aboutImg1 from '../../../../public/images/projects/grohe/UAE/1.png'
-import aboutImg2 from '../../../../public/images/projects/grohe/UAE/2.png'
-import aboutImg3 from '../../../../public/images/projects/grohe/UAE/3.png'
+import aboutImg2 from '../../../../public/images/projects/grohe/UAE/2.webp'
+import aboutImg3 from '../../../../public/images/projects/grohe/UAE/3.webp'
 
 export default function PortfolioDetailsPage() {
   return (
