@@ -7,10 +7,10 @@ import SectionHeading from "@/app/ui/SectionHeading";
 import Spacing from "@/app/ui/Spacing";
 import Image from "next/image";
 import VideoModal from "@/app/ui/VideoModal";
-import imgUrl from '../../../../public/images/projects/walid/walid1.webp';
-import aboutImg2 from '../../../../public/images/projects/walid/walid2.webp'
-import aboutImg3 from '../../../../public/images/projects/walid/walid3.webp'
-import aboutImg1 from '../../../../public/images/projects/walid/walid1.webp'
+import imgUrl from '../../../../public/images/projects/walid/Walid1.webp';
+import aboutImg2 from '../../../../public/images/projects/walid/Walid2.webp'
+import aboutImg3 from '../../../../public/images/projects/walid/Walid3.webp'
+import aboutImg1 from '../../../../public/images/projects/walid/Walid1.webp'
 
 export default function PortfolioDetailsPage() {
   return (
