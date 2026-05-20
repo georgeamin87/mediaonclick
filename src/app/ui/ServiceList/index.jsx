@@ -4,27 +4,33 @@ import Div from '../Div';
 
 const serviceData = [
   {
-    title: 'WP Development',
-    subtitle: 'We build modern, responsive WordPress websites that look great and perform even better. Designed with your brand and your users in mind.',
-    imgUrl: '/images/service_7.jpeg',
+    title: 'Digital Banners',
+    subtitle: 'High-converting banner designs optimized for websites and social platforms.',
+    imgUrl: '/images/service_7.webp',
     href: '/service/service-details',
   },
   {
-    title: 'UI/UX Design',
-    subtitle: 'We design digital interfaces that are both visually appealing and user-friendly-ensuring seamless navigation and enhanced customer experience.',
-    imgUrl: '/images/service_8.jpeg',
+    title: 'Sponsored Content',
+    subtitle: 'Value-driven sponsored articles and posts designed to build brand credibility.',
+    imgUrl: '/images/service_8.webp',
     href: '/service/service-details',
   },
   {
-    title: 'Branding',
-    subtitle: 'We craft complete branding packages-from logo design to voice and messaging-ensuring consistency across every platform and touchpoint.',
-    imgUrl: '/images/service_9.jpeg',
+    title: 'Page Takeover',
+    subtitle: 'High-impact takeovers that dominate website layouts and capture visitor attention.',
+    imgUrl: '/images/service_9.webp',
     href: '/service/service-details',
   },
   {
-    title: 'Social Ad Campaign',
-    subtitle: 'We launch and manage strategic advertising campaigns across Facebook, Instagram, Google, and TikTok-focused on conversions, awareness, and ROI.',
-    imgUrl: '/images/service_10.jpeg',
+    title: 'Digital Screens',
+    subtitle: 'Dynamic display ads designed for modern public and retail digital screens.',
+    imgUrl: '/images/service_10.webp',
+    href: '/service/service-details',
+  },
+  {
+    title: 'Programmatic',
+    subtitle: 'Automated, highly targeted campaigns optimizing reach and budget efficiency.',
+    imgUrl: '/images/service_6.jpeg',
     href: '/service/service-details',
   },
 ];

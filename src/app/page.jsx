@@ -172,7 +172,7 @@ export default function Home() {
         scrollDownId="#service"
         socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}
-        bgImageUrl="/images/mocbackground.webp"
+        bgImageUrl="/images/hero_bg.webp"
       />
       {/* End Hero Section */}
 
