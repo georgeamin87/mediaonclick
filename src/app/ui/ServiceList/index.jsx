@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Link from 'next/link';
 import Div from '../Div';
 
 const serviceData = [
@@ -47,8 +46,10 @@ export default function ServiceList({ variant }) {
           className={`cs-hover_tab ${active === index ? 'active' : ''}`}
           key={index}
           onMouseEnter={() => handelActive(index)}
+          onClick={() => handelActive(index)}
+          style={{ cursor: 'pointer' }}
         >
-          <Link href={item.href} className="cs-iconbox cs-style3">
+          <Div className="cs-iconbox cs-style3">
             <>
               <Div className="cs-image_layer cs-style1 cs-size_md">
                 <Div className="cs-image_layer_in">
@@ -78,7 +79,7 @@ export default function ServiceList({ variant }) {
                 <Div className="cs-iconbox_subtitle">{item.subtitle}</Div>
               </Div>
             </>
-          </Link>
+          </Div>
         </Div>
       ))}
     </Div>

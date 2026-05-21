@@ -28,10 +28,6 @@ const serviceMenu = [
     href: '/service/pr',
   },
   {
-    title: 'DIGITAL MARKETING',
-    href: '/service/digital-marketing',
-  },
-  {
     title: 'MEDIA PLANNING & BUYING',
     href: '/service/media-plaining-buying',
   },
