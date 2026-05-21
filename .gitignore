@@ -1,3 +1,5 @@
 .next
 node_modules
 .next/trace
+.vercel
+.env*.local

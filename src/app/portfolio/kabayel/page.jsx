@@ -8,7 +8,7 @@ import Spacing from "@/app/ui/Spacing";
 import Image from "next/image";
 import VideoModal from "@/app/ui/VideoModal";
 import imgUrl from '../../../../public/images/projects/kabayel/kabayel 1.webp';
-import aboutImg2 from '../../../../public/images/projects/kabayel/start.webp';
+import aboutImg2 from '../../../../public/images/projects/kabayel/1.webp';
 import aboutImg3 from '../../../../public/images/projects/kabayel/2.webp';
 import aboutImg4 from '../../../../public/images/projects/kabayel/3.webp';
 import aboutImg5 from '../../../../public/images/projects/kabayel/truck.webp'

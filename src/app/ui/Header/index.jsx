@@ -117,14 +117,6 @@ export default function Header({ variant }) {
                           </li>
                           <li>
                             <Link
-                              href="/service/digital-marketing"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Digital Marketing
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
                               href="/service/pr"
                               onClick={() => setMobileToggle(false)}
                             >

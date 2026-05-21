@@ -9,12 +9,12 @@ import Link from 'next/link';
 
 const copyrightLinks = [
   {
-    title: 'Terms of Use',
-    href: '/',
+    title: 'Terms & Condition',
+    href: '/terms-conditions',
   },
   {
     title: 'Privacy Policy',
-    href: '/',
+    href: '/privacy-policy',
   },
 ];
 
