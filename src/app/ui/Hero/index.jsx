@@ -13,33 +13,50 @@ export default function Hero({
   socialLinksHeading,
   heroSocialLinks,
   bgImageUrl,
+  bgImageUrlMob,
 }) {
+  const heroId = React.useId().replace(/:/g, '-');
   return (
-    <Div
-      className="cs-hero cs-style1 cs-bg cs-fixed_bg cs-shape_wrap_1"
-      style={{ backgroundImage: `url(${bgImageUrl})` }}
-    >
-      <Div className="cs-shape_1" />
-      <Div className="cs-shape_1" />
-      <Div className="cs-shape_1" />
-      <Div className="container">
-        <Div className="cs-hero_text">
-          <h1 className="cs-hero_title">{parse(title)}</h1>
-          <Div className="cs-hero_info">
-            <Div>
-              <Div className="cs-hero_subtitle">{subtitle}</Div>
-            </Div>
-            <Div>
-              <Button btnLink={btnLink} btnText={btnText} />
-            </Div>
+    <>
+      {bgImageUrlMob && (
+        <style dangerouslySetInnerHTML={{__html: `
+          #hero-${heroId} {
+            background-image: url(${bgImageUrl}) !important;
+          }
+          @media (max-width: 767px) {
+            #hero-${heroId} {
+              background-image: url(${bgImageUrlMob}) !important;
+            }
+          }
+        `}} />
+      )}
+      <Div
+        id={`hero-${heroId}`}
+        className="cs-hero cs-style1 cs-bg cs-fixed_bg cs-shape_wrap_1"
+        style={bgImageUrlMob ? {} : { backgroundImage: `url(${bgImageUrl})` }}
+      >
+        <Div className="cs-shape_1" />
+        <Div className="cs-shape_1" />
+        <Div className="cs-shape_1" />
+        <Div className="container">
+          <Div className="cs-hero_text">
+            <h1 className="cs-hero_title">{parse(title)}</h1>
+            <Div className="cs-hero_info">
+              <Div>
+                <Div className="cs-hero_subtitle">{subtitle}</Div>
+              </Div>
+              <Div>
+                <Button btnLink={btnLink} btnText={btnText} />
+              </Div>
 
+            </Div>
           </Div>
         </Div>
+        <VerticalLinks data={heroSocialLinks} title={socialLinksHeading} />
+        <a href={scrollDownId} className="cs-down_btn">
+          .
+        </a>
       </Div>
-      <VerticalLinks data={heroSocialLinks} title={socialLinksHeading} />
-      <a href={scrollDownId} className="cs-down_btn">
-        .
-      </a>
-    </Div>
+    </>
   );
 }

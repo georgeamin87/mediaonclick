@@ -37,90 +37,75 @@ const portfolioData = [
 
 export default function ServiceDetails() {
   const details = {
-    title: 'CONSULTANCY',
-    description: 'Our consultancy service helps you clarify your brand direction, strengthen your marketing approach, and stay competitive with data-backed insights and creative strategies. We provide tailored solutions to address your unique business challenges and opportunities.',
-    image: '/images/service_5.jpeg',
+    title: 'INTERIOR DESIGN SOLUTIONS',
+    description: 'We create functional, visually striking spaces tailored to your business needs. From modern showrooms that elevate customer experience to efficient warehouse layouts that maximize workflow and productivity, our interior design solutions combine creativity, strategy, and practicality. We deliver customized designs for commercial, retail, and industrial environments with attention to aesthetics, space planning, and operational efficiency.',
+    image: '/images/about_img_6.webp',
     features: [
-      'Brand strategy and positioning',
-      'Market research and competitive analysis',
-      'Consumer insights and behavior studies',
-      'Marketing strategy development',
-      'Digital transformation consulting',
-      'Performance optimization',
-      'Go-to-market strategies'
+      'Customized space planning & zoning',
+      '3D conceptual design & visualization',
+      'Material sourcing & finish selection',
+      'Ergonomic workspace configurations',
+      'Commercial & retail showroom layout optimization',
+      'Industrial & warehouse workflow design',
+      'Lighting design & acoustic planning',
+      'Turnkey execution & project coordination'
     ],
-    approach: [
-      {title: 'Discovery', icon: '/images/icons/service_icon_4.svg', desc: 'Deep dive into your business challenges'},
-      {title: 'Analysis', icon: '/images/icons/analytics-icon.svg', desc: 'Comprehensive market and data evaluation'},
-      {title: 'Strategy', icon: '/images/icons/corporate-icon.svg', desc: 'Customized roadmap development'},
-      {title: 'Implementation', icon: '/images/icons/service_icon_6.svg', desc: 'Actionable recommendations and support'}
+    services: [
+      { title: 'Commercial Design', icon: '/images/icons/service_icon_1.svg', desc: 'Sleek, professional spaces tailored to corporate environments.' },
+      { title: 'Retail & Showrooms', icon: '/images/icons/service_icon_3.svg', desc: 'Visually striking layouts that enhance customer engagement.' },
+      { title: 'Industrial Layouts', icon: '/images/icons/service_icon_6.svg', desc: 'Efficient configurations optimizing workflow and productivity.' },
+      { title: 'Space Planning', icon: '/images/icons/service_icon_2.svg', desc: 'Strategic space utilization and workflow optimization.' },
+      { title: '3D Visualization', icon: '/images/icons/service_icon_5.svg', desc: 'High-fidelity conceptual 3D renders of your future space.' },
+      { title: 'Material Selection', icon: '/images/icons/service_icon_7.svg', desc: 'Curated sourcing of premium finishes, furniture, and lighting.' }
     ]
   }
 
   return (
     <>
-      <PageHeading 
+      <PageHeading
         title={details.title}
         bgSrc={details.image}
         pageLinkText='Services'
       />
-      <Spacing lg='150' md='80'/>
-      
+      <Spacing lg='150' md='80' />
+
       <Div className='container'>
-        <SectionHeading 
-          title='Strategic Consultancy'
+        <SectionHeading
+          title='Service Overview'
           subtitle={details.title}
         />
-        <Spacing lg='70' md='45'/>
+        <Spacing lg='70' md='45' />
         <Div className='row'>
           <Div className='col-lg-6'>
             <p className='cs-m0'>{details.description}</p>
-            <Spacing lg='50' md='30'/>
-            <h3 className='cs-font_30 cs-m0'>Our Methodology</h3>
-            <Spacing lg='30' md='20'/>
+            <Spacing lg='50' md='30' />
+            <h3 className='cs-font_30 cs-m0'>Our Design Solutions</h3>
+            <Spacing lg='30' md='20' />
             <Div className='row'>
-              {details.approach.map((step, index) => (
-                <Div key={index} className='col-md-6'>
-                  <Div className='cs-methodology_step'>
-                    <img src={step.icon} alt={step.title} style={{ width: '64px', height: '64px' }} />
-                    <h4>{step.title}</h4>
-                    <p>{step.desc}</p>
+              {details.services.map((service, index) => (
+                <Div key={index} className='col-xl-5 col-lg-6'>
+                  <Div className='cs-service_icon_box'>
+                    <img src={service.icon} alt={service.title} style={{ width: '64px', height: '64px' }} />
+                    <h4>{service.title}</h4>
+                    <p>{service.desc}</p>
                   </Div>
                 </Div>
               ))}
             </Div>
           </Div>
-          <Div className='col-lg-6'>
-            <h3 className='cs-font_30 cs-m0'>Consulting Services</h3>
-            <Spacing lg='30' md='20'/>
+          <Div className='col-xl-5 offset-xl-1 col-lg-6'>
+            <h3 className='cs-font_30 cs-m0'>Comprehensive Offerings</h3>
+            <Spacing lg='30' md='20' />
             <ul className='cs-list cs-style1 cs-mp0'>
               {details.features.map((feature, index) => (
                 <li key={index}><span className='cs-accent_color'>✓</span> {feature}</li>
               ))}
             </ul>
-            <Spacing lg='40' md='30'/>
-            <Div className='cs-consulting_areas'>
-              <h4>Specialized Areas:</h4>
-              <Div className='row'>
-                <Div className='col-md-6'>
-                  <ul className='cs-list cs-mp0'>
-                    <li>Brand Strategy</li>
-                    <li>Digital Marketing</li>
-                  </ul>
-                </Div>
-                <Div className='col-md-6'>
-                  <ul className='cs-list cs-mp0'>
-                    <li>Consumer Insights</li>
-                    <li>Growth Strategy</li>
-                  </ul>
-                </Div>
-              </Div>
-            </Div>
           </Div>
         </Div>
       </Div>
-      
-      <Spacing lg='150' md='80'/>
+
+      <Spacing lg='150' md='80' />
 
       {/* Why Choose Us */}
       <Spacing lg='100' md='60' />
@@ -148,7 +133,7 @@ export default function ServiceDetails() {
             <Div className='col-lg-4'>
               <Div className='cs-why_choose_item'>
                 <h3 className='cs-why_choose_item_title'>360°</h3>
-                <p className='cs-why_choose_item_subtitle'>Strategic Guidance</p>
+                <p className='cs-why_choose_item_subtitle'>Creative Coverage</p>
               </Div>
             </Div>
           </Div>
@@ -203,11 +188,11 @@ export default function ServiceDetails() {
         <Spacing lg="70" md="45" />
         <PortfolioSlider data={portfolioData} />
       </Div>
-      
-      <Spacing lg='150' md='80'/>
-      <Cta 
-        title='Ready to transform your business strategy?' 
-        btnText='Get Started' 
+
+      <Spacing lg='150' md='80' />
+      <Cta
+        title='Ready to transform your physical space?'
+        btnText='Get Started'
         btnLink='/contact'
         bgSrc='/images/cta_bg.jpeg'
       />

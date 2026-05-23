@@ -147,6 +147,14 @@ export default function Header({ variant }) {
                               Influencer Marketing
                             </Link>
                           </li>
+                          <li>
+                            <Link
+                              href="/service/interior-design"
+                              onClick={() => setMobileToggle(false)}
+                            >
+                              Interior Design
+                            </Link>
+                          </li>
                         </ul>
                       </DropDown>
                     </li>

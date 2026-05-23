@@ -39,6 +39,10 @@ const serviceMenu = [
     title: 'INFLUENCER MARKETING',
     href: '/service/influencers',
   },
+  {
+    title: 'INTERIOR DESIGN',
+    href: '/service/interior-design',
+  },
 ];
 
 const date = new Date().getFullYear();

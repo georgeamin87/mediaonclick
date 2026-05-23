@@ -58,9 +58,9 @@ export default function ServicesPage() {
                 </Div>
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
-                    title='DIGITAL MARKETING'
-                    link='/service/digital-marketing'
-                    src='/images/service_4.jpeg'
+                    title='Interior Design Solutions'
+                    link='/service/interior-design'
+                    src='/images/about_img_6.webp'
                     alt='Service'
                   />
                   <Spacing lg='0' md='30' />
@@ -81,7 +81,7 @@ export default function ServicesPage() {
                   <Card
                     title='CONSULTANCY'
                     link='/service/consultancy'
-                    src='/images/service_5.jpeg'
+                    src='/images/service_4.jpeg'
                     alt='Service'
                   />
                   <Spacing lg='0' md='30' />

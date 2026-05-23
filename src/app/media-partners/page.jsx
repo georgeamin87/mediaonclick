@@ -7,7 +7,7 @@ import PageHeading from "@/app/ui/PageHeading";
 import SectionHeading from "@/app/ui/SectionHeading";
 import TeamSlider from "@/app/ui/Slider/TeamSlider";
 import Spacing from "@/app/ui/Spacing";
-import aboutImg from '../../../public/images/about-moc.jpg'
+import aboutImg from '../../../public/images/about-moc.webp'
 import aboutImg4 from '../../../public/images/team/team.jpg'
 import Hero13 from "@/app/ui/Hero/Hero13";
 import GalleryStyle2 from "@/app/ui/Gallery/GalleryStyle2";
