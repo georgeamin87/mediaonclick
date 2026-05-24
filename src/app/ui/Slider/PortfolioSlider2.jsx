@@ -5,10 +5,10 @@ import Slider from 'react-slick';
 import { Icon } from '@iconify/react';
 const portfolioData = [
   {
-    title: 'MOC Brunch',
+    title: 'Grand Opening — AlKabayelPrime x MOC Team',
     subtitle: 'See Details',
-    href: 'https://www.instagram.com/p/C_9-NqzzDtF/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
-    src: '/images/insta/1.png',
+    href: 'https://www.instagram.com/p/DYYTBDdzJnf/',
+    src: '/images/insta/1.webp',
   },
   {
     title: 'Design Middle East',
