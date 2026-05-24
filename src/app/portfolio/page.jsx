@@ -62,7 +62,7 @@ const portfolioData = [
     title: 'Al Kabayel Prime Grand Opening 2025',
     subtitle: 'See Details',
     href: '/portfolio/al-kabayel-prime',
-    src: '/images/projects/kabayel/kabayel 1.webp',
+    src: '/images/projects/alkabayelp/1.webp',
     category: 'event_managment',
   },
   {
@@ -83,7 +83,7 @@ const portfolioData = [
     title: 'Chattels & More OOH Campaign',
     subtitle: 'See Details',
     href: '/portfolio/chattels-and-more',
-    src: '/images/projects/chattels and more/IMG_5981.webp',
+    src: '/images/projects/chattels and more/IMG_5983.webp',
     category: 'media_buying',
   },
   {

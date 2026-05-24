@@ -23,7 +23,7 @@ export default function PortfolioDetailsPage() {
       />
       <Spacing lg='150' md='80' />
       <Div className="container">
-        <Image src={img5981} alt="Chattels & More OOH Campaign on Sheikh Zayed Road" placeholder="blur" className="cs-radius_15 w-100" />
+        <Image src={img5983} alt="Chattels & More OOH Campaign on Sheikh Zayed Road" placeholder="blur" className="cs-radius_15 w-100" />
         <Spacing lg='90' md='40' />
         <Div className="row">
           <Div className="col-lg-6">
@@ -98,66 +98,6 @@ export default function PortfolioDetailsPage() {
             <p>
               To maximize effectiveness, we ensured the campaign messaging remained concise, visually balanced, and easily recognizable from long viewing distances, helping strengthen both brand recall and customer awareness.
             </p>
-          </Div>
-        </Div>
-        <Spacing lg='50' md='20' />
-        <Div className="row">
-          <Div className="col-lg-4 col-sm-6">
-            <Image
-              src={img5977}
-              alt="Chattels & More Billboard Sheikh Zayed Road 1"
-              placeholder="blur"
-              className="w-100 cs-radius_15"
-            />
-            <Spacing lg="25" md="25" />
-          </Div>
-          <Div className="col-lg-4 col-sm-6">
-            <Image
-              src={img5978}
-              alt="Chattels & More Billboard Sheikh Zayed Road 2"
-              placeholder="blur"
-              className="w-100 cs-radius_15"
-            />
-            <Spacing lg="25" md="25" />
-          </Div>
-          <Div className="col-lg-4 col-sm-12">
-            <Image
-              src={img5979}
-              alt="Chattels & More Billboard Sheikh Zayed Road 3"
-              placeholder="blur"
-              className="w-100 cs-radius_15"
-            />
-            <Spacing lg="25" md="25" />
-          </Div>
-        </Div>
-        <Spacing lg='10' md='10' />
-        <Div className="row">
-          <Div className="col-lg-4 col-sm-6">
-            <Image
-              src={img5981}
-              alt="Chattels & More Billboard Sheikh Zayed Road 4"
-              placeholder="blur"
-              className="w-100 cs-radius_15"
-            />
-            <Spacing lg="25" md="25" />
-          </Div>
-          <Div className="col-lg-4 col-sm-6">
-            <Image
-              src={img5982}
-              alt="Chattels & More Billboard Sheikh Zayed Road 5"
-              placeholder="blur"
-              className="w-100 cs-radius_15"
-            />
-            <Spacing lg="25" md="25" />
-          </Div>
-          <Div className="col-lg-4 col-sm-12">
-            <Image
-              src={img5983}
-              alt="Chattels & More Billboard Sheikh Zayed Road 5"
-              placeholder="blur"
-              className="w-100 cs-radius_15"
-            />
-            <Spacing lg="25" md="25" />
           </Div>
         </Div>
         <Spacing lg='65' md='10' />
