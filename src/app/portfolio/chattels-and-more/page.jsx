@@ -11,6 +11,7 @@ import img5978 from '../../../../public/images/projects/chattels and more/IMG_59
 import img5979 from '../../../../public/images/projects/chattels and more/IMG_5979.webp';
 import img5981 from '../../../../public/images/projects/chattels and more/IMG_5981.webp';
 import img5982 from '../../../../public/images/projects/chattels and more/IMG_5982.webp';
+import img5983 from '../../../../public/images/projects/chattels and more/IMG_5983.webp';
 
 export default function PortfolioDetailsPage() {
   return (
@@ -131,7 +132,7 @@ export default function PortfolioDetailsPage() {
         </Div>
         <Spacing lg='10' md='10' />
         <Div className="row">
-          <Div className="col-lg-6 col-sm-6">
+          <Div className="col-lg-4 col-sm-6">
             <Image
               src={img5981}
               alt="Chattels & More Billboard Sheikh Zayed Road 4"
@@ -140,9 +141,18 @@ export default function PortfolioDetailsPage() {
             />
             <Spacing lg="25" md="25" />
           </Div>
-          <Div className="col-lg-6 col-sm-6">
+          <Div className="col-lg-4 col-sm-6">
             <Image
               src={img5982}
+              alt="Chattels & More Billboard Sheikh Zayed Road 5"
+              placeholder="blur"
+              className="w-100 cs-radius_15"
+            />
+            <Spacing lg="25" md="25" />
+          </Div>
+          <Div className="col-lg-4 col-sm-12">
+            <Image
+              src={img5983}
               alt="Chattels & More Billboard Sheikh Zayed Road 5"
               placeholder="blur"
               className="w-100 cs-radius_15"
