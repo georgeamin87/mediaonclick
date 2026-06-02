@@ -67,10 +67,7 @@ const partnersData = [
         src: '/images/clients/Artboard 10@300x.png',
         alt: 'HOMES R US',
     },
-    {
-        src: '/images/clients/Artboard 11@300x.png',
-        alt: 'MULTIBANK GROUP',
-    },
+
     {
         src: '/images/clients/Artboard 12@300x.png',
         alt: 'POLISHED INTERIORS',
@@ -79,16 +76,13 @@ const partnersData = [
         src: '/images/clients/Artboard 13@300x.png',
         alt: 'WALID ATALLAH',
     },
-    {
-        src: '/images/clients/Artboard 14@300x.png',
-        alt: 'Partner',
-    },
+
     {
         src: '/images/clients/Artboard 15@300x.png',
         alt: 'Partner',
     },
     {
-        src: '/images/clients/Artboard 16@300x.png',
+        src: '/images/clients/Artboard 33@300x.png',
         alt: 'Partner',
     },
     {
@@ -106,13 +100,78 @@ const partnersData = [
     {
         src: '/images/clients/Artboard 45.png',
         alt: 'Partner',
-    }
+    },
+
+    {
+        src: '/images/clients/Artboard 18@300x.png',
+        alt: 'HomeRus',
+    },
+    {
+        src: '/images/clients/Artboard 25@300x.png',
+        alt: 'Interiors',
+    },
+    {
+        src: '/images/clients/Artboard 24@300x.png',
+        alt: 'Chattles',
+    },
+    {
+        src: '/images/clients/new/4.svg',
+        alt: 'Partner',
+    },
+    {
+        src: '/images/clients/new/5.svg',
+        alt: 'Partner',
+    },
+
+    {
+        src: '/images/clients/new/7.svg',
+        alt: 'Partner',
+    },
+    {
+        src: '/images/clients/new/8.svg',
+        alt: 'Partner',
+    },
+
+    {
+        src: '/images/clients/new/11.svg',
+        alt: 'Partner',
+    },
+    {
+        src: '/images/clients/new/12.svg',
+        alt: 'Partner',
+    },
+    {
+        src: '/images/clients/new/13.svg',
+        alt: 'Partner',
+    },
+    {
+        src: '/images/clients/new/14.svg',
+        alt: 'Partner',
+    },
+    {
+        src: '/images/clients/new/15.svg',
+        alt: 'Partner',
+    },
+    {
+        src: '/images/clients/new/16.svg',
+        alt: 'Partner',
+    },
+
+    {
+        src: '/images/clients/new/18.svg',
+        alt: 'Partner',
+    },
+    {
+        src: '/images/clients/new/19.svg',
+        alt: 'Partner',
+    },
+
 ];
 
 const showcaseData = [
     {
-        introTitle: 'Get to Know MediaOnClick',
-        title: 'Media Partners',
+        introTitle: 'Get To Know MediaOnClick',
+        title: 'Our Clients',
         videoUrl: '/video/moc.mp4',
         href: '/case-study/case-study-details',
     },
@@ -125,7 +184,7 @@ const funfaceData = [
         factNumber: '100',
     },
     {
-        title: 'Years of Experience',
+        title: 'Years Of Experience',
         factNumber: '10',
     },
     {
@@ -181,7 +240,7 @@ export default function AboutPage() {
             {/* End About Section */}
 
             {/* Start MovingText Section */}
-            <MovingText text="Our reputed world wide partners" variant="cs-type2" />
+            <MovingText text="Our Reputed World Wide Clients" variant="cs-type2" />
             <Spacing lg="100" md="70" />
             {/* End MovingText Section */}
             <MediaPartnersList data={partnersData} />
@@ -192,7 +251,7 @@ export default function AboutPage() {
             {/* Start Fun Fact Section */}
             <Div className="container">
                 <FunFact
-                    title="Our fun fact"
+                    title="Our Fun Fact"
                     subtitle="At Media OnClick (MOC), we don’t just run campaigns! We create digital magic. Over 1,000 campaigns launched, 500+ influencer collaborations, and events that have captured audiences across the UAE and beyond, we now bring our creative expertise into interior design, transforming showrooms across the Middle East into immersive spaces that reflect your brand and leave a lasting impression. From last-minute PR miracles to full-scale events executed in just 48 hours and yes, they went viral! We deliver lightning-fast PR wins and unforgettable digital experiences. We’re more than marketing experts; we’re adrenaline-fueled creatives who turn every challenge into a show-stopping success."
                     data={funfaceData}
                 />
@@ -204,7 +263,7 @@ export default function AboutPage() {
             <Spacing lg="145" md="80" />
             <Div className="container">
                 <SectionHeading
-                    title="Awesome team <br/>members"
+                    title="Awesome Team <br/>Members"
                     subtitle="Our Team"
                     variant="cs-style1"
                 />
@@ -217,7 +276,7 @@ export default function AboutPage() {
             <Spacing lg="150" md="80" />
             <Div className="container">
                 <Cta
-                    title="Where creativity<br /> <i>sparks & brilliance </i> rises, <br />let’s make it happen together"
+                    title="Where Creativity<br /> <i>Sparks & Brilliance </i> Rises, <br />Let’s Make It Happen Together"
                     btnText="Apply For Meeting"
                     btnLink="/contact"
                     bgSrc="/images/cta_bg.jpeg"

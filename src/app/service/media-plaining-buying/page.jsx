@@ -48,12 +48,12 @@ export default function ServiceDetails() {
       'Performance analytics and ROI tracking'
     ],
     subservices: [
-      'Radio Campaigns',
-      'Social News Campaigns',
+      'Radio',
+      'Social News',
       'TV Interviews',
-      'OOH Advertising (Out-of-Home)',
-      'Taxi Advertising Campaigns',
-      'Roaming Truck Campaigns'
+      'OOH Advertising',
+      'Taxi Advertising',
+      'Roaming Truck'
     ],
     process: [
       { title: 'Research', desc: 'Understanding your target audience and market landscape' },
@@ -99,7 +99,7 @@ export default function ServiceDetails() {
               <div className="row">
                 <Div className='col-xl-6'>
                   <Spacing lg='30' md='30' />
-                  <h3 className='cs-font_30 cs-m0'>Sub-Services</h3>
+                  <h3 className='cs-font_30 cs-m0'>Campaign Services</h3>
                   <Spacing lg='20' md='15' />
                   <ul className='cs-list cs-style1 cs-mp0'>
                     {details.subservices.map((feature, index) => (
@@ -140,7 +140,7 @@ export default function ServiceDetails() {
         <Div className='cs-why_choose_bg' style={{ backgroundImage: 'url(/images/why_choose_bg.jpg)' }}></Div>
         <Div className='container'>
           <SectionHeading
-            title='Why Choose Our Media Planning'
+            title='The Advantage of Strategic Media Planning & Buying'
             subtitle='Expertise That Delivers'
             variant='cs-style1 text-white'
           />
@@ -185,7 +185,7 @@ export default function ServiceDetails() {
           </Div>
           <Div className="col-xl-5 offset-xl-1 col-lg-6">
             <SectionHeading
-              title="Highly experienced people with us"
+              title="Highly Experienced People With Us"
               subtitle="Why Choose Us"
             >
               <Spacing lg="30" md="20" />

@@ -71,7 +71,7 @@ export default function AboutPage() {
         <Div className="row">
           <Div className="col-xl-6 col-lg-7">
             <SectionHeading
-              title="Your trusted partner for business"
+              title="Your Trusted Partner For Business"
               subtitle="About MOC/Media On Click"
             >
               <Spacing lg="30" md="20" />
@@ -123,7 +123,7 @@ export default function AboutPage() {
       {/* Start Fun Fact Section */}
       <Div className="container">
         <FunFact
-          title="Our fun fact"
+          title="Our Fun Fact"
           subtitle="At <b>Media OnClick</b>, we don’t just run campaigns, we create digital magic. Over <b>1,000 campaigns launched, 500+ influencer collaborations, and events that have captured audiences across the UAE and beyond.</b><br></br>Our team once pulled off a full-scale event in just 48 hours and yes, it went viral! From last-minute PR miracles to jaw-dropping digital moments, we’re not just marketing experts; we’re adrenaline-charged creatives who turn challenges into standout results."
           data={funfaceData}
         />
@@ -188,7 +188,7 @@ export default function AboutPage() {
       <Spacing lg="145" md="80" />
       <Div className="container">
         <SectionHeading
-          title="Awesome team <br/>members"
+          title="Awesome Team <br/>Members"
           subtitle="Our Team"
           variant="cs-style1"
         />

@@ -11,6 +11,10 @@ import imgUrl from '../../../../public/images/projects/grohe.png';
 import aboutImg1 from '../../../../public/images/projects/grohe/UAE/1.png'
 import aboutImg2 from '../../../../public/images/projects/grohe/UAE/2.webp'
 import aboutImg3 from '../../../../public/images/projects/grohe/UAE/3.webp'
+import aboutImg4 from '../../../../public/images/projects/grohe/screen.webp'
+import aboutImg5 from '../../../../public/images/projects/grohe/booth.webp'
+import aboutImg6 from '../../../../public/images/projects/grohe/booth2.webp'
+
 
 export default function PortfolioDetailsPage() {
   return (
@@ -76,6 +80,30 @@ export default function PortfolioDetailsPage() {
           <Div className="col-lg-4">
             <Image
               src={aboutImg3}
+              alt="About"
+              className="w-100 cs-radius_15"
+            />
+            <Spacing lg="25" md="25" />
+          </Div>
+          <Div className="col-lg-4">
+            <Image
+              src={aboutImg4}
+              alt="About"
+              className="w-100 cs-radius_15"
+            />
+            <Spacing lg="25" md="25" />
+          </Div>
+          <Div className="col-lg-4">
+            <Image
+              src={aboutImg5}
+              alt="About"
+              className="w-100 cs-radius_15"
+            />
+            <Spacing lg="25" md="25" />
+          </Div>
+          <Div className="col-lg-4">
+            <Image
+              src={aboutImg6}
               alt="About"
               className="w-100 cs-radius_15"
             />

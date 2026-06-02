@@ -37,8 +37,8 @@ const galleryData = [
     srcLg: '/images/mocpart/7.jpeg',
   },
   {
-    src: '/images/mocpart/8.jpeg',
-    srcLg: '/images/mocpart/8.jpeg',
+    src: '/images/about_img_21.webp',
+    srcLg: 'images/about_img_21.webp',
   },
   {
     src: '/images/mocpart/9.jpg',

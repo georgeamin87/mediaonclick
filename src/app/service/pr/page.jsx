@@ -98,7 +98,7 @@ export default function ServiceDetails() {
         </Div>
       </Div>
 
-      {/* Why Choose Us */}
+      {/* Why Choose Us *
       <Spacing lg='100' md='60' />
       <Div className='cs-why_choose cs-style1'>
         <Div className='cs-why_choose_bg' style={{ backgroundImage: 'url(/images/why_choose_bg.jpg)' }}></Div>
@@ -130,7 +130,7 @@ export default function ServiceDetails() {
           </Div>
         </Div>
       </Div>
-
+/}
       {/* Start Why Choose Section */}
       <Spacing lg="100" md="80" />
       <Div className="container">

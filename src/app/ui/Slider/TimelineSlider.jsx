@@ -12,7 +12,7 @@ const timelineData = [
       image: '/images/set/1.png',
     },
   ],
-  [  
+  [
     {
       year: 'Middle East',
       name: 'Grazia',
@@ -28,7 +28,7 @@ const timelineData = [
       image: '/images/set/3.png',
     },
   ],
-  [  
+  [
     {
       year: 'Middle East',
       name: 'Forbes',
@@ -44,7 +44,7 @@ const timelineData = [
       image: '/images/set/5.png',
     },
   ],
-  [  
+  [
     {
       year: 'Middle East',
       name: 'Entrepreneur',
@@ -89,7 +89,7 @@ export default function TimelineSlider() {
     slidesToScroll: 1,
     prevArrow: <SlickArrowLeft />,
     nextArrow: <SlickArrowRight />,
-    arrows: false,
+    arrows: true,
     responsive: [
       {
         breakpoint: 470,
@@ -100,7 +100,7 @@ export default function TimelineSlider() {
     ],
   };
   return (
-    <Slider {...settings} className="cs-arrow_style3">
+    <Slider {...settings} className="cs-arrow_style4">
       {timelineData.map((item, index) => (
         <Div key={index}>
           <Timeline columnData={item} />

@@ -10,8 +10,10 @@ import VideoModal from "@/app/ui/VideoModal";
 import imgUrl from '../../../../public/images/projects/kabayel/kabayel 1.webp';
 import aboutImg2 from '../../../../public/images/projects/kabayel/1.webp';
 import aboutImg3 from '../../../../public/images/projects/kabayel/2.webp';
-import aboutImg4 from '../../../../public/images/projects/kabayel/3.webp';
-import aboutImg5 from '../../../../public/images/projects/kabayel/truck.webp'
+import aboutImg4 from '../../../../public/images/projects/kabayel/truck.webp';
+import aboutImg5 from '../../../../public/images/projects/alkabayelp/4.webp';
+import aboutImg6 from '../../../../public/images/projects/alkabayelp/2.webp';
+import aboutImg7 from '../../../../public/images/projects/alkabayelp/1.webp';
 
 export default function PortfolioDetailsPage() {
   return (
@@ -92,7 +94,7 @@ export default function PortfolioDetailsPage() {
 
         <Spacing lg='80' md='40' />
         <Div className="row">
-          <Div className="col-lg-3 col-sm-6">
+          <Div className="col-lg-4 col-sm-6">
             <Image
               src={aboutImg2}
               alt="Al Kabayel Prime Campaign Image 1"
@@ -100,7 +102,7 @@ export default function PortfolioDetailsPage() {
             />
             <Spacing lg="25" md="25" />
           </Div>
-          <Div className="col-lg-3 col-sm-6">
+          <Div className="col-lg-4 col-sm-6">
             <Image
               src={aboutImg3}
               alt="Al Kabayel Prime Campaign Image 2"
@@ -108,7 +110,7 @@ export default function PortfolioDetailsPage() {
             />
             <Spacing lg="25" md="25" />
           </Div>
-          <Div className="col-lg-3 col-sm-6">
+          <Div className="col-lg-4 col-sm-6">
             <Image
               src={aboutImg4}
               alt="Al Kabayel Prime Campaign Image 3"
@@ -116,9 +118,25 @@ export default function PortfolioDetailsPage() {
             />
             <Spacing lg="25" md="25" />
           </Div>
-          <Div className="col-lg-3 col-sm-6">
+          <Div className="col-lg-4 col-sm-6">
             <Image
               src={aboutImg5}
+              alt="Al Kabayel Prime Campaign Image 4"
+              className="w-100 cs-radius_15"
+            />
+            <Spacing lg="25" md="25" />
+          </Div>
+          <Div className="col-lg-4 col-sm-6">
+            <Image
+              src={aboutImg6}
+              alt="Al Kabayel Prime Campaign Image 4"
+              className="w-100 cs-radius_15"
+            />
+            <Spacing lg="25" md="25" />
+          </Div>
+          <Div className="col-lg-4 col-sm-6">
+            <Image
+              src={aboutImg7}
               alt="Al Kabayel Prime Campaign Image 4"
               className="w-100 cs-radius_15"
             />

@@ -168,10 +168,10 @@ export default function Header({ variant }) {
                     </li>
                     <li>
                       <Link
-                        href="/media-partners"
+                        href="/our-clients"
                         onClick={() => setMobileToggle(false)}
                       >
-                        Media Partners
+                        Our Clients
                       </Link>
                     </li>
                     <li>
@@ -237,13 +237,13 @@ export default function Header({ variant }) {
           onClick={() => setSideHeaderToggle(!sideHeaderToggle)}
         />
         <Div className="cs-side_header_in">
-          <Div className="cs-side_header_shape" />
+          <Div className="cs-side_header" />
           <Link className="cs-site_branding" href="/">
             <img src="/images/logo.png" alt="Logo" style={{ width: '150px' }} />
           </Link>
           <Div className="cs-side_header_box">
             <h2 className="cs-side_header_heading">
-              Do you have a project in your <br /> mind? Contact us.
+              Where Creativity Meets Results. <br /> Let’s Build Something Big!
             </h2>
           </Div>
           <Div className="cs-side_header_box">

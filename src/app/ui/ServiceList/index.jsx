@@ -21,12 +21,6 @@ const serviceData = [
     href: '/service/service-details',
   },
   {
-    title: 'Digital Screens',
-    subtitle: 'Dynamic display ads designed for modern public and retail digital screens.',
-    imgUrl: '/images/service_10.webp',
-    href: '/service/service-details',
-  },
-  {
     title: 'Programmatic',
     subtitle: 'Automated, highly targeted campaigns optimizing reach and budget efficiency.',
     imgUrl: '/images/service_6.jpeg',

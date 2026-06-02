@@ -6,11 +6,10 @@ import PageHeading from "@/app/ui/PageHeading";
 import SectionHeading from "@/app/ui/SectionHeading";
 import Spacing from "@/app/ui/Spacing";
 import Image from "next/image";
-import img5977 from '../../../../public/images/projects/chattels and more/IMG_5977.webp';
-import img5978 from '../../../../public/images/projects/chattels and more/IMG_5978.webp';
-import img5979 from '../../../../public/images/projects/chattels and more/IMG_5979.webp';
-import img5981 from '../../../../public/images/projects/chattels and more/IMG_5981.webp';
-import img5982 from '../../../../public/images/projects/chattels and more/IMG_5982.webp';
+import aboutImg2 from '../../../../public/images/projects/chattels and more/ooh.jpeg';
+import aboutImg3 from '../../../../public/images/projects/chattels and more/oohnight.webp';
+import aboutImg4 from '../../../../public/images/projects/chattels and more/morning.webp';
+import aboutImg5 from '../../../../public/images/projects/chattels and more/coverage.jpeg';
 import img5983 from '../../../../public/images/projects/chattels and more/IMG_5983.webp';
 
 export default function PortfolioDetailsPage() {
@@ -47,8 +46,36 @@ export default function PortfolioDetailsPage() {
                 Together, the campaign reflected a focused approach toward increasing brand awareness, supporting product promotion, and strengthening market presence through impactful OOH media placement.
               </p>
             </SectionHeading>
+            <Spacing lg='60' md='40' />
+            <SectionHeading
+              title='From Concept to Visibility'
+              subtitle='Our Approach'
+            >
+              <Spacing lg='40' md='20' />
+              <p>
+                We approached the campaign with a strategy centered on premium positioning, visual clarity, and maximum audience exposure. Our team carefully selected a prime OOH placement along Sheikh Zayed Road to ensure continuous visibility among motorists and pedestrians throughout the day.
+
+              </p>
+              <p>
+                We focused on delivering a clean and sophisticated visual presentation that aligned with Chattels & More’s modern brand image and product aesthetic.
+
+              </p>
+              <p>
+                The campaign creative emphasized the featured furniture collection through minimal yet impactful design, allowing the product visuals and branding to stand out clearly within Dubai’s fast-paced city environment.
+
+              </p>
+              <p className="cs-m0 font-weight-bold">
+                To maximize effectiveness, we ensured the campaign messaging remained concise, visually balanced, and easily recognizable from long viewing distances, helping strengthen both brand recall and customer awareness.
+
+              </p>
+            </SectionHeading>
           </Div>
           <Div className="col-lg-5 offset-lg-1">
+            <Image
+              src={aboutImg5}
+              alt="Chattels & More OOH Campaign Coverage"
+              className="w-100 cs-radius_15"
+            />
             <Spacing lg='60' md='40' />
             <h2 className='cs-font_30 cs-font_26_sm cs-m0'>Project Info -</h2>
             <Spacing lg='50' md='30' />
@@ -76,31 +103,36 @@ export default function PortfolioDetailsPage() {
             </Div>
           </Div>
         </Div>
-        <Spacing lg='50' md='20' />
+        <Spacing lg='80' md='40' />
         <Div className="row">
-          <SectionHeading
-            title='From Concept to Visibility'
-            subtitle='Our Approach'
-          ></SectionHeading>
-          <Spacing lg='40' md='20' />
-          <Div className="col-lg-6">
-            <p>
-              We approached the campaign with a strategy centered on premium positioning, visual clarity, and maximum audience exposure. Our team carefully selected a prime OOH placement along Sheikh Zayed Road to ensure continuous visibility among motorists and pedestrians throughout the day.
-            </p>
-            <p>
-              We focused on delivering a clean and sophisticated visual presentation that aligned with Chattels & More’s modern brand image and product aesthetic.
-            </p>
+          <Div className="col-lg-4 col-sm-6">
+            <Image
+              src={aboutImg2}
+              alt="Al Kabayel Prime Campaign Image 1"
+              className="w-100 cs-radius_15"
+            />
+            <Spacing lg="25" md="25" />
           </Div>
-          <Div className="col-lg-6">
-            <p>
-              The campaign creative emphasized the featured furniture collection through minimal yet impactful design, allowing the product visuals and branding to stand out clearly within Dubai’s fast-paced city environment.
-            </p>
-            <p>
-              To maximize effectiveness, we ensured the campaign messaging remained concise, visually balanced, and easily recognizable from long viewing distances, helping strengthen both brand recall and customer awareness.
-            </p>
+          <Div className="col-lg-4 col-sm-6">
+            <Image
+              src={aboutImg3}
+              alt="Al Kabayel Prime Campaign Image 2"
+              className="w-100 cs-radius_15"
+            />
+            <Spacing lg="25" md="25" />
           </Div>
+          <Div className="col-lg-4 col-sm-6">
+            <Image
+              src={aboutImg4}
+              alt="Al Kabayel Prime Campaign Image 3"
+              className="w-100 cs-radius_15"
+            />
+            <Spacing lg="25" md="25" />
+          </Div>
+
         </Div>
-        <Spacing lg='65' md='10' />
+        <Spacing lg='50' md='20' />
+
         <Div className="cs-page_navigation cs-center">
           <Div>
             <Button btnLink='/portfolio/ideal-standard' btnText='Prev Project' variant='cs-type1' />

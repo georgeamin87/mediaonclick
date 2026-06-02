@@ -29,8 +29,8 @@ export default function ServicesPage() {
           <Div className="row">
             <Div className="col-xl-4">
               <SectionHeading
-                title='Services we can help you with'
-                subtitle='What Can We Do'
+                title='Where Brands Meet Influence'
+                subtitle='Discover how we accelerate your media presence'
               />
               <Spacing lg='90' md='45' />
             </Div>
@@ -169,7 +169,7 @@ export default function ServicesPage() {
               <Spacing lg='0' md='40' />
             </Div>
             <Div className="col-lg-6 offset-xl-1">
-              <h2 className="cs-font_50 cs-m0">Tailored marketing solutions built for impact</h2>
+              <h2 className="cs-font_50 cs-m0">Tailored Marketing Solutions Built For Impact</h2>
               <Spacing lg='50' md='30' />
               <p>
                 At Media On Click, we believe in integrated marketing that delivers. Whether you’re looking for a standout digital presence, a bold brand identity, or engaging campaigns—our cross-functional team delivers excellence across every touchpoint.
@@ -184,7 +184,7 @@ export default function ServicesPage() {
       <Spacing lg="145" md="80" />
       <Div className="container">
         <SectionHeading
-          title="Our core Digital services"
+          title="Our Core Digital Services"
           subtitle="Services"
           variant="cs-style1 text-center"
         />

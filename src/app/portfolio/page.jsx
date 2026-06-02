@@ -38,34 +38,6 @@ const portfolioData = [
     category: 'event_managment',
   },
   {
-    title: 'Dubai Police',
-    subtitle: 'See Details',
-    href: '/portfolio/dubai-police',
-    src: '/images/projects/dubai police/2.webp',
-    category: 'event_managment',
-  },
-  {
-    title: 'Hanif',
-    subtitle: 'See Details',
-    href: '/portfolio/hanif',
-    src: '/images/projects/hanif.jpg',
-    category: 'pr_publication',
-  },
-  {
-    title: 'Walid Atallah',
-    subtitle: 'See Details',
-    href: '/portfolio/walid-atallah',
-    src: '/images/projects/walid event.png',
-    category: 'event_managment',
-  },
-  {
-    title: 'Al Kabayel Prime Grand Opening 2025',
-    subtitle: 'See Details',
-    href: '/portfolio/al-kabayel-prime',
-    src: '/images/projects/alkabayelp/1.webp',
-    category: 'event_managment',
-  },
-  {
     title: 'GF Corys Creatives & Digital Innovation',
     subtitle: 'See Details',
     href: '/portfolio/gf-corys',
@@ -127,6 +99,27 @@ const portfolioData = [
     href: '/portfolio/design-middle-east-awards-2023',
     src: '/images/projects/middle.jpg',
     category: 'digital_marketing',
+  },
+  {
+    title: 'Dubai Police',
+    subtitle: 'See Details',
+    href: '/portfolio/dubai-police',
+    src: '/images/projects/dubai police/2.webp',
+    category: 'event_managment',
+  },
+  {
+    title: 'Hanif',
+    subtitle: 'See Details',
+    href: '/portfolio/hanif',
+    src: '/images/projects/hanif.jpg',
+    category: 'pr_publication',
+  },
+  {
+    title: 'Walid Atallah',
+    subtitle: 'See Details',
+    href: '/portfolio/walid-atallah',
+    src: '/images/projects/walid event.png',
+    category: 'event_managment',
   },
 ];
 const categoryMenu = [

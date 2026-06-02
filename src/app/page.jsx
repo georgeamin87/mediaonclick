@@ -202,7 +202,7 @@ export default function Home() {
       <Spacing lg="100" md="50" />
       <Div className="container text-center">
         <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
-          Covering the GCC Region and Clients Worldwide
+          Covering The GCC Region & Clients Worldwide
         </h2>
         <Spacing lg="30" md="20" />
         <p className="cs-m0" style={{ fontSize: '18px', lineHeight: '1.6', maxWidth: '900px', margin: '0 auto' }}>
@@ -286,7 +286,7 @@ export default function Home() {
       <Div>
         <Div className="container">
           <SectionHeading
-            title="Portfolio to explore"
+            title="Portfolio To Explore"
             subtitle="Latest Projects"
             variant="cs-style1 text-center"
           />
@@ -324,7 +324,7 @@ export default function Home() {
       <Spacing lg="130" md="70" />
       <Div className="container">
         <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
-          Watch our Projects Heighlights.
+          Watch Our Projects Heighlights.
         </h2>
         <Spacing lg="70" md="70" />
         <VideoModal
@@ -344,7 +344,7 @@ export default function Home() {
         <div className="container">
           <FunFact
             variant="cs-type2"
-            title="Our tech skills"
+            title="Our Tech Skills"
             subtitle="Stay ahead in the digital landscape with our innovative marketing strategies. We engage your audience, boost your online presence, and drive growth through targeted campaigns that deliver measurable results."
             data={funfaceData2}
           />
@@ -356,7 +356,7 @@ export default function Home() {
       <Spacing lg="145" md="80" />
       <Div className="container">
         <SectionHeading
-          title="Awesome team <br/>members"
+          title="Awesome Team <br/>Members"
           subtitle="Our Team"
           variant="cs-style1"
         />
@@ -380,7 +380,7 @@ export default function Home() {
 
       <Div className="container">
         <h2 className="cs-font_50 cs-m0 cs-line_height_4 text-center">
-          Check out our latest social media posts!
+          Check Out Our Latest Social Media Posts!
         </h2>
       </Div>
       <Spacing lg="90" md="70" />
