@@ -109,33 +109,10 @@ export default function ServicesPage() {
           variant='cs-style1 text-center'
         />
         <Spacing lg='90' md='45' />
-        <Div className="row">
+        <Div className="row justify-content-center">
           <Div className="col-lg-4">
             <IconBox
-              icon='/images/icons/service_icon_1.svg'
-              title='Digital Marketing'
-              subtitle='Custom digital solutions that include social media management, SEO, email marketing, and paid ad campaigns-designed to elevate your digital presence and generate ROI.'
-            />
-            <Spacing lg='30' md='30' />
-          </Div>
-          <Div className="col-lg-4">
-            <IconBox
-              icon='/images/icons/service_icon_2.svg'
-              title='Branding'
-              subtitle="We develop your brand's identity through logo design, brand strategy, visual systems, and storytelling to build strong emotional connections with your audience."
-            />
-            <Spacing lg='30' md='30' />
-          </Div>
-          <Div className="col-lg-4">
-            <IconBox
-              icon='/images/icons/service_icon_3.svg'
-              title='Events & Activations'
-              subtitle='We plan and execute on-ground experiences that excite, engage, and inspire-from product launches to mall activations and interactive exhibits.'
-            />
-            <Spacing lg='30' md='30' />
-          </Div>
-          <Div className="col-lg-4">
-            <IconBox
+              href='/service/pr'
               icon='/images/icons/service_icon_4.svg'
               title='Public Relations'
               subtitle="We amplify your brands message through media outreach, crisis communication, brand reputation management, and editorial placements."
@@ -144,6 +121,34 @@ export default function ServicesPage() {
           </Div>
           <Div className="col-lg-4">
             <IconBox
+              href='/service/media-plaining-buying'
+              icon='/images/icons/service_icon_7.svg'
+              title='Media Planning & Buying'
+              subtitle="Strategic media planning and buying across all platforms to maximize your reach and optimize your return on investment."
+            />
+            <Spacing lg='30' md='30' />
+          </Div>
+          <Div className="col-lg-4">
+            <IconBox
+              href='/service/event-management'
+              icon='/images/icons/service_icon_3.svg'
+              title='Events & Activations'
+              subtitle='We plan and execute on-ground experiences that excite, engage, and inspire-from product launches to mall activations and interactive exhibits.'
+            />
+            <Spacing lg='30' md='30' />
+          </Div>
+          <Div className="col-lg-4">
+            <IconBox
+              href='/service'
+              icon='/images/icons/service_icon_2.svg'
+              title='Branding'
+              subtitle="We develop your brand's identity through logo design, brand strategy, visual systems, and storytelling to build strong emotional connections with your audience."
+            />
+            <Spacing lg='30' md='30' />
+          </Div>
+          <Div className="col-lg-4">
+            <IconBox
+              href='/service/influencers'
               icon='/images/icons/service_icon_5.svg'
               title='Influencer Marketing'
               subtitle='We connect your brand with the right creators to deliver authentic collaborations that engage audiences and drive real business impact.'
@@ -152,9 +157,19 @@ export default function ServicesPage() {
           </Div>
           <Div className="col-lg-4">
             <IconBox
+              href='/service'
               icon='/images/icons/service_icon_6.svg'
               title='Production'
-              subtitle="From storyboarding to shooting, editing, and animation-our content production team creates stunning visuals that bring your brand's vision to life."
+              subtitle="Comprehensive solutions including LED Screen, Drone Show, Staging light system and Sound system to bring your event's vision to life."
+            />
+            <Spacing lg='30' md='30' />
+          </Div>
+          <Div className="col-lg-4">
+            <IconBox
+              href='/service/#digital'
+              icon='/images/icons/service_icon_1.svg'
+              title='Digital Marketing'
+              subtitle="Targeted campaigns featuring Digital Screen and Sponsored content, Programmatic Advertisement to maximize your reach and engagement."
             />
             <Spacing lg='30' md='30' />
           </Div>
@@ -182,7 +197,7 @@ export default function ServicesPage() {
 
       {/* Start Services Section */}
       <Spacing lg="145" md="80" />
-      <Div className="container">
+      <Div id="digital" className="container">
         <SectionHeading
           title="Our Core Digital Services"
           subtitle="Services"

@@ -14,21 +14,21 @@ const portfolioData = [
     subtitle: 'See Details',
     href: '/portfolio/kabayel',
     src: '/images/projects/kabayel/kabayel 1.webp',
-    category: 'event_managment',
+    category: 'event_managment, digital_marketing, media_buying, pr_publication',
   },
   {
     title: 'Grohe',
     subtitle: 'See Details',
     href: '/portfolio/grohe',
     src: '/images/projects/grohe.png',
-    category: 'digital_marketing',
+    category: 'event_managment, digital_marketing, media_buying',
   },
   {
     title: 'Kohler Al Hashimiya Opening Event',
     subtitle: 'See Details',
     href: '/portfolio/kohler',
     src: '/images/projects/kohler.webp',
-    category: 'event_managment',
+    category: 'event_managment, pr_publication',
   },
   {
     title: 'MultiBank Group Gala',
@@ -56,7 +56,7 @@ const portfolioData = [
     subtitle: 'See Details',
     href: '/portfolio/chattels-and-more',
     src: '/images/projects/chattels and more/IMG_5983.webp',
-    category: 'media_buying',
+    category: 'media_buying, digital_marketing',
   },
   {
     title: 'Pegasus - Liora Unveiling',
@@ -83,7 +83,7 @@ const portfolioData = [
     title: 'Al Hazaifa',
     subtitle: 'See Details',
     href: '/portfolio/al-hazaifa',
-    src: '/images/projects/alhuzaifa.jpg',
+    src: '/images/projects/hazaifa/3.webp',
     category: 'pr_publication',
   },
   {
@@ -181,7 +181,7 @@ export default function PortfolioPage() {
               className={`${index === 3 || index === 6 ? 'col-lg-8' : 'col-lg-4'
                 } ${active === 'all'
                   ? ''
-                  : !(active === item.category)
+                  : !item.category.includes(active)
                     ? 'd-none'
                     : ''
                 }`}
