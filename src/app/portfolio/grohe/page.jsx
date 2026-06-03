@@ -20,7 +20,7 @@ export default function PortfolioDetailsPage() {
   return (
     <>
       <PageHeading
-        title='GROHE Showroom'
+        title='GROHE'
         bgSrc='/images/service_hero_bg.jpeg'
         pageLinkText='PORTFOLIO - Grohe: Interior Design & Product Display Experience'
       />

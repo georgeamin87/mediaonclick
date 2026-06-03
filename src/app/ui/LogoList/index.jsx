@@ -43,10 +43,7 @@ const partnerLogos = [
     src: '/images/clients/Artboard 10@300x.png',
     alt: 'HOMES R US',
   },
-  {
-    src: '/images/clients/Artboard 11@300x.png',
-    alt: 'MULTIBANK GROUP',
-  },
+
   {
     src: '/images/clients/Artboard 12@300x.png',
     alt: 'POLISHED INTERIORS',
@@ -55,16 +52,13 @@ const partnerLogos = [
     src: '/images/clients/Artboard 13@300x.png',
     alt: 'WALID ATALLAH',
   },
-  {
-    src: '/images/clients/Artboard 14@300x.png',
-    alt: 'Partner',
-  },
+
   {
     src: '/images/clients/Artboard 15@300x.png',
     alt: 'Partner',
   },
   {
-    src: '/images/clients/Artboard 16@300x.png',
+    src: '/images/clients/Artboard 33@300x.png',
     alt: 'Partner',
   },
   {
@@ -81,6 +75,70 @@ const partnerLogos = [
   },
   {
     src: '/images/clients/Artboard 45.png',
+    alt: 'Partner',
+  },
+
+  {
+    src: '/images/clients/Artboard 18@300x.png',
+    alt: 'HomeRus',
+  },
+  {
+    src: '/images/clients/Artboard 25@300x.png',
+    alt: 'Interiors',
+  },
+  {
+    src: '/images/clients/Artboard 24@300x.png',
+    alt: 'Chattles',
+  },
+  {
+    src: '/images/clients/new/4.svg',
+    alt: 'Partner',
+  },
+  {
+    src: '/images/clients/new/5.svg',
+    alt: 'Partner',
+  },
+
+  {
+    src: '/images/clients/new/7.svg',
+    alt: 'Partner',
+  },
+  {
+    src: '/images/clients/new/8.svg',
+    alt: 'Partner',
+  },
+
+  {
+    src: '/images/clients/new/11.svg',
+    alt: 'Partner',
+  },
+  {
+    src: '/images/clients/new/12.svg',
+    alt: 'Partner',
+  },
+  {
+    src: '/images/clients/new/13.svg',
+    alt: 'Partner',
+  },
+  {
+    src: '/images/clients/new/14.svg',
+    alt: 'Partner',
+  },
+  {
+    src: '/images/clients/new/15.svg',
+    alt: 'Partner',
+  },
+  {
+    src: '/images/clients/new/16.svg',
+    alt: 'Partner',
+  },
+
+  {
+    src: '/images/clients/new/18.svg',
+    alt: 'Partner',
+  },
+  {
+    src: '/images/clients/new/19.svg',
     alt: 'Partner',
   }
 ];
@@ -125,9 +183,9 @@ export default function LogoList() {
       <Slider {...settings}>
         {partnerLogos.map((logo, index) => (
           <Div key={index} className="px-15">
-            <img 
-              src={logo.src} 
-              alt={logo.alt} 
+            <img
+              src={logo.src}
+              alt={logo.alt}
               className="w-100"
               style={{ maxHeight: '150px', objectFit: 'contain' }}
             />
