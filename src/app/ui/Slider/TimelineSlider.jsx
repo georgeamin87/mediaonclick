@@ -52,6 +52,62 @@ const timelineData = [
       image: '/images/set/6.png',
     },
   ],
+  [
+    {
+      year: 'GCC',
+      name: 'Arabian Business',
+      position: 'Entrepreneur & Corporates',
+      image: '/images/set/ab.png',
+    },
+  ],
+  [
+    {
+      year: 'UAE',
+      name: 'Emirates Today',
+      position: 'Local News',
+      image: '/images/set/emirate.webp',
+    },
+  ],
+  [
+    {
+      year: 'Middle East',
+      name: 'Identity',
+      position: 'Furniture, Decor & Interiors',
+      image: '/images/set/identity.webp',
+    },
+  ],
+  [
+    {
+      year: 'Middle East',
+      name: 'Khaleej Times',
+      position: 'General News',
+      image: '/images/set/khaleej.webp',
+    },
+  ],
+  [
+    {
+      year: 'GCC',
+      name: 'Sayidaty',
+      position: 'Lifestyle & Celebrities',
+      image: '/images/set/sayedaty.webp',
+    },
+  ],
+  [
+    {
+      year: 'Middle East',
+      name: 'Zahrat Al Khaleej',
+      position: 'Lifestyle & Celebrities',
+      image: '/images/set/zahra.webp',
+    },
+  ],
+  [
+    {
+      year: 'UAE',
+      name: 'Emirates Today',
+      position: 'General News',
+      image: '/images/set/emiratetoday.webp',
+    },
+  ],
 ];
 
 export default function TimelineSlider() {
