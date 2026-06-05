@@ -202,7 +202,7 @@ export default function Home() {
       <Spacing lg="100" md="50" />
       <Div className="container text-center">
         <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
-          Expanding Brand Impact Across the GCC
+          Expanding Brands Impact Across the GCC
         </h2>
         <Spacing lg="30" md="20" />
         <p className="cs-m0" style={{ fontSize: '18px', lineHeight: '1.6', maxWidth: '900px', margin: '0 auto' }}>
