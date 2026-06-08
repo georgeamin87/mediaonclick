@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
       <head>
         <meta name="author" content="Laralink" />
         <link rel="icon" href="/images/MOC-Primary-Logo-300x300.png" sizes="any" />
-        <title>Leading PR, Media & Events Agency in Dubai | MOC – Your Partner In Business</title>
+        <title>Leading PR, Events & Media Buying Agency in Dubai | MOC – Your Partner In Business</title>
       </head>
       <body className={`${openSans.variable} ${poppins.variable}`}>
         <Header />
