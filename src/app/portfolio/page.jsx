@@ -21,7 +21,7 @@ const portfolioData = [
     subtitle: 'See Details',
     href: '/portfolio/grohe',
     src: '/images/projects/grohe.png',
-    category: 'event_managment, digital_marketing, media_buying',
+    category: 'event_managment, pr_publication, digital_marketing, media_buying',
   },
   {
     title: 'Kohler Al Hashimiya Opening Event',
@@ -35,14 +35,14 @@ const portfolioData = [
     subtitle: 'See Details',
     href: '/portfolio/multibank-group-gala',
     src: '/images/projects/snapinsta.jpg',
-    category: 'event_managment',
+    category: 'event_managment, pr_publication',
   },
   {
     title: 'GF Corys Creatives & Digital Innovation',
     subtitle: 'See Details',
     href: '/portfolio/gf-corys',
     src: '/images/projects/gfcorys/rec.webp',
-    category: 'event_managment',
+    category: 'event_managment, pr_publication',
   },
   {
     title: 'Ideal Standard Showroom',
@@ -50,6 +50,13 @@ const portfolioData = [
     href: '/portfolio/ideal-standard',
     src: '/images/projects/ideal-standard/3.webp',
     category: 'digital_marketing',
+  },
+  {
+    title: 'Giorgio Collection x Interiors Furniture',
+    subtitle: 'See Details',
+    href: '/portfolio/interior-furniture',
+    src: '/images/projects/interior-furniture/1.webp',
+    category: 'event_managment',
   },
   {
     title: 'Chattels & More OOH Campaign',

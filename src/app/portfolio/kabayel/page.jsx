@@ -11,9 +11,9 @@ import imgUrl from '../../../../public/images/projects/kabayel/kabayel 1.webp';
 import aboutImg2 from '../../../../public/images/projects/kabayel/1.webp';
 import aboutImg3 from '../../../../public/images/projects/kabayel/2.webp';
 import aboutImg4 from '../../../../public/images/projects/kabayel/truck.webp';
-import aboutImg5 from '../../../../public/images/projects/alkabayelp/4.webp';
-import aboutImg6 from '../../../../public/images/projects/alkabayelp/2.webp';
-import aboutImg7 from '../../../../public/images/projects/alkabayelp/1.webp';
+import aboutImg5 from '../../../../public/images/projects/kabayel/3.webp';
+import aboutImg6 from '../../../../public/images/projects/kabayel/taxi.webp';
+import aboutImg7 from '../../../../public/images/projects/kabayel/4.webp';
 
 export default function PortfolioDetailsPage() {
   return (

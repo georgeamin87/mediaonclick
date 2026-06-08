@@ -22,6 +22,7 @@ export default function ServicesPage() {
         pageLinkText='Services'
       />
       <Spacing lg='150' md='80' />
+      {/* Start Services Section */}
       <Div className='cs-shape_wrap_4'>
         <Div className="cs-shape_4"></Div>
         <Div className="cs-shape_4"></Div>
@@ -101,6 +102,7 @@ export default function ServicesPage() {
           </Div>
         </Div>
       </Div>
+      {/* End Services Section */}
       <Spacing lg='150' md='80' />
       <Div className="container">
         <SectionHeading

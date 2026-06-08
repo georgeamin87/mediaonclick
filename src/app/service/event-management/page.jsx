@@ -52,7 +52,6 @@ export default function ServiceDetails() {
       { title: 'Corporate', icon: '/images/icons/corporate-icon.svg', desc: 'Conferences, product launches, seminars' },
       { title: 'Brand', icon: '/images/icons/brand-icon.svg', desc: 'Pop-ups, experiential activations' },
       { title: 'Social', icon: '/images/icons/social-icon.svg', desc: 'Galas, award shows, celebrations' },
-      { title: 'Virtual', icon: '/images/icons/virtual-icon.svg', desc: 'Webinars, online conferences' }
     ]
   }
 

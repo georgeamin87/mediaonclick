@@ -100,14 +100,6 @@ const timelineData = [
       image: '/images/set/zahra.webp',
     },
   ],
-  [
-    {
-      year: 'UAE',
-      name: 'Emirates Today',
-      position: 'General News',
-      image: '/images/set/emiratetoday.webp',
-    },
-  ],
 ];
 
 export default function TimelineSlider() {

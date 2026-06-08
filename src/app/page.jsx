@@ -220,60 +220,82 @@ export default function Home() {
 
       {/* Start Service Section */}
       <Spacing lg="150" md="80" />
-      <Div id="service">
+      <Div id="service" className="cs-shape_wrap_4">
+        <Div className="cs-shape_4"></Div>
+        <Div className="cs-shape_4"></Div>
         <Div className="container">
           <Div className="row">
             <Div className="col-xl-4">
               <SectionHeading
-                title="Services Designed To Grow Your Brand"
-                subtitle="Creative That Converts"
+                title="Where Brands Meet Influence"
+                subtitle="Discover how we accelerate your media presence"
                 btnText="Explore All Services"
                 btnLink="/service"
               />
               <Spacing lg="90" md="45" />
             </Div>
-            <Div className="col-xl-8">
-              <Div className="row">
-                <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-                <Div className="col-lg-3 col-sm-6">
+            <Div className='col-xl-8'>
+              <Div className='row'>
+                <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
+                <Div className='col-lg-3 col-sm-6'>
                   <Card
-                    title="PUBLIC RELATIONS"
-                    link="/service/pr"
-                    src="/images/services/pr.jpg"
-                    alt="Service"
+                    title='MEDIA PLANNING & BUYING'
+                    link='/service/media-plaining-buying'
+                    src='/images/service_1.jpeg'
+                    alt='Service'
                   />
-                  <Spacing lg="0" md="30" />
+                  <Spacing lg='0' md='30' />
                 </Div>
-                <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-                <Div className="col-lg-3 col-sm-6">
+                <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
+                <Div className='col-lg-3 col-sm-6'>
                   <Card
-                    title="EVENT MANAGEMENT"
-                    link="/service/event-management"
-                    src="/images/services/event.jpg"
-                    alt="Service"
+                    title='EVENT MANAGEMENT'
+                    link='/service/event-management'
+                    src='/images/services/event.jpg'
+                    alt='Service'
                   />
-                  <Spacing lg="0" md="30" />
+                  <Spacing lg='0' md='30' />
                 </Div>
-                <Div className="col-lg-3 col-sm-6">
+                <Div className='col-lg-3 col-sm-6'>
                   <Card
-                    title="INFLUENCER MARKETING"
-                    link="/service/influencers"
-                    src="/images/services/influence.jpg"
-                    alt="Service"
+                    title='Interior Design Solutions'
+                    link='/service/interior-design'
+                    src='/images/about_img_6.webp'
+                    alt='Service'
                   />
-                  <Spacing lg="0" md="30" />
+                  <Spacing lg='0' md='30' />
                 </Div>
-                <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-                <Div className="col-lg-3 col-sm-6">
+                <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
+                <Div className='col-lg-3 col-sm-6'>
                   <Card
-                    title="MEDIA PLANNING & BUYING"
-                    link="/service/media-plaining-buying"
-                    src="/images/service_1.jpeg"
-                    alt="Service"
+                    title='PUBLIC RELATIONS'
+                    link='/service/pr'
+                    src='/images/services/pr.jpg'
+                    alt='Service'
                   />
-                  <Spacing lg="0" md="30" />
+                  <Spacing lg='0' md='30' />
                 </Div>
-                <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
+                <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
+                <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
+                <Div className='col-lg-3 col-sm-6'>
+                  <Card
+                    title='CONSULTANCY'
+                    link='/service/consultancy'
+                    src='/images/service_4.jpeg'
+                    alt='Service'
+                  />
+                  <Spacing lg='0' md='30' />
+                </Div>
+                <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
+                <Div className='col-lg-3 col-sm-6'>
+                  <Card
+                    title='INFLUENCER MARKETING'
+                    link='/service/influencers'
+                    src='/images/services/influence.jpg'
+                    alt='Service'
+                  />
+                  <Spacing lg='0' md='30' />
+                </Div>
               </Div>
             </Div>
           </Div>
