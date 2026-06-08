@@ -227,8 +227,8 @@ export default function Home() {
           <Div className="row">
             <Div className="col-xl-4">
               <SectionHeading
-                title="Where Brands Meet Influence"
-                subtitle="Discover how we accelerate your media presence"
+                title="Services Designed To Grow Your Brand"
+                subtitle="Creative That Converts"
                 btnText="Explore All Services"
                 btnLink="/service"
               />
