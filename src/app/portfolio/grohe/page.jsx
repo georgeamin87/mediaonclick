@@ -12,9 +12,8 @@ import aboutImg1 from '../../../../public/images/projects/grohe/UAE/1.png'
 import aboutImg2 from '../../../../public/images/projects/grohe/UAE/2.webp'
 import aboutImg3 from '../../../../public/images/projects/grohe/UAE/3.webp'
 import aboutImg4 from '../../../../public/images/projects/grohe/screen.webp'
-import aboutImg5 from '../../../../public/images/projects/grohe/booth.webp'
-import aboutImg6 from '../../../../public/images/projects/grohe/booth2.webp'
-
+import aboutImg5 from '../../../../public/images/projects/grohe/booth2.webp'
+import aboutImg6 from '../../../../public/images/projects/grohe/droneshow-grohe.webp'
 
 export default function PortfolioDetailsPage() {
   return (
@@ -30,6 +29,10 @@ export default function PortfolioDetailsPage() {
         <Spacing lg='90' md='40' />
         <Div className="row">
           <Div className="col-lg-6">
+            <video autoPlay loop muted playsInline className="cs-radius_15 w-100" style={{ marginBottom: '30px' }}>
+              <source src="/images/projects/grohe/droneshow-grohe.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
             <SectionHeading
               title='GROHE Experiential Events, Retail Design & Brand Activation'
               subtitle='Delivering Immersive Brand Experiences Across Multiple Touchpoints'
@@ -109,6 +112,10 @@ export default function PortfolioDetailsPage() {
             />
             <Spacing lg="25" md="25" />
           </Div>
+          <video autoPlay loop muted playsInline className="cs-radius_15 w-100" style={{ marginBottom: '30px' }}>
+            <source src="/images/projects/grohe/droneshow-grohe.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </Div>
 
         <Div className="row">
