@@ -29,10 +29,6 @@ export default function PortfolioDetailsPage() {
         <Spacing lg='90' md='40' />
         <Div className="row">
           <Div className="col-lg-6">
-            <video autoPlay loop muted playsInline className="cs-radius_15 w-100" style={{ marginBottom: '30px' }}>
-              <source src="/images/projects/grohe/droneshow-grohe.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
             <SectionHeading
               title='GROHE Experiential Events, Retail Design & Brand Activation'
               subtitle='Delivering Immersive Brand Experiences Across Multiple Touchpoints'
