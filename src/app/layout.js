@@ -1,4 +1,5 @@
 "use client";
+import { GoogleTagManager } from '@next/third-parties/google';
 import Header from "@/app/ui/Header";
 import CustomCursor from "@/app/ui/CustomCursor";
 import Footer from "@/app/ui/Footer";
@@ -33,6 +34,7 @@ export default function RootLayout({ children }) {
         {children}
         <Footer />
         <WhatsAppFloat />
+        <GoogleTagManager gtmId="GTM-5QLV5BMQ" />
       </body>
     </html>
   );
