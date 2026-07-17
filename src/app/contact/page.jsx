@@ -1,6 +1,5 @@
 'use client'
 import { useState } from "react";
-import { sendGTMEvent } from '@next/third-parties/google';
 import Div from "@/app/ui/Div";
 import PageHeading from "@/app/ui/PageHeading";
 import SectionHeading from "@/app/ui/SectionHeading";
@@ -40,7 +39,6 @@ export default function ContactPage() {
 
       if (response.ok) {
         setStatus("success");
-        sendGTMEvent({ event: 'lead_form_success' });
         setFormData({
           fullName: "",
           email: "",

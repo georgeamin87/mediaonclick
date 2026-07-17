@@ -1,6 +1,5 @@
 'use client';
 import { useState } from 'react';
-import { sendGTMEvent } from '@next/third-parties/google';
 import Cta from '@/app/ui/Cta';
 import Div from '@/app/ui/Div';
 import FunFact from '@/app/ui/FunFact';
@@ -145,7 +144,6 @@ export default function Home() {
 
       if (response.ok) {
         setStatus("success");
-        sendGTMEvent({ event: 'lead_form_success' });
         setFormData({
           fullName: "",
           email: "",
