@@ -1,0 +1,56 @@
+# MediaOnClick
+
+MediaOnClick is a PR, Media Buying, Events & Influencer Marketing Agency.
+We create influential brand experiences through refined PR strategies, targeted media buying, exceptional events, and curated influencer collaborations — designed to position your brand where it belongs.
+
+## Essential Routes Map
+
+The website is structured with the following key endpoints:
+
+- **Home page**: `/`
+- **About Us**: `/about`
+- **Contact**: `/contact`
+- **FAQ**: `/faq`
+- **Gallery**: `/gallery`
+- **Our Clients**: `/our-clients`
+- **Privacy Policy**: `/privacy-policy`
+- **Team**: `/team`
+- **Terms & Conditions**: `/terms-conditions`
+
+### Services (`/service`)
+- Consultancy: `/service/consultancy`
+- Digital Marketing: `/service/digital-marketing`
+- Event Management: `/service/event-management`
+- Influencers: `/service/influencers`
+- Interior Design: `/service/interior-design`
+- Media Planning & Buying: `/service/media-plaining-buying`
+- PR: `/service/pr`
+
+### Portfolio Projects (`/portfolio`)
+- Al Hazaifa: `/portfolio/al-hazaifa`
+- Al Kabayel Prime: `/portfolio/al-kabayel-prime`
+- Chattels And More: `/portfolio/chattels-and-more`
+- Daluha: `/portfolio/daluha`
+- Design Middle East Awards 2023: `/portfolio/design-middle-east-awards-2023`
+- Dubai Police: `/portfolio/dubai-police`
+- GF Corys: `/portfolio/gf-corys`
+- Grohe: `/portfolio/grohe`
+- Hanif: `/portfolio/hanif`
+- Homes R Us: `/portfolio/homes-r-us`
+- Ideal Standard: `/portfolio/ideal-standard`
+- Interior Furniture: `/portfolio/interior-furniture`
+- Kabayel: `/portfolio/kabayel`
+- Kohler: `/portfolio/kohler`
+- Multibank Group Gala: `/portfolio/multibank-group-gala`
+- Ofis: `/portfolio/ofis`
+- Pegasus: `/portfolio/pegasus`
+- Walid Atallah: `/portfolio/walid-atallah`
+
+## Contact Information
+For collaboration, meeting requests, or general inquiries, please navigate to our `/contact` page.
+
+## Additional Information
+- Global Happy Clients: 100+
+- Years of Experience: 10+
+- Projects Completed: 1000+
+- Dedicated Team Members: 18+
