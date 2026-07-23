@@ -36,7 +36,7 @@ export default function sitemap() {
     url: `${baseUrl}/service/${service}`,
     lastModified: new Date(),
     changeFrequency: 'monthly',
-    priority: 1, // High priority as requested
+    priority: 0.9,
   }));
 
   const portfolioRoutes = portfolios.map(portfolio => ({

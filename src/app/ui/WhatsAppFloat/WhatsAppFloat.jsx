@@ -42,7 +42,7 @@ const WhatsAppFloat = () => {
     <>
       {!isMobile && (
         <a
-          href="http://api.whatsapp.com/send?phone=971552782860"
+          href="http://api.whatsapp.com/send?phone=971521162948"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Chat on WhatsApp"
@@ -103,7 +103,7 @@ const WhatsAppFloat = () => {
             <span style={{ fontWeight: 600 }}>Call</span>
           </a>
           <a
-            href="http://api.whatsapp.com/send?phone=971552782860"
+            href="http://api.whatsapp.com/send?phone=971521162948"
             target="_blank"
             rel="noopener noreferrer"
             style={{
