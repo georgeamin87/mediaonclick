@@ -189,7 +189,7 @@ export default function Home() {
       {/* End FunFact Section */}
       {/* Start MovingText Section */}
       <Spacing lg="125" md="70" />
-      <MovingText text="Our reputed world wide partners" />
+      <MovingText text="Trusted by Leading Brands" />
       {/* End MovingText Section */}
 
       {/* Start LogoList Section */}
