@@ -32,9 +32,11 @@ export default function RootLayout({ children }) {
         <meta property="og:description" content="Discover MediaOnClick, a premier PR, Events & Media Buying agency in Dubai. We create influential brand experiences and memorable campaigns tailored for you." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://mediaonclick.me/" />
+        <meta property="og:image" content="https://mediaonclick.me/images/mediaonclickog.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Leading PR, Events & Media Buying Agency in Dubai | MOC – Your Partner In Business" />
         <meta name="twitter:description" content="Discover MediaOnClick, a premier PR, Events & Media Buying agency in Dubai. We create influential brand experiences and memorable campaigns tailored for you." />
+        <meta name="twitter:image" content="https://mediaonclick.me/images/mediaonclickog.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
