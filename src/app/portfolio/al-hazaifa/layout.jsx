@@ -2,12 +2,12 @@ export const metadata = {
   title: 'Al Hazaifa Portfolio | Top PR & Marketing Agency Dubai | MOC',
   description: 'Explore the Al Hazaifa case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.',
   alternates: {
-    canonical: 'https://www.mediaonclick.com/portfolio/al-hazaifa',
+    canonical: 'https://mediaonclick.me/portfolio/al-hazaifa',
   },
   openGraph: {
     title: 'Al Hazaifa Portfolio | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Al Hazaifa case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.',
-    url: 'https://www.mediaonclick.com/portfolio/al-hazaifa',
+    url: 'https://mediaonclick.me/portfolio/al-hazaifa',
     siteName: 'MediaOnClick',
     type: 'website',
   },
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
     "@type": "Service",
     "name": "Al Hazaifa Portfolio | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Al Hazaifa case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.",
-    "url": "https://www.mediaonclick.com/portfolio/al-hazaifa",
+    "url": "https://mediaonclick.me/portfolio/al-hazaifa",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

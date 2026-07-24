@@ -2,12 +2,12 @@ export const metadata = {
   title: 'Trusted by Global Brands | Our Clients | MediaOnClick Dubai',
   description: 'Explore the top global brands and businesses that trust MediaOnClick for strategic public relations, media buying, event management, and digital marketing.',
   alternates: {
-    canonical: 'https://www.mediaonclick.com/our-clients',
+    canonical: 'https://mediaonclick.me/our-clients',
   },
   openGraph: {
     title: 'Trusted by Global Brands | Our Clients | MediaOnClick Dubai',
     description: 'Explore the top global brands and businesses that trust MediaOnClick for strategic public relations, media buying, event management, and digital marketing.',
-    url: 'https://www.mediaonclick.com/our-clients',
+    url: 'https://mediaonclick.me/our-clients',
     siteName: 'MediaOnClick',
     type: 'website',
   },
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
     "@type": "CollectionPage",
     "name": "Trusted by Global Brands | Our Clients | MediaOnClick Dubai",
     "description": "Explore the top global brands and businesses that trust MediaOnClick for strategic public relations, media buying, event management, and digital marketing.",
-    "url": "https://www.mediaonclick.com/our-clients"
+    "url": "https://mediaonclick.me/our-clients"
 };
 
   return (

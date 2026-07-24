@@ -2,12 +2,12 @@ export const metadata = {
   title: 'Our Work Gallery | PR, Events & Influencer Marketing Campaigns | MOC',
   description: 'View our gallery showcasing successful events, PR campaigns, influencer collaborations, and interior design projects by the expert MediaOnClick team in Dubai.',
   alternates: {
-    canonical: 'https://www.mediaonclick.com/gallery',
+    canonical: 'https://mediaonclick.me/gallery',
   },
   openGraph: {
     title: 'Our Work Gallery | PR, Events & Influencer Marketing Campaigns | MOC',
     description: 'View our gallery showcasing successful events, PR campaigns, influencer collaborations, and interior design projects by the expert MediaOnClick team in Dubai.',
-    url: 'https://www.mediaonclick.com/gallery',
+    url: 'https://mediaonclick.me/gallery',
     siteName: 'MediaOnClick',
     type: 'website',
   },
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
     "@type": "CollectionPage",
     "name": "Our Work Gallery | PR, Events & Influencer Marketing Campaigns | MOC",
     "description": "View our gallery showcasing successful events, PR campaigns, influencer collaborations, and interior design projects by the expert MediaOnClick team in Dubai.",
-    "url": "https://www.mediaonclick.com/gallery"
+    "url": "https://mediaonclick.me/gallery"
 };
 
   return (

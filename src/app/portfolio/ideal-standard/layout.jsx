@@ -2,12 +2,12 @@ export const metadata = {
   title: 'Ideal Standard Portfolio | Top PR & Marketing Agency Dubai | MOC',
   description: 'Explore the Ideal Standard case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our cl...',
   alternates: {
-    canonical: 'https://www.mediaonclick.com/portfolio/ideal-standard',
+    canonical: 'https://mediaonclick.me/portfolio/ideal-standard',
   },
   openGraph: {
     title: 'Ideal Standard Portfolio | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Ideal Standard case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our cl...',
-    url: 'https://www.mediaonclick.com/portfolio/ideal-standard',
+    url: 'https://mediaonclick.me/portfolio/ideal-standard',
     siteName: 'MediaOnClick',
     type: 'website',
   },
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
     "@type": "Service",
     "name": "Ideal Standard Portfolio | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Ideal Standard case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our cl...",
-    "url": "https://www.mediaonclick.com/portfolio/ideal-standard",
+    "url": "https://mediaonclick.me/portfolio/ideal-standard",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

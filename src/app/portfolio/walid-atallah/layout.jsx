@@ -2,12 +2,12 @@ export const metadata = {
   title: 'Walid Atallah Portfolio | Top PR & Marketing Agency Dubai | MOC',
   description: 'Explore the Walid Atallah case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our cli...',
   alternates: {
-    canonical: 'https://www.mediaonclick.com/portfolio/walid-atallah',
+    canonical: 'https://mediaonclick.me/portfolio/walid-atallah',
   },
   openGraph: {
     title: 'Walid Atallah Portfolio | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Walid Atallah case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our cli...',
-    url: 'https://www.mediaonclick.com/portfolio/walid-atallah',
+    url: 'https://mediaonclick.me/portfolio/walid-atallah',
     siteName: 'MediaOnClick',
     type: 'website',
   },
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
     "@type": "Service",
     "name": "Walid Atallah Portfolio | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Walid Atallah case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our cli...",
-    "url": "https://www.mediaonclick.com/portfolio/walid-atallah",
+    "url": "https://mediaonclick.me/portfolio/walid-atallah",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

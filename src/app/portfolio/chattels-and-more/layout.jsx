@@ -2,12 +2,12 @@ export const metadata = {
   title: 'Chattels And More Portfolio | Top PR & Marketing Agency Dubai | MOC',
   description: 'Explore the Chattels And More case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our...',
   alternates: {
-    canonical: 'https://www.mediaonclick.com/portfolio/chattels-and-more',
+    canonical: 'https://mediaonclick.me/portfolio/chattels-and-more',
   },
   openGraph: {
     title: 'Chattels And More Portfolio | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Chattels And More case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our...',
-    url: 'https://www.mediaonclick.com/portfolio/chattels-and-more',
+    url: 'https://mediaonclick.me/portfolio/chattels-and-more',
     siteName: 'MediaOnClick',
     type: 'website',
   },
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
     "@type": "Service",
     "name": "Chattels And More Portfolio | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Chattels And More case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our...",
-    "url": "https://www.mediaonclick.com/portfolio/chattels-and-more",
+    "url": "https://mediaonclick.me/portfolio/chattels-and-more",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

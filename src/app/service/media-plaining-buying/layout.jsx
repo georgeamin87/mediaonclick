@@ -2,12 +2,12 @@ export const metadata = {
   title: 'Expert Media Planning & Buying Agency in Dubai | MediaOnClick',
   description: 'Elevate your brand with MediaOnClick\'s expert services. We deliver strategic, data-driven solutions to achieve measurable growth and market dominance in Dubai.',
   alternates: {
-    canonical: 'https://www.mediaonclick.com/service/media-plaining-buying',
+    canonical: 'https://mediaonclick.me/service/media-plaining-buying',
   },
   openGraph: {
     title: 'Expert Media Planning & Buying Agency in Dubai | MediaOnClick',
     description: 'Elevate your brand with MediaOnClick\'s expert services. We deliver strategic, data-driven solutions to achieve measurable growth and market dominance in Dubai.',
-    url: 'https://www.mediaonclick.com/service/media-plaining-buying',
+    url: 'https://mediaonclick.me/service/media-plaining-buying',
     siteName: 'MediaOnClick',
     type: 'website',
   },
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
     "@type": "Service",
     "name": "Expert Media Planning & Buying Agency in Dubai | MediaOnClick",
     "description": "Elevate your brand with MediaOnClick's expert services. We deliver strategic, data-driven solutions to achieve measurable growth and market dominance in Dubai.",
-    "url": "https://www.mediaonclick.com/service/media-plaining-buying",
+    "url": "https://mediaonclick.me/service/media-plaining-buying",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

@@ -2,12 +2,12 @@ export const metadata = {
   title: 'Kohler Portfolio | Top PR & Marketing Agency Dubai | MOC',
   description: 'Explore the Kohler case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.',
   alternates: {
-    canonical: 'https://www.mediaonclick.com/portfolio/kohler',
+    canonical: 'https://mediaonclick.me/portfolio/kohler',
   },
   openGraph: {
     title: 'Kohler Portfolio | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Kohler case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.',
-    url: 'https://www.mediaonclick.com/portfolio/kohler',
+    url: 'https://mediaonclick.me/portfolio/kohler',
     siteName: 'MediaOnClick',
     type: 'website',
   },
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
     "@type": "Service",
     "name": "Kohler Portfolio | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Kohler case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.",
-    "url": "https://www.mediaonclick.com/portfolio/kohler",
+    "url": "https://mediaonclick.me/portfolio/kohler",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

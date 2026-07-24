@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-const baseUrl = 'https://www.mediaonclick.com';
+const baseUrl = 'https://mediaonclick.me';
 
 const routes = [
   {
@@ -130,7 +130,7 @@ function generateLayoutContent(route) {
       "@type": "Organization",
       "name": "Media OnClick (MOC)",
       "url": url,
-      "logo": "https://www.mediaonclick.com/images/MOC-Primary-Logo-300x300.png",
+      "logo": "https://mediaonclick.me/images/MOC-Primary-Logo-300x300.png",
       "telephone": "+971-4-456-7122",
       "address": {
         "@type": "PostalAddress",

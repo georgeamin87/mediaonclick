@@ -2,12 +2,12 @@ export const metadata = {
   title: 'Top Influencer Marketing Agency in Dubai & UAE | MediaOnClick',
   description: 'Elevate your brand with MediaOnClick\'s expert services. We deliver strategic, data-driven solutions to achieve measurable growth and market dominance in Dubai.',
   alternates: {
-    canonical: 'https://www.mediaonclick.com/service/influencers',
+    canonical: 'https://mediaonclick.me/service/influencers',
   },
   openGraph: {
     title: 'Top Influencer Marketing Agency in Dubai & UAE | MediaOnClick',
     description: 'Elevate your brand with MediaOnClick\'s expert services. We deliver strategic, data-driven solutions to achieve measurable growth and market dominance in Dubai.',
-    url: 'https://www.mediaonclick.com/service/influencers',
+    url: 'https://mediaonclick.me/service/influencers',
     siteName: 'MediaOnClick',
     type: 'website',
   },
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
     "@type": "Service",
     "name": "Top Influencer Marketing Agency in Dubai & UAE | MediaOnClick",
     "description": "Elevate your brand with MediaOnClick's expert services. We deliver strategic, data-driven solutions to achieve measurable growth and market dominance in Dubai.",
-    "url": "https://www.mediaonclick.com/service/influencers",
+    "url": "https://mediaonclick.me/service/influencers",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

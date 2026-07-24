@@ -2,12 +2,12 @@ export const metadata = {
   title: 'Daluha Portfolio | Top PR & Marketing Agency Dubai | MOC',
   description: 'Explore the Daluha case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.',
   alternates: {
-    canonical: 'https://www.mediaonclick.com/portfolio/daluha',
+    canonical: 'https://mediaonclick.me/portfolio/daluha',
   },
   openGraph: {
     title: 'Daluha Portfolio | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Daluha case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.',
-    url: 'https://www.mediaonclick.com/portfolio/daluha',
+    url: 'https://mediaonclick.me/portfolio/daluha',
     siteName: 'MediaOnClick',
     type: 'website',
   },
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
     "@type": "Service",
     "name": "Daluha Portfolio | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Daluha case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.",
-    "url": "https://www.mediaonclick.com/portfolio/daluha",
+    "url": "https://mediaonclick.me/portfolio/daluha",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

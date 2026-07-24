@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
         <meta property="og:title" content="Leading PR, Events & Media Buying Agency in Dubai | MOC – Your Partner In Business" />
         <meta property="og:description" content="Discover MediaOnClick, a premier PR, Events & Media Buying agency in Dubai. We create influential brand experiences and memorable campaigns tailored for you." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.mediaonclick.com/" />
+        <meta property="og:url" content="https://mediaonclick.me/" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Leading PR, Events & Media Buying Agency in Dubai | MOC – Your Partner In Business" />
         <meta name="twitter:description" content="Discover MediaOnClick, a premier PR, Events & Media Buying agency in Dubai. We create influential brand experiences and memorable campaigns tailored for you." />
@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
               "@type": "ProfessionalService",
               "name": "Media OnClick (MOC)",
               "description": "Discover MediaOnClick, a premier PR, Events & Media Buying agency in Dubai. We create influential brand experiences and memorable campaigns tailored for you.",
-              "url": "https://www.mediaonclick.com/",
+              "url": "https://mediaonclick.me/",
               "telephone": "+971-4-456-7122",
               "priceRange": "$$$",
               "address": {

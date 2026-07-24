@@ -2,12 +2,12 @@ export const metadata = {
   title: 'Top PR & Marketing Agency in Dubai | MediaOnClick - About Us',
   description: 'Learn about MediaOnClick. We offer expert media planning, PR, interior design, and digital strategies to connect, captivate, and convert your target audience.',
   alternates: {
-    canonical: 'https://www.mediaonclick.com/about',
+    canonical: 'https://mediaonclick.me/about',
   },
   openGraph: {
     title: 'Top PR & Marketing Agency in Dubai | MediaOnClick - About Us',
     description: 'Learn about MediaOnClick. We offer expert media planning, PR, interior design, and digital strategies to connect, captivate, and convert your target audience.',
-    url: 'https://www.mediaonclick.com/about',
+    url: 'https://mediaonclick.me/about',
     siteName: 'MediaOnClick',
     type: 'website',
   },
@@ -23,8 +23,8 @@ export default function Layout({ children }) {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Media OnClick (MOC)",
-    "url": "https://www.mediaonclick.com/about",
-    "logo": "https://www.mediaonclick.com/images/MOC-Primary-Logo-300x300.png",
+    "url": "https://mediaonclick.me/about",
+    "logo": "https://mediaonclick.me/images/MOC-Primary-Logo-300x300.png",
     "telephone": "+971-4-456-7122",
     "address": {
         "@type": "PostalAddress",

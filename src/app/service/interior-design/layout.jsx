@@ -2,12 +2,12 @@ export const metadata = {
   title: 'Creative Commercial Interior Design Solutions in Dubai | MOC',
   description: 'Elevate your brand with MediaOnClick\'s expert services. We deliver strategic, data-driven solutions to achieve measurable growth and market dominance in Dubai.',
   alternates: {
-    canonical: 'https://www.mediaonclick.com/service/interior-design',
+    canonical: 'https://mediaonclick.me/service/interior-design',
   },
   openGraph: {
     title: 'Creative Commercial Interior Design Solutions in Dubai | MOC',
     description: 'Elevate your brand with MediaOnClick\'s expert services. We deliver strategic, data-driven solutions to achieve measurable growth and market dominance in Dubai.',
-    url: 'https://www.mediaonclick.com/service/interior-design',
+    url: 'https://mediaonclick.me/service/interior-design',
     siteName: 'MediaOnClick',
     type: 'website',
   },
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
     "@type": "Service",
     "name": "Creative Commercial Interior Design Solutions in Dubai | MOC",
     "description": "Elevate your brand with MediaOnClick's expert services. We deliver strategic, data-driven solutions to achieve measurable growth and market dominance in Dubai.",
-    "url": "https://www.mediaonclick.com/service/interior-design",
+    "url": "https://mediaonclick.me/service/interior-design",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

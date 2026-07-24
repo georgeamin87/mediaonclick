@@ -1,4 +1,5 @@
 # MediaOnClick
+Base URL: https://mediaonclick.me
 
 MediaOnClick is a PR, Media Buying, Events & Influencer Marketing Agency.
 We create influential brand experiences through refined PR strategies, targeted media buying, exceptional events, and curated influencer collaborations — designed to position your brand where it belongs.

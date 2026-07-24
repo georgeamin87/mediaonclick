@@ -2,12 +2,12 @@ export const metadata = {
   title: 'Pegasus Portfolio | Top PR & Marketing Agency Dubai | MOC',
   description: 'Explore the Pegasus case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.',
   alternates: {
-    canonical: 'https://www.mediaonclick.com/portfolio/pegasus',
+    canonical: 'https://mediaonclick.me/portfolio/pegasus',
   },
   openGraph: {
     title: 'Pegasus Portfolio | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Pegasus case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.',
-    url: 'https://www.mediaonclick.com/portfolio/pegasus',
+    url: 'https://mediaonclick.me/portfolio/pegasus',
     siteName: 'MediaOnClick',
     type: 'website',
   },
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
     "@type": "Service",
     "name": "Pegasus Portfolio | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Pegasus case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.",
-    "url": "https://www.mediaonclick.com/portfolio/pegasus",
+    "url": "https://mediaonclick.me/portfolio/pegasus",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

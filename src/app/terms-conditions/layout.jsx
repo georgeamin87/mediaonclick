@@ -2,12 +2,12 @@ export const metadata = {
   title: 'Terms & Conditions | MediaOnClick PR & Events Agency',
   description: 'Review the terms and conditions for using MediaOnClick\'s website and services. Discover our operational guidelines and legal disclaimers.',
   alternates: {
-    canonical: 'https://www.mediaonclick.com/terms-conditions',
+    canonical: 'https://mediaonclick.me/terms-conditions',
   },
   openGraph: {
     title: 'Terms & Conditions | MediaOnClick PR & Events Agency',
     description: 'Review the terms and conditions for using MediaOnClick\'s website and services. Discover our operational guidelines and legal disclaimers.',
-    url: 'https://www.mediaonclick.com/terms-conditions',
+    url: 'https://mediaonclick.me/terms-conditions',
     siteName: 'MediaOnClick',
     type: 'website',
   },
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
     "@type": "WebPage",
     "name": "Terms & Conditions | MediaOnClick PR & Events Agency",
     "description": "Review the terms and conditions for using MediaOnClick's website and services. Discover our operational guidelines and legal disclaimers.",
-    "url": "https://www.mediaonclick.com/terms-conditions"
+    "url": "https://mediaonclick.me/terms-conditions"
 };
 
   return (

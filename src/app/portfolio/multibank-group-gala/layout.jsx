@@ -2,12 +2,12 @@ export const metadata = {
   title: 'Multibank Group Gala Portfolio | Top PR & Marketing Agency Dubai | MOC',
   description: 'Explore the Multibank Group Gala case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for ...',
   alternates: {
-    canonical: 'https://www.mediaonclick.com/portfolio/multibank-group-gala',
+    canonical: 'https://mediaonclick.me/portfolio/multibank-group-gala',
   },
   openGraph: {
     title: 'Multibank Group Gala Portfolio | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Multibank Group Gala case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for ...',
-    url: 'https://www.mediaonclick.com/portfolio/multibank-group-gala',
+    url: 'https://mediaonclick.me/portfolio/multibank-group-gala',
     siteName: 'MediaOnClick',
     type: 'website',
   },
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
     "@type": "Service",
     "name": "Multibank Group Gala Portfolio | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Multibank Group Gala case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for ...",
-    "url": "https://www.mediaonclick.com/portfolio/multibank-group-gala",
+    "url": "https://mediaonclick.me/portfolio/multibank-group-gala",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

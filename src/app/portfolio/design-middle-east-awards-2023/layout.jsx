@@ -2,12 +2,12 @@ export const metadata = {
   title: 'Design Middle East Awards 2023 Portfolio | Top PR & Marketing Agency Dubai | MOC',
   description: 'Explore the Design Middle East Awards 2023 case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional re...',
   alternates: {
-    canonical: 'https://www.mediaonclick.com/portfolio/design-middle-east-awards-2023',
+    canonical: 'https://mediaonclick.me/portfolio/design-middle-east-awards-2023',
   },
   openGraph: {
     title: 'Design Middle East Awards 2023 Portfolio | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Design Middle East Awards 2023 case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional re...',
-    url: 'https://www.mediaonclick.com/portfolio/design-middle-east-awards-2023',
+    url: 'https://mediaonclick.me/portfolio/design-middle-east-awards-2023',
     siteName: 'MediaOnClick',
     type: 'website',
   },
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
     "@type": "Service",
     "name": "Design Middle East Awards 2023 Portfolio | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Design Middle East Awards 2023 case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional re...",
-    "url": "https://www.mediaonclick.com/portfolio/design-middle-east-awards-2023",
+    "url": "https://mediaonclick.me/portfolio/design-middle-east-awards-2023",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

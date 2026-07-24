@@ -2,12 +2,12 @@ export const metadata = {
   title: 'Frequently Asked Questions | PR & Media Buying Agency Dubai | MOC',
   description: 'Find answers to frequently asked questions about MediaOnClick\'s PR, media planning, event management, and influencer marketing services in Dubai and beyond.',
   alternates: {
-    canonical: 'https://www.mediaonclick.com/faq',
+    canonical: 'https://mediaonclick.me/faq',
   },
   openGraph: {
     title: 'Frequently Asked Questions | PR & Media Buying Agency Dubai | MOC',
     description: 'Find answers to frequently asked questions about MediaOnClick\'s PR, media planning, event management, and influencer marketing services in Dubai and beyond.',
-    url: 'https://www.mediaonclick.com/faq',
+    url: 'https://mediaonclick.me/faq',
     siteName: 'MediaOnClick',
     type: 'website',
   },
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
     "@type": "FAQPage",
     "name": "Frequently Asked Questions | PR & Media Buying Agency Dubai | MOC",
     "description": "Find answers to frequently asked questions about MediaOnClick's PR, media planning, event management, and influencer marketing services in Dubai and beyond.",
-    "url": "https://www.mediaonclick.com/faq"
+    "url": "https://mediaonclick.me/faq"
 };
 
   return (

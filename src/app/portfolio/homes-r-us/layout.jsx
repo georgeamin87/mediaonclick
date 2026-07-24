@@ -2,12 +2,12 @@ export const metadata = {
   title: 'Homes R Us Portfolio | Top PR & Marketing Agency Dubai | MOC',
   description: 'Explore the Homes R Us case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.',
   alternates: {
-    canonical: 'https://www.mediaonclick.com/portfolio/homes-r-us',
+    canonical: 'https://mediaonclick.me/portfolio/homes-r-us',
   },
   openGraph: {
     title: 'Homes R Us Portfolio | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Homes R Us case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.',
-    url: 'https://www.mediaonclick.com/portfolio/homes-r-us',
+    url: 'https://mediaonclick.me/portfolio/homes-r-us',
     siteName: 'MediaOnClick',
     type: 'website',
   },
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
     "@type": "Service",
     "name": "Homes R Us Portfolio | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Homes R Us case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.",
-    "url": "https://www.mediaonclick.com/portfolio/homes-r-us",
+    "url": "https://mediaonclick.me/portfolio/homes-r-us",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

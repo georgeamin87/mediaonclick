@@ -2,12 +2,12 @@ export const metadata = {
   title: 'Kabayel Portfolio | Top PR & Marketing Agency Dubai | MOC',
   description: 'Explore the Kabayel case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.',
   alternates: {
-    canonical: 'https://www.mediaonclick.com/portfolio/kabayel',
+    canonical: 'https://mediaonclick.me/portfolio/kabayel',
   },
   openGraph: {
     title: 'Kabayel Portfolio | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Kabayel case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.',
-    url: 'https://www.mediaonclick.com/portfolio/kabayel',
+    url: 'https://mediaonclick.me/portfolio/kabayel',
     siteName: 'MediaOnClick',
     type: 'website',
   },
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
     "@type": "Service",
     "name": "Kabayel Portfolio | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Kabayel case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.",
-    "url": "https://www.mediaonclick.com/portfolio/kabayel",
+    "url": "https://mediaonclick.me/portfolio/kabayel",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

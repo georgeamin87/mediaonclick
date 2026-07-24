@@ -2,12 +2,12 @@ export const metadata = {
   title: 'Our Portfolio | Successful PR & Digital Marketing Case Studies | MOC',
   description: 'Explore MediaOnClick\'s portfolio of successful case studies including top brands across PR, events, digital marketing, and interior design sectors in Dubai.',
   alternates: {
-    canonical: 'https://www.mediaonclick.com/portfolio',
+    canonical: 'https://mediaonclick.me/portfolio',
   },
   openGraph: {
     title: 'Our Portfolio | Successful PR & Digital Marketing Case Studies | MOC',
     description: 'Explore MediaOnClick\'s portfolio of successful case studies including top brands across PR, events, digital marketing, and interior design sectors in Dubai.',
-    url: 'https://www.mediaonclick.com/portfolio',
+    url: 'https://mediaonclick.me/portfolio',
     siteName: 'MediaOnClick',
     type: 'website',
   },
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
     "@type": "CollectionPage",
     "name": "Our Portfolio | Successful PR & Digital Marketing Case Studies | MOC",
     "description": "Explore MediaOnClick's portfolio of successful case studies including top brands across PR, events, digital marketing, and interior design sectors in Dubai.",
-    "url": "https://www.mediaonclick.com/portfolio"
+    "url": "https://mediaonclick.me/portfolio"
 };
 
   return (

@@ -2,12 +2,12 @@ export const metadata = {
   title: 'Expert PR, Media Buying & Event Management Services in Dubai | MOC',
   description: 'Explore MediaOnClick\'s expert services: PR, media planning, event management, interior design, consultancy, digital marketing, and influencer collaborations.',
   alternates: {
-    canonical: 'https://www.mediaonclick.com/service',
+    canonical: 'https://mediaonclick.me/service',
   },
   openGraph: {
     title: 'Expert PR, Media Buying & Event Management Services in Dubai | MOC',
     description: 'Explore MediaOnClick\'s expert services: PR, media planning, event management, interior design, consultancy, digital marketing, and influencer collaborations.',
-    url: 'https://www.mediaonclick.com/service',
+    url: 'https://mediaonclick.me/service',
     siteName: 'MediaOnClick',
     type: 'website',
   },
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
     "@type": "CollectionPage",
     "name": "Expert PR, Media Buying & Event Management Services in Dubai | MOC",
     "description": "Explore MediaOnClick's expert services: PR, media planning, event management, interior design, consultancy, digital marketing, and influencer collaborations.",
-    "url": "https://www.mediaonclick.com/service"
+    "url": "https://mediaonclick.me/service"
 };
 
   return (

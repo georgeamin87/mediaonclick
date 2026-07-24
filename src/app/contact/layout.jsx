@@ -2,12 +2,12 @@ export const metadata = {
   title: 'Contact MediaOnClick | Top PR & Event Management Agency in Dubai',
   description: 'Get in touch with MediaOnClick for collaboration, meeting requests, or inquiries regarding PR, events, media planning, and influencer marketing services.',
   alternates: {
-    canonical: 'https://www.mediaonclick.com/contact',
+    canonical: 'https://mediaonclick.me/contact',
   },
   openGraph: {
     title: 'Contact MediaOnClick | Top PR & Event Management Agency in Dubai',
     description: 'Get in touch with MediaOnClick for collaboration, meeting requests, or inquiries regarding PR, events, media planning, and influencer marketing services.',
-    url: 'https://www.mediaonclick.com/contact',
+    url: 'https://mediaonclick.me/contact',
     siteName: 'MediaOnClick',
     type: 'website',
   },
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
     "@type": "ContactPage",
     "name": "Contact MediaOnClick | Top PR & Event Management Agency in Dubai",
     "description": "Get in touch with MediaOnClick for collaboration, meeting requests, or inquiries regarding PR, events, media planning, and influencer marketing services.",
-    "url": "https://www.mediaonclick.com/contact"
+    "url": "https://mediaonclick.me/contact"
 };
 
   return (

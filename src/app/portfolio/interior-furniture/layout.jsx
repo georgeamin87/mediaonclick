@@ -2,12 +2,12 @@ export const metadata = {
   title: 'Interior Furniture Portfolio | Top PR & Marketing Agency Dubai | MOC',
   description: 'Explore the Interior Furniture case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for ou...',
   alternates: {
-    canonical: 'https://www.mediaonclick.com/portfolio/interior-furniture',
+    canonical: 'https://mediaonclick.me/portfolio/interior-furniture',
   },
   openGraph: {
     title: 'Interior Furniture Portfolio | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Interior Furniture case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for ou...',
-    url: 'https://www.mediaonclick.com/portfolio/interior-furniture',
+    url: 'https://mediaonclick.me/portfolio/interior-furniture',
     siteName: 'MediaOnClick',
     type: 'website',
   },
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
     "@type": "Service",
     "name": "Interior Furniture Portfolio | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Interior Furniture case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for ou...",
-    "url": "https://www.mediaonclick.com/portfolio/interior-furniture",
+    "url": "https://mediaonclick.me/portfolio/interior-furniture",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

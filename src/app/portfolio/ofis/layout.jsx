@@ -2,12 +2,12 @@ export const metadata = {
   title: 'Ofis Portfolio | Top PR & Marketing Agency Dubai | MOC',
   description: 'Explore the Ofis case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.',
   alternates: {
-    canonical: 'https://www.mediaonclick.com/portfolio/ofis',
+    canonical: 'https://mediaonclick.me/portfolio/ofis',
   },
   openGraph: {
     title: 'Ofis Portfolio | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Ofis case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.',
-    url: 'https://www.mediaonclick.com/portfolio/ofis',
+    url: 'https://mediaonclick.me/portfolio/ofis',
     siteName: 'MediaOnClick',
     type: 'website',
   },
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
     "@type": "Service",
     "name": "Ofis Portfolio | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Ofis case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.",
-    "url": "https://www.mediaonclick.com/portfolio/ofis",
+    "url": "https://mediaonclick.me/portfolio/ofis",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

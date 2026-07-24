@@ -2,12 +2,12 @@ export const metadata = {
   title: 'Dubai Police Portfolio | Top PR & Marketing Agency Dubai | MOC',
   description: 'Explore the Dubai Police case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clie...',
   alternates: {
-    canonical: 'https://www.mediaonclick.com/portfolio/dubai-police',
+    canonical: 'https://mediaonclick.me/portfolio/dubai-police',
   },
   openGraph: {
     title: 'Dubai Police Portfolio | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Dubai Police case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clie...',
-    url: 'https://www.mediaonclick.com/portfolio/dubai-police',
+    url: 'https://mediaonclick.me/portfolio/dubai-police',
     siteName: 'MediaOnClick',
     type: 'website',
   },
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
     "@type": "Service",
     "name": "Dubai Police Portfolio | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Dubai Police case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clie...",
-    "url": "https://www.mediaonclick.com/portfolio/dubai-police",
+    "url": "https://mediaonclick.me/portfolio/dubai-police",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",
