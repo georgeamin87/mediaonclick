@@ -8,6 +8,7 @@ export default function sitemap() {
     'influencers',
     'interior-design',
     'media-plaining-buying',
+    'ooh',
     'pr'
   ];
 

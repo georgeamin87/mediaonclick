@@ -32,6 +32,10 @@ const serviceMenu = [
     href: '/service/media-plaining-buying',
   },
   {
+    title: 'OOH ADVERTISING',
+    href: '/service/ooh',
+  },
+  {
     title: 'CONSULTANCY',
     href: '/service/consultancy',
   },

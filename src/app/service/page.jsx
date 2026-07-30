@@ -115,7 +115,7 @@ export default function ServicesPage() {
           <Div className="col-lg-4">
             <IconBox
               href='/service/pr'
-              icon='/images/icons/service_icon_4.svg'
+              icon='/images/icons/pr.svg'
               title='Public Relations'
               subtitle="We amplify your brands message through media outreach, crisis communication, brand reputation management, and editorial placements."
             />
@@ -127,6 +127,15 @@ export default function ServicesPage() {
               icon='/images/icons/service_icon_7.svg'
               title='Media Planning & Buying'
               subtitle="Strategic media planning and buying across all platforms to maximize your reach and optimize your return on investment."
+            />
+            <Spacing lg='30' md='30' />
+          </Div>
+          <Div className="col-lg-4">
+            <IconBox
+              href='/service/ooh'
+              icon='/images/icons/ooh.svg'
+              title='OOH Advertising'
+              subtitle='High-impact Out-of-Home advertising across Sheikh Zayed Road hoardings, digital LED billboards, metro stations, and landmark building wraps.'
             />
             <Spacing lg='30' md='30' />
           </Div>
