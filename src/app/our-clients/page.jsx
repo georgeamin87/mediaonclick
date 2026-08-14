@@ -240,7 +240,7 @@ export default function AboutPage() {
             {/* End About Section */}
 
             {/* Start MovingText Section */}
-            <MovingText text="Our Reputed World Wide Clients" variant="cs-type2" />
+            <MovingText text="Trusted by Leading Brands" variant="cs-type2" />
             <Spacing lg="100" md="70" />
             {/* End MovingText Section */}
             <MediaPartnersList data={partnersData} />
