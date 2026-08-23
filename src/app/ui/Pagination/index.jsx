@@ -18,7 +18,7 @@ export default function Pagination() {
         <Link className="cs-pagination_item cs-center" href="/blog">4</Link>
       </li>
       <li>
-        <Link href="#" className="cs-pagination_item cs-center">
+        <Link href="#" className="cs-pagination_item cs-center" aria-label="Next page">
           <Icon icon="akar-icons:chevron-right" />               
         </Link>
       </li>

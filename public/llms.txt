@@ -1,8 +1,10 @@
 # MediaOnClick
+
 Base URL: https://mediaonclick.me
 
 MediaOnClick is a PR, Media Buying, Events & Influencer Marketing Agency.
 We create influential brand experiences through refined PR strategies, targeted media buying, exceptional events, and curated influencer collaborations — designed to position your brand where it belongs.
+
 
 ## Essential Routes Map
 
@@ -10,6 +12,7 @@ The website is structured with the following key endpoints:
 
 - **Home page**: `/`
 - **About Us**: `/about`
+- **Our Services**: `/service`
 - **Contact**: `/contact`
 - **FAQ**: `/faq`
 - **Gallery**: `/gallery`
@@ -20,12 +23,14 @@ The website is structured with the following key endpoints:
 
 ### Services (`/service`)
 - Consultancy: `/service/consultancy`
-- Digital Marketing: `/service/digital-marketing`
+- PR: `/service/pr`
+- Ooh Advertisment: `/service/ooh` 
+- Media Planning & Buying: `/service/media-plaining-buying`
 - Event Management: `/service/event-management`
 - Influencers: `/service/influencers`
 - Interior Design: `/service/interior-design`
-- Media Planning & Buying: `/service/media-plaining-buying`
-- PR: `/service/pr`
+- Digital Marketing: `/service/digital-marketing`
+
 
 ### Portfolio Projects (`/portfolio`)
 - Al Hazaifa: `/portfolio/al-hazaifa`

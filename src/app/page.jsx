@@ -441,28 +441,29 @@ export default function Home() {
                   </Div>
                 )}
                 <Div className="col-sm-6">
-                  <label className="cs-primary_color">Full Name*</label>
-                  <input type="text" name="fullName" value={formData.fullName} onChange={handleChange} required className="cs-form_field" />
+                  <label htmlFor="fullName" className="cs-primary_color">Full Name*</label>
+                  <input id="fullName" type="text" name="fullName" value={formData.fullName} onChange={handleChange} required className="cs-form_field" />
                   <Spacing lg="20" md="20" />
                 </Div>
                 <Div className="col-sm-6">
-                  <label className="cs-primary_color">Email*</label>
-                  <input type="email" name="email" value={formData.email} onChange={handleChange} required className="cs-form_field" />
+                  <label htmlFor="email" className="cs-primary_color">Email*</label>
+                  <input id="email" type="email" name="email" value={formData.email} onChange={handleChange} required className="cs-form_field" />
                   <Spacing lg="20" md="20" />
                 </Div>
                 <Div className="col-sm-6">
-                  <label className="cs-primary_color">Project Type*</label>
-                  <input type="text" name="projectType" value={formData.projectType} onChange={handleChange} required className="cs-form_field" />
+                  <label htmlFor="projectType" className="cs-primary_color">Project Type*</label>
+                  <input id="projectType" type="text" name="projectType" value={formData.projectType} onChange={handleChange} required className="cs-form_field" />
                   <Spacing lg="20" md="20" />
                 </Div>
                 <Div className="col-sm-6">
-                  <label className="cs-primary_color">Mobile*</label>
-                  <input type="text" name="mobile" value={formData.mobile} onChange={handleChange} required className="cs-form_field" />
+                  <label htmlFor="mobile" className="cs-primary_color">Mobile*</label>
+                  <input id="mobile" type="text" name="mobile" value={formData.mobile} onChange={handleChange} required className="cs-form_field" />
                   <Spacing lg="20" md="20" />
                 </Div>
                 <Div className="col-sm-12">
-                  <label className="cs-primary_color">Message*</label>
+                  <label htmlFor="message" className="cs-primary_color">Message*</label>
                   <textarea
+                    id="message"
                     name="message"
                     value={formData.message}
                     onChange={handleChange}
