@@ -8,6 +8,58 @@ import Cta from '@/app/ui/Cta'
 import aboutImg5 from '/public/images/team/team.jpg'
 import PortfolioSlider from '@/app/ui/Slider/PortfolioSlider';
 
+// PR Work Data
+const prWorkData = [
+  {
+    title: 'Chattels & More Ramadan',
+    subtitle: 'Identity.ae',
+    href: 'https://identity.ae/fostering-connection-chattels-more-ramadan-2026/',
+    src: '/images/services/pr/identity.jpg',
+  },
+  {
+    title: 'Interiors UAE',
+    subtitle: 'Villa 88',
+    href: 'https://www.villa88.com/know/interiors-uae-for',
+    src: '/images/services/pr/villa88.jpg',
+  },
+  {
+    title: 'Challenges into Opportunities',
+    subtitle: 'Arabian Business',
+    href: 'https://www.arabianbusiness.com/business/retail/the-uae-transforms-challenges-into-opportunities-says-chattels-more-ceo-simon-zoghbi',
+    src: '/images/services/pr/business_arabian.jpg',
+  },
+  {
+    title: 'Emarat Al Youm Feature',
+    subtitle: 'Emarat Al Youm',
+    href: 'https://www.emaratalyoum.com/life/life-style/2026-04-03-1.2031610?ot=ot.AMPPageLayout',
+    src: '/images/services/pr/emirates.jpg',
+  },
+  {
+    title: 'Zahrat Al Khaleej Feature',
+    subtitle: 'Zahrat Al Khaleej',
+    href: 'https://www.zahratalkhaleej.ae/article/4640802/-%D8%A5%D9%8A%D8%A8%D8%A7%D8%B1%D8%B2%D8%A7--%D8%AA%D8%B3%D8%AA%D9%82%D8%A8%D9%84-%D8%B1%D9%85%D8%B6%D8%A7%D9%86-%D8%A8%D8%AA%D8%B5%D9%81%D9%8A%D8%A9-%D9%83%D8%A8%D8%B1%D9%89---%D9%81%D8%B1%D8%B5%D8%AA%D9%83%D9%85-%D9%84%D8%AA%D8%AC%D8%AF%D9%8A%D8%AF-%D8%A3%D9%86%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D9%85',
+    src: '/images/services/pr/zahra.jpg',
+  },
+  {
+    title: 'MultiBank HQ Relocates (EN)',
+    subtitle: 'Forbes Middle East',
+    href: 'https://www.forbesmiddleeast.com/money/banking-finance/multibank-group-relocates-its-hq-from-hong-kong-to-dubai',
+    src: '/images/services/pr/forbes.jpg',
+  },
+  {
+    title: 'MultiBank HQ Relocates (AR)',
+    subtitle: 'Forbes Middle East',
+    href: 'https://www.forbesmiddleeast.com/ar/industry/economy/multibank-group-announces-the-relocation-of-its-headquarters-from-hong-kong-to-dubai',
+    src: '/images/services/pr/forbes_multibank.jpg',
+  },
+  {
+    title: 'Kohler Feature',
+    subtitle: 'Maison Marie Claire Arabia',
+    href: 'https://maison.marieclairearabia.com/kohler/',
+    src: '/images/services/pr/marie.jpg',
+  },
+];
+
 // Portfolio Data
 const portfolioData = [
   {
@@ -131,6 +183,40 @@ export default function ServiceDetails() {
         </Div>
       </Div>
 /}
+      {/* Sample of our work Section */}
+      <Spacing lg="150" md="80" />
+      <Div className="container">
+        <SectionHeading
+          title="Sample of our work"
+          subtitle="PR Publications"
+        />
+        <Spacing lg="70" md="45" />
+        <Div className="row">
+          {prWorkData.map((item, index) => (
+            <Div className="col-lg-3 col-sm-6" key={index}>
+              <a
+                href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cs-portfolio cs-bg cs-style1 cs-type1"
+              >
+                <Div className="cs-portfolio_hover" />
+                <Div
+                  className="cs-portfolio_bg cs-bg"
+                  style={{ backgroundImage: `url("${item.src}")` }}
+                />
+                <Div className="cs-portfolio_info">
+                  <Div className="cs-portfolio_info_bg cs-accent_bg" />
+                  <h2 className="cs-portfolio_title">{item.title}</h2>
+                  <Div className="cs-portfolio_subtitle">{item.subtitle}</Div>
+                </Div>
+              </a>
+              <Spacing lg="25" md="25" />
+            </Div>
+          ))}
+        </Div>
+      </Div>
+
       {/* Start Why Choose Section */}
       <Spacing lg="100" md="80" />
       <Div className="container">
