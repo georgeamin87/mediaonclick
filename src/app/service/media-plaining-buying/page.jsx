@@ -7,6 +7,9 @@ import SectionHeading from '@/app/ui/SectionHeading'
 import Cta from '@/app/ui/Cta'
 import aboutImg4 from '/public/images/services/pr-moc.jpeg'
 import aboutImg5 from '/public/images/team/team.jpg'
+import aboutImg1 from '/public/images/projects/max/max-taxi.webp'
+import aboutImg2 from '/public/images/projects/max/max-taxi-back.webp'
+import aboutImg3 from '/public/images/projects/max/max-taxi-left.webp'
 import PortfolioSlider from '@/app/ui/Slider/PortfolioSlider';
 // Portfolio Data
 const portfolioData = [
@@ -133,6 +136,37 @@ export default function ServiceDetails() {
         </Div>
       </Div>
       {/* End Service Overview Section */}
+
+      <Div className="row">
+        <Div className="col-lg-4">
+          <Image
+            src={aboutImg1}
+            alt="About"
+            className="w-100 cs-radius_15"
+          />
+          <Spacing lg="25" md="25" />
+        </Div>
+        <Div className="col-lg-4">
+          <Image
+            src={aboutImg2}
+            alt="About"
+            className="w-100 cs-radius_15"
+          />
+          <Spacing lg="25" md="25" />
+        </Div>
+        <Div className="col-lg-4">
+          <Image
+            src={aboutImg3}
+            alt="About"
+            className="w-100 cs-radius_15"
+          />
+          <Spacing lg="25" md="25" />
+        </Div>
+        <video autoPlay loop muted playsInline className="cs-radius_15 w-100" style={{ marginBottom: '30px' }}>
+          <source src="/images/projects/max/max-taxi.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </Div>
 
       {/* Why Choose Us */}
       <Spacing lg='100' md='60' />
