@@ -9,7 +9,7 @@ import Image from "next/image";
 import VideoModal from "@/app/ui/VideoModal";
 import imgUrl from '../../../../public/images/projects/max/max.webp';
 import aboutImg2 from '../../../../public/images/projects/max/max-back-to-cool.jpg';
-import aboutImg3 from '../../../../public/images/projects/max/max-branding-activation.jpg';
+import aboutImg3 from '../../../../public/images/projects/max/max-branding-activation.JPG';
 import aboutImg4 from '../../../../public/images/projects/max/max-at-vox-cinema.jpg';
 import aboutImg5 from '../../../../public/images/projects/max/max-taxi.webp';
 import aboutImg6 from '../../../../public/images/projects/max/max-taxi-back.webp';
