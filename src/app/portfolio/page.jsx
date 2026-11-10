@@ -31,6 +31,13 @@ const portfolioData = [
     category: 'event_managment, pr_publication',
   },
   {
+    title: 'Laufen at Dubai Design',
+    subtitle: 'See Details',
+    href: '/portfolio/laufen-at-dubai-design',
+    src: '/images/projects/laufen/laufen-by-mediaonclick.webp',
+    category: 'event_managment, pr_publication',
+  },
+  {
     title: 'MultiBank Group Gala',
     subtitle: 'See Details',
     href: '/portfolio/multibank-group-gala',

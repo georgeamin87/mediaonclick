@@ -6,6 +6,12 @@ import Spacing from '@/app/ui/Spacing'
 import SectionHeading from '@/app/ui/SectionHeading'
 import Cta from '@/app/ui/Cta'
 import aboutImg5 from '/public/images/team/team.jpg'
+import oohImg1 from '/public/images/projects/kabayel/OOH-Kabayal-by-MOC.webp'
+import oohImg2 from '/public/images/projects/kabayel/4.webp'
+import oohImg3 from '/public/images/projects/kabayel/3.webp'
+import oohImg4 from '/public/images/projects/max/max.webp'
+import oohImg5 from '/public/images/projects/chattles-more.webp'
+import oohImg6 from '/public/images/projects/grohe/screen.webp'
 import PortfolioSlider from '@/app/ui/Slider/PortfolioSlider';
 import OohServiceList from './OohServiceList';
 
@@ -162,6 +168,68 @@ export default function ServiceDetails() {
         <OohServiceList />
       </Div>
       {/* End OOH Core Services Section */}
+
+      {/* Start Outdoor Gallery Section */}
+      <Spacing lg="100" md="80" />
+      <Div className="container">
+        <SectionHeading
+          title="Outdoor Advertising Gallery"
+          subtitle="Our OOH Campaigns"
+          variant="cs-style1 text-center"
+        />
+        <Spacing lg="70" md="45" />
+        <Div className="row">
+          <Div className="col-lg-4 col-sm-6">
+            <Image
+              src={oohImg1}
+              alt="Al Kabayel Prime OOH Campaign by Media OnClick"
+              className="w-100 cs-radius_15"
+            />
+            <Spacing lg="25" md="25" />
+          </Div>
+          <Div className="col-lg-4 col-sm-6">
+            <Image
+              src={oohImg2}
+              alt="Al Kabayel Prime Billboard Campaign"
+              className="w-100 cs-radius_15"
+            />
+            <Spacing lg="25" md="25" />
+          </Div>
+          <Div className="col-lg-4 col-sm-6">
+            <Image
+              src={oohImg3}
+              alt="Al Kabayel Prime Outdoor Advertising"
+              className="w-100 cs-radius_15"
+            />
+            <Spacing lg="25" md="25" />
+          </Div>
+          <Div className="col-lg-4 col-sm-6">
+            <Image
+              src={oohImg4}
+              alt="MAX Fashion Outdoor LED Advertising"
+              className="w-100 cs-radius_15"
+            />
+            <Spacing lg="25" md="25" />
+          </Div>
+          <Div className="col-lg-4 col-sm-6">
+            <Image
+              src={oohImg5}
+              alt="Chattels & More Sheikh Zayed Road Billboard"
+              className="w-100 cs-radius_15"
+            />
+            <Spacing lg="25" md="25" />
+          </Div>
+          <Div className="col-lg-4 col-sm-6">
+            <Image
+              src={oohImg6}
+              alt="Chattels & More OOH Campaign"
+              className="w-100 cs-radius_15"
+            />
+            <Spacing lg="25" md="25" />
+          </Div>
+        </Div>
+      </Div>
+      {/* End Outdoor Gallery Section */}
 
       {/* Start Why Choose Section */}
       <Spacing lg="100" md="80" />

@@ -27,6 +27,7 @@ export default function sitemap() {
     'interior-furniture',
     'kabayel',
     'kohler',
+    'laufen-at-dubai-design',
     'multibank-group-gala',
     'ofis',
     'pegasus',

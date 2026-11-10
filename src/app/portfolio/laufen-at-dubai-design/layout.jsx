@@ -1,0 +1,53 @@
+export const metadata = {
+  title: 'Laufen at Dubai Design Portfolio | Top PR & Marketing Agency Dubai | MOC',
+  description: 'Explore the Laufen at Dubai Design case study by MediaOnClick. See how our expert strategies in exhibition stand production, fabrication, and events delivered exceptional results.',
+  alternates: {
+    canonical: 'https://mediaonclick.me/portfolio/laufen-at-dubai-design',
+  },
+  openGraph: {
+    title: 'Laufen at Dubai Design Portfolio | Top PR & Marketing Agency Dubai | MOC',
+    description: 'Explore the Laufen at Dubai Design case study by MediaOnClick. See how our expert strategies in exhibition stand production, fabrication, and events delivered exceptional results.',
+    url: 'https://mediaonclick.me/portfolio/laufen-at-dubai-design',
+    siteName: 'MediaOnClick',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Laufen at Dubai Design Portfolio | Top PR & Marketing Agency Dubai | MOC',
+    description: 'Explore the Laufen at Dubai Design case study by MediaOnClick. See how our expert strategies in exhibition stand production, fabrication, and events delivered exceptional results.',
+  }
+};
+
+export default function Layout({ children }) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Laufen at Dubai Design Portfolio | Top PR & Marketing Agency Dubai | MOC",
+    "description": "Explore the Laufen at Dubai Design case study by MediaOnClick. See how our expert strategies in exhibition stand production, fabrication, and events delivered exceptional results.",
+    "url": "https://mediaonclick.me/portfolio/laufen-at-dubai-design",
+    "provider": {
+        "@type": "ProfessionalService",
+        "name": "Media OnClick (MOC)",
+        "telephone": "+971-4-456-7122",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Office No. 2609, Shatha Tower",
+            "addressLocality": "Dubai Media City",
+            "addressRegion": "Dubai",
+            "addressCountry": "AE"
+        }
+    },
+    "areaServed": {
+        "@type": "City",
+        "name": "Dubai"
+    }
+};
+
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      {children}
+    </>
+  );
+}
+

@@ -183,7 +183,7 @@ export default function PortfolioDetailsPage() {
           </h2>
           <Spacing lg="70" md="70" />
           <VideoModal
-            videoSrc="https://www.youtube.com/watch?v=b7MkunqSCzA"
+            videoSrc="https://www.youtube.com/watch?v=3oIBc-dCASk"
             bgUrl="/images/projects/kabayel/videocover.webp"
           />
         </Div>
