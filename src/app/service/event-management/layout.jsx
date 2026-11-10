@@ -9,12 +9,19 @@ export const metadata = {
     description: 'Elevate your brand with MediaOnClick\'s expert services. We deliver strategic, data-driven solutions to achieve measurable growth and market dominance in Dubai.',
     url: 'https://mediaonclick.me/service/event-management',
     siteName: 'MediaOnClick',
+    images: [
+      {
+        url: 'https://mediaonclick.me/images/services/event.jpg',
+        alt: 'Premier Corporate Event Management Company in Dubai | MediaOnClick',
+      },
+    ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Premier Corporate Event Management Company in Dubai | MediaOnClick',
     description: 'Elevate your brand with MediaOnClick\'s expert services. We deliver strategic, data-driven solutions to achieve measurable growth and market dominance in Dubai.',
+    images: ['https://mediaonclick.me/images/services/event.jpg'],
   }
 };
 
@@ -25,6 +32,7 @@ export default function Layout({ children }) {
     "name": "Premier Corporate Event Management Company in Dubai | MediaOnClick",
     "description": "Elevate your brand with MediaOnClick's expert services. We deliver strategic, data-driven solutions to achieve measurable growth and market dominance in Dubai.",
     "url": "https://mediaonclick.me/service/event-management",
+    "image": "https://mediaonclick.me/images/services/event.jpg",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

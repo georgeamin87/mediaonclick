@@ -9,12 +9,19 @@ export const metadata = {
     description: 'Explore MediaOnClick\'s expert services: PR, media planning, event management, interior design, consultancy, digital marketing, and influencer collaborations.',
     url: 'https://mediaonclick.me/service',
     siteName: 'MediaOnClick',
+    images: [
+      {
+        url: 'https://mediaonclick.me/images/service_img_1.jpeg',
+        alt: 'MediaOnClick Services',
+      },
+    ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Expert PR, Media Buying & Event Management Services in Dubai | MOC',
     description: 'Explore MediaOnClick\'s expert services: PR, media planning, event management, interior design, consultancy, digital marketing, and influencer collaborations.',
+    images: ['https://mediaonclick.me/images/service_img_1.jpeg'],
   }
 };
 
@@ -24,7 +31,8 @@ export default function Layout({ children }) {
     "@type": "CollectionPage",
     "name": "Expert PR, Media Buying & Event Management Services in Dubai | MOC",
     "description": "Explore MediaOnClick's expert services: PR, media planning, event management, interior design, consultancy, digital marketing, and influencer collaborations.",
-    "url": "https://mediaonclick.me/service"
+    "url": "https://mediaonclick.me/service",
+    "image": "https://mediaonclick.me/images/service_img_1.jpeg"
 };
 
   return (

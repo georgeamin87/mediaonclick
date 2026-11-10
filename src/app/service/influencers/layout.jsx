@@ -9,12 +9,19 @@ export const metadata = {
     description: 'Elevate your brand with MediaOnClick\'s expert services. We deliver strategic, data-driven solutions to achieve measurable growth and market dominance in Dubai.',
     url: 'https://mediaonclick.me/service/influencers',
     siteName: 'MediaOnClick',
+    images: [
+      {
+        url: 'https://mediaonclick.me/images/services/influence.jpg',
+        alt: 'Top Influencer Marketing Agency in Dubai & UAE | MediaOnClick',
+      },
+    ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Top Influencer Marketing Agency in Dubai & UAE | MediaOnClick',
     description: 'Elevate your brand with MediaOnClick\'s expert services. We deliver strategic, data-driven solutions to achieve measurable growth and market dominance in Dubai.',
+    images: ['https://mediaonclick.me/images/services/influence.jpg'],
   }
 };
 
@@ -25,6 +32,7 @@ export default function Layout({ children }) {
     "name": "Top Influencer Marketing Agency in Dubai & UAE | MediaOnClick",
     "description": "Elevate your brand with MediaOnClick's expert services. We deliver strategic, data-driven solutions to achieve measurable growth and market dominance in Dubai.",
     "url": "https://mediaonclick.me/service/influencers",
+    "image": "https://mediaonclick.me/images/services/influence.jpg",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

@@ -9,12 +9,19 @@ export const metadata = {
     description: 'Elevate your brand with MediaOnClick\'s expert services. We deliver strategic, data-driven solutions to achieve measurable growth and market dominance in Dubai.',
     url: 'https://mediaonclick.me/service/pr',
     siteName: 'MediaOnClick',
+    images: [
+      {
+        url: 'https://mediaonclick.me/images/services/pr.jpg',
+        alt: 'Leading Public Relations (PR) Agency in Dubai | MediaOnClick',
+      },
+    ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Leading Public Relations (PR) Agency in Dubai | MediaOnClick',
     description: 'Elevate your brand with MediaOnClick\'s expert services. We deliver strategic, data-driven solutions to achieve measurable growth and market dominance in Dubai.',
+    images: ['https://mediaonclick.me/images/services/pr.jpg'],
   }
 };
 
@@ -25,6 +32,7 @@ export default function Layout({ children }) {
     "name": "Leading Public Relations (PR) Agency in Dubai | MediaOnClick",
     "description": "Elevate your brand with MediaOnClick's expert services. We deliver strategic, data-driven solutions to achieve measurable growth and market dominance in Dubai.",
     "url": "https://mediaonclick.me/service/pr",
+    "image": "https://mediaonclick.me/images/services/pr.jpg",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

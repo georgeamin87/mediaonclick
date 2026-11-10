@@ -9,12 +9,19 @@ export const metadata = {
     description: 'Elevate your brand with MediaOnClick\'s expert services. We deliver strategic, data-driven solutions to achieve measurable growth and market dominance in Dubai.',
     url: 'https://mediaonclick.me/service/digital-marketing',
     siteName: 'MediaOnClick',
+    images: [
+      {
+        url: 'https://mediaonclick.me/images/service_hero_bg.jpeg',
+        alt: 'Result-Driven Digital Marketing Agency in Dubai | MediaOnClick',
+      },
+    ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Result-Driven Digital Marketing Agency in Dubai | MediaOnClick',
     description: 'Elevate your brand with MediaOnClick\'s expert services. We deliver strategic, data-driven solutions to achieve measurable growth and market dominance in Dubai.',
+    images: ['https://mediaonclick.me/images/service_hero_bg.jpeg'],
   }
 };
 
@@ -25,6 +32,7 @@ export default function Layout({ children }) {
     "name": "Result-Driven Digital Marketing Agency in Dubai | MediaOnClick",
     "description": "Elevate your brand with MediaOnClick's expert services. We deliver strategic, data-driven solutions to achieve measurable growth and market dominance in Dubai.",
     "url": "https://mediaonclick.me/service/digital-marketing",
+    "image": "https://mediaonclick.me/images/service_hero_bg.jpeg",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

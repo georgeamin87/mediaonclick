@@ -9,12 +9,19 @@ export const metadata = {
     description: 'Elevate your brand with MediaOnClick\'s expert services. We deliver strategic, data-driven solutions to achieve measurable growth and market dominance in Dubai.',
     url: 'https://mediaonclick.me/service/consultancy',
     siteName: 'MediaOnClick',
+    images: [
+      {
+        url: 'https://mediaonclick.me/images/service_5.jpeg',
+        alt: 'Strategic Brand & Marketing Consultancy in Dubai | MediaOnClick',
+      },
+    ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Strategic Brand & Marketing Consultancy in Dubai | MediaOnClick',
     description: 'Elevate your brand with MediaOnClick\'s expert services. We deliver strategic, data-driven solutions to achieve measurable growth and market dominance in Dubai.',
+    images: ['https://mediaonclick.me/images/service_5.jpeg'],
   }
 };
 
@@ -25,6 +32,7 @@ export default function Layout({ children }) {
     "name": "Strategic Brand & Marketing Consultancy in Dubai | MediaOnClick",
     "description": "Elevate your brand with MediaOnClick's expert services. We deliver strategic, data-driven solutions to achieve measurable growth and market dominance in Dubai.",
     "url": "https://mediaonclick.me/service/consultancy",
+    "image": "https://mediaonclick.me/images/service_5.jpeg",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",
