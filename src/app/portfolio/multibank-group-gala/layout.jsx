@@ -9,12 +9,19 @@ export const metadata = {
     description: 'Explore the Multibank Group Gala case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for ...',
     url: 'https://mediaonclick.me/portfolio/multibank-group-gala',
     siteName: 'MediaOnClick',
+    images: [
+      {
+        url: 'https://mediaonclick.me/images/projects/snapinsta.jpg',
+        alt: 'Multibank Group Gala Portfolio | MediaOnClick',
+      },
+    ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Multibank Group Gala Portfolio | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Multibank Group Gala case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for ...',
+    images: ['https://mediaonclick.me/images/projects/snapinsta.jpg'],
   }
 };
 
@@ -25,6 +32,7 @@ export default function Layout({ children }) {
     "name": "Multibank Group Gala Portfolio | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Multibank Group Gala case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for ...",
     "url": "https://mediaonclick.me/portfolio/multibank-group-gala",
+    "image": "https://mediaonclick.me/images/projects/snapinsta.jpg",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

@@ -9,12 +9,19 @@ export const metadata = {
     description: 'Explore the Interior Furniture case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for ou...',
     url: 'https://mediaonclick.me/portfolio/interior-furniture',
     siteName: 'MediaOnClick',
+    images: [
+      {
+        url: 'https://mediaonclick.me/images/projects/interior-furniture/1.webp',
+        alt: 'Interior Furniture Portfolio | MediaOnClick',
+      },
+    ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Interior Furniture Portfolio | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Interior Furniture case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for ou...',
+    images: ['https://mediaonclick.me/images/projects/interior-furniture/1.webp'],
   }
 };
 
@@ -25,6 +32,7 @@ export default function Layout({ children }) {
     "name": "Interior Furniture Portfolio | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Interior Furniture case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for ou...",
     "url": "https://mediaonclick.me/portfolio/interior-furniture",
+    "image": "https://mediaonclick.me/images/projects/interior-furniture/1.webp",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

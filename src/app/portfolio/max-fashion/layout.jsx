@@ -9,12 +9,19 @@ export const metadata = {
     description: 'Explore the Max Fashion case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our ...',
     url: 'https://mediaonclick.me/portfolio/max-fashion',
     siteName: 'MediaOnClick',
+    images: [
+      {
+        url: 'https://mediaonclick.me/images/projects/max/max.webp',
+        alt: 'Max Fashion Portfolio | MediaOnClick',
+      },
+    ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Max Fashion | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Max Fashion case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our ...',
+    images: ['https://mediaonclick.me/images/projects/max/max.webp'],
   }
 };
 
@@ -25,6 +32,7 @@ export default function Layout({ children }) {
     "name": "Max Fashion | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Max Fashion case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our ...",
     "url": "https://mediaonclick.me/portfolio/max-fashion",
+    "image": "https://mediaonclick.me/images/projects/max/max.webp",
     "provider": {
       "@type": "ProfessionalService",
       "name": "Media OnClick (MOC)",

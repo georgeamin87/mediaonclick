@@ -9,12 +9,19 @@ export const metadata = {
     description: 'Explore the Hanif case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.',
     url: 'https://mediaonclick.me/portfolio/hanif',
     siteName: 'MediaOnClick',
+    images: [
+      {
+        url: 'https://mediaonclick.me/images/projects/hanif.jpg',
+        alt: 'Hanif Portfolio | MediaOnClick',
+      },
+    ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Hanif Portfolio | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Hanif case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.',
+    images: ['https://mediaonclick.me/images/projects/hanif.jpg'],
   }
 };
 
@@ -25,6 +32,7 @@ export default function Layout({ children }) {
     "name": "Hanif Portfolio | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Hanif case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.",
     "url": "https://mediaonclick.me/portfolio/hanif",
+    "image": "https://mediaonclick.me/images/projects/hanif.jpg",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

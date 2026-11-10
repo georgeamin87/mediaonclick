@@ -9,12 +9,19 @@ export const metadata = {
     description: 'Explore the Gf Corys case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.',
     url: 'https://mediaonclick.me/portfolio/gf-corys',
     siteName: 'MediaOnClick',
+    images: [
+      {
+        url: 'https://mediaonclick.me/images/projects/gfcorys/reception.webp',
+        alt: 'GF Corys Portfolio | MediaOnClick',
+      },
+    ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Gf Corys Portfolio | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Gf Corys case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.',
+    images: ['https://mediaonclick.me/images/projects/gfcorys/reception.webp'],
   }
 };
 
@@ -25,6 +32,7 @@ export default function Layout({ children }) {
     "name": "Gf Corys Portfolio | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Gf Corys case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.",
     "url": "https://mediaonclick.me/portfolio/gf-corys",
+    "image": "https://mediaonclick.me/images/projects/gfcorys/reception.webp",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

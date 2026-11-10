@@ -9,12 +9,19 @@ export const metadata = {
     description: 'Explore the Ofis case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.',
     url: 'https://mediaonclick.me/portfolio/ofis',
     siteName: 'MediaOnClick',
+    images: [
+      {
+        url: 'https://mediaonclick.me/images/projects/ofis/Ofis1-NEW.webp',
+        alt: 'Ofis Portfolio | MediaOnClick',
+      },
+    ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Ofis Portfolio | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Ofis case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.',
+    images: ['https://mediaonclick.me/images/projects/ofis/Ofis1-NEW.webp'],
   }
 };
 
@@ -25,6 +32,7 @@ export default function Layout({ children }) {
     "name": "Ofis Portfolio | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Ofis case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.",
     "url": "https://mediaonclick.me/portfolio/ofis",
+    "image": "https://mediaonclick.me/images/projects/ofis/Ofis1-NEW.webp",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

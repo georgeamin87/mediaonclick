@@ -9,12 +9,19 @@ export const metadata = {
     description: 'Explore the Kohler case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.',
     url: 'https://mediaonclick.me/portfolio/kohler',
     siteName: 'MediaOnClick',
+    images: [
+      {
+        url: 'https://mediaonclick.me/images/projects/kohler.webp',
+        alt: 'Kohler Portfolio | MediaOnClick',
+      },
+    ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Kohler Portfolio | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Kohler case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.',
+    images: ['https://mediaonclick.me/images/projects/kohler.webp'],
   }
 };
 
@@ -25,6 +32,7 @@ export default function Layout({ children }) {
     "name": "Kohler Portfolio | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Kohler case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.",
     "url": "https://mediaonclick.me/portfolio/kohler",
+    "image": "https://mediaonclick.me/images/projects/kohler.webp",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

@@ -9,12 +9,19 @@ export const metadata = {
     description: 'Explore the Chattels And More case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our...',
     url: 'https://mediaonclick.me/portfolio/chattels-and-more',
     siteName: 'MediaOnClick',
+    images: [
+      {
+        url: 'https://mediaonclick.me/images/projects/chattels%20and%20more/IMG_5983.webp',
+        alt: 'Chattels And More Portfolio | MediaOnClick',
+      },
+    ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Chattels And More Portfolio | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Chattels And More case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our...',
+    images: ['https://mediaonclick.me/images/projects/chattels%20and%20more/IMG_5983.webp'],
   }
 };
 
@@ -25,6 +32,7 @@ export default function Layout({ children }) {
     "name": "Chattels And More Portfolio | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Chattels And More case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our...",
     "url": "https://mediaonclick.me/portfolio/chattels-and-more",
+    "image": "https://mediaonclick.me/images/projects/chattels%20and%20more/IMG_5983.webp",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

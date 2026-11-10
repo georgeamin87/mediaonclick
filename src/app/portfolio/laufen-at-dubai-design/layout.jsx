@@ -9,12 +9,19 @@ export const metadata = {
     description: 'Explore the Laufen at Dubai Design case study by MediaOnClick. See how our expert strategies in exhibition stand production, fabrication, and events delivered exceptional results.',
     url: 'https://mediaonclick.me/portfolio/laufen-at-dubai-design',
     siteName: 'MediaOnClick',
+    images: [
+      {
+        url: 'https://mediaonclick.me/images/projects/laufen/laufen-by-mediaonclick.webp',
+        alt: 'Laufen at Dubai Design Portfolio | MediaOnClick',
+      },
+    ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Laufen at Dubai Design Portfolio | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Laufen at Dubai Design case study by MediaOnClick. See how our expert strategies in exhibition stand production, fabrication, and events delivered exceptional results.',
+    images: ['https://mediaonclick.me/images/projects/laufen/laufen-by-mediaonclick.webp'],
   }
 };
 
@@ -25,6 +32,7 @@ export default function Layout({ children }) {
     "name": "Laufen at Dubai Design Portfolio | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Laufen at Dubai Design case study by MediaOnClick. See how our expert strategies in exhibition stand production, fabrication, and events delivered exceptional results.",
     "url": "https://mediaonclick.me/portfolio/laufen-at-dubai-design",
+    "image": "https://mediaonclick.me/images/projects/laufen/laufen-by-mediaonclick.webp",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

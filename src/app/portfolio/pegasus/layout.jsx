@@ -9,12 +9,19 @@ export const metadata = {
     description: 'Explore the Pegasus case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.',
     url: 'https://mediaonclick.me/portfolio/pegasus',
     siteName: 'MediaOnClick',
+    images: [
+      {
+        url: 'https://mediaonclick.me/images/projects/pegasus/pega1.webp',
+        alt: 'Pegasus Portfolio | MediaOnClick',
+      },
+    ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Pegasus Portfolio | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Pegasus case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.',
+    images: ['https://mediaonclick.me/images/projects/pegasus/pega1.webp'],
   }
 };
 
@@ -25,6 +32,7 @@ export default function Layout({ children }) {
     "name": "Pegasus Portfolio | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Pegasus case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.",
     "url": "https://mediaonclick.me/portfolio/pegasus",
+    "image": "https://mediaonclick.me/images/projects/pegasus/pega1.webp",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

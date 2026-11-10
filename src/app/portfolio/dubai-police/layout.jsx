@@ -9,12 +9,19 @@ export const metadata = {
     description: 'Explore the Dubai Police case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clie...',
     url: 'https://mediaonclick.me/portfolio/dubai-police',
     siteName: 'MediaOnClick',
+    images: [
+      {
+        url: 'https://mediaonclick.me/images/projects/dubai%20police/2.webp',
+        alt: 'Dubai Police Portfolio | MediaOnClick',
+      },
+    ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Dubai Police Portfolio | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Dubai Police case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clie...',
+    images: ['https://mediaonclick.me/images/projects/dubai%20police/2.webp'],
   }
 };
 
@@ -25,6 +32,7 @@ export default function Layout({ children }) {
     "name": "Dubai Police Portfolio | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Dubai Police case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clie...",
     "url": "https://mediaonclick.me/portfolio/dubai-police",
+    "image": "https://mediaonclick.me/images/projects/dubai%20police/2.webp",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

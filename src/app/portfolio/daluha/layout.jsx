@@ -9,12 +9,19 @@ export const metadata = {
     description: 'Explore the Daluha case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.',
     url: 'https://mediaonclick.me/portfolio/daluha',
     siteName: 'MediaOnClick',
+    images: [
+      {
+        url: 'https://mediaonclick.me/images/projects/aluha.png',
+        alt: 'Daluha Portfolio | MediaOnClick',
+      },
+    ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Daluha Portfolio | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Daluha case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.',
+    images: ['https://mediaonclick.me/images/projects/aluha.png'],
   }
 };
 
@@ -25,6 +32,7 @@ export default function Layout({ children }) {
     "name": "Daluha Portfolio | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Daluha case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional results for our clients.",
     "url": "https://mediaonclick.me/portfolio/daluha",
+    "image": "https://mediaonclick.me/images/projects/aluha.png",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",

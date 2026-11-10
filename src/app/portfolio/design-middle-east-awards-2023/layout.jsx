@@ -9,12 +9,19 @@ export const metadata = {
     description: 'Explore the Design Middle East Awards 2023 case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional re...',
     url: 'https://mediaonclick.me/portfolio/design-middle-east-awards-2023',
     siteName: 'MediaOnClick',
+    images: [
+      {
+        url: 'https://mediaonclick.me/images/projects/middle.jpg',
+        alt: 'Design Middle East Awards 2023 Portfolio | MediaOnClick',
+      },
+    ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Design Middle East Awards 2023 Portfolio | Top PR & Marketing Agency Dubai | MOC',
     description: 'Explore the Design Middle East Awards 2023 case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional re...',
+    images: ['https://mediaonclick.me/images/projects/middle.jpg'],
   }
 };
 
@@ -25,6 +32,7 @@ export default function Layout({ children }) {
     "name": "Design Middle East Awards 2023 Portfolio | Top PR & Marketing Agency Dubai | MOC",
     "description": "Explore the Design Middle East Awards 2023 case study by MediaOnClick. See how our expert strategies in PR, media buying, and events delivered exceptional re...",
     "url": "https://mediaonclick.me/portfolio/design-middle-east-awards-2023",
+    "image": "https://mediaonclick.me/images/projects/middle.jpg",
     "provider": {
         "@type": "ProfessionalService",
         "name": "Media OnClick (MOC)",
