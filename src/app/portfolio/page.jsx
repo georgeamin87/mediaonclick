@@ -31,6 +31,13 @@ const portfolioData = [
     category: 'event_managment, pr_publication',
   },
   {
+    title: 'MAX Fashion – Integrated Brand Activation',
+    subtitle: 'See Details',
+    href: '/portfolio/max-fashion',
+    src: '/images/projects/max/max.webp',
+    category: 'event_managment, pr_publication, digital_marketing, media_buying',
+  },
+  {
     title: 'Laufen at Dubai Design',
     subtitle: 'See Details',
     href: '/portfolio/laufen-at-dubai-design',
